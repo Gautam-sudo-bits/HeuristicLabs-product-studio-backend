@@ -26,7 +26,7 @@ cloudinary.config(
 )
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-Port = os.getenv("PORT")
+#Port = os.getenv("PORT")
 @app.route('/api/generate', methods=['POST'])
 def generate_images_endpoint():
     """
@@ -272,4 +272,4 @@ def health_check():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=Port)
+    app.run(debug=True, port=5001)
