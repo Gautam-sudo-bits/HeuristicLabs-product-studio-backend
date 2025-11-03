@@ -1,0 +1,699 @@
+
+================================================================================
+Generated at: 2025-11-02 22:28:31
+Model: gemini-2.5-pro
+================================================================================
+
+USER REQUIREMENTS:
+
+    Create a premium product video for a sleek wireless earbud.
+    Show the product rotating on a minimalist platform with studio lighting.
+    Highlight the metallic finish, LED indicators, and touch controls.
+    Keep the style professional and commercial, suitable for e-commerce.
+    
+
+GENERATED PROMPTS:
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot of a single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, rotating slowly clockwise, placed on a matte black platform, against a minimalist grey studio backdrop, soft diffused key light from the top-left creates subtle highlights on the metallic surface, atmosphere is premium and sophisticated.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Camera slowly dollys out to a close-up revealing the full form of the single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, continuing its slow clockwise rotation on a matte black platform, minimalist grey studio backdrop with shallow depth of field, consistent soft studio lighting reveals the product's elegant contours, mood is modern and clean.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "Medium shot of the single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, completing its rotation to face forward, centered on the matte black platform, against a clean minimalist grey studio backdrop, bright yet soft overhead lighting provides even illumination, creating a perfect hero shot feel, atmosphere is elegant and high-tech."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Static close-up of the single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, a small blue LED indicator light on the body softly pulses on and then off twice, placed on a matte black platform, minimalist grey studio backdrop, a focused key light from the right side highlights the LED area, atmosphere is technical and informative.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Extreme close-up with a slow camera pan down the length of the metallic silver, flat touch-sensitive stem of the single sleek, matte black wireless earbud, a subtle, soft white light glow briefly emanates from the stem's surface to signify touch controls, set against a minimalist grey studio background, dramatic rim lighting outlines the product's edge, mood is futuristic and premium."
+  }
+}
+
+SEGMENT PROMPTS (formatted for Veo):
+--------------------------------------------------------------------------------
+
+Segment 1:
+Extreme close-up shot of a single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, rotating slowly clockwise, placed on a matte black platform, against a minimalist grey studio backdrop, soft diffused key light from the top-left creates subtle highlights on the metallic surface, atmosphere is premium and sophisticated.. Camera slowly dollys out to a close-up revealing the full form of the single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, continuing its slow clockwise rotation on a matte black platform, minimalist grey studio backdrop with shallow depth of field, consistent soft studio lighting reveals the product's elegant contours, mood is modern and clean.. Medium shot of the single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, completing its rotation to face forward, centered on the matte black platform, against a clean minimalist grey studio backdrop, bright yet soft overhead lighting provides even illumination, creating a perfect hero shot feel, atmosphere is elegant and high-tech.
+--------------------------------------------------------------------------------
+
+Segment 2:
+Static close-up of the single sleek, matte black wireless earbud with a metallic silver, flat touch-sensitive stem, a small blue LED indicator light on the body softly pulses on and then off twice, placed on a matte black platform, minimalist grey studio backdrop, a focused key light from the right side highlights the LED area, atmosphere is technical and informative.. Extreme close-up with a slow camera pan down the length of the metallic silver, flat touch-sensitive stem of the single sleek, matte black wireless earbud, a subtle, soft white light glow briefly emanates from the stem's surface to signify touch controls, set against a minimalist grey studio background, dramatic rim lighting outlines the product's edge, mood is futuristic and premium.
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-02 22:46:08
+Model: gemini-2.5-pro
+================================================================================
+
+USER REQUIREMENTS:
+
+    Create a premium product video for a sleek wireless earbud.
+    Show the product rotating on a minimalist platform with studio lighting.
+    Highlight the metallic finish, LED indicators, and touch controls.
+    Keep the style professional and commercial, suitable for e-commerce.
+    
+
+GENERATED PROMPTS:
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot of the silver metallic accent on a single sleek matte black wireless earbud, static product with no movement, placed on a polished dark grey concrete circular platform, set against a clean minimalist studio with a soft-gradient grey backdrop, where a soft diffused key light from the top-right creates a clean highlight on the metal, establishing a premium and sophisticated atmosphere.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Continuing from the previous shot, a slow dolly out from extreme close-up to a close-up, revealing the full elegant shape of the single sleek matte black wireless earbud with a silver metallic accent, resting on a polished dark grey concrete circular platform, within a clean minimalist studio setting, as the consistent soft diffused key light from the top-right maintains beautiful contouring highlights, creating a clean and modern mood.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "The slow dolly out continues, transitioning to a medium shot that perfectly centers the single sleek matte black wireless earbud with a silver metallic accent on its polished dark grey concrete circular platform, in a minimalist studio environment with ample negative space, the soft diffused key light from the top-right now casting a gentle long shadow, creating a composed and premium atmosphere."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Medium close-up shot of the single sleek matte black wireless earbud with a silver metallic accent, as the camera begins a slow 90-degree arc shot from left to right focusing on the touch control surface, placed on a polished dark grey concrete circular platform against a minimalist studio backdrop, with a studio key light from the top-right and a new soft rim light from the back-left outlining the silhouette, a single soft pulse of light briefly illuminates the touch surface, creating a technical and sleek mood.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Continuing the slow arc shot to settle on a perfect three-quarter hero angle of the single sleek matte black wireless earbud with a silver metallic accent, resting on its polished dark grey concrete circular platform in a minimalist studio, the small LED indicator begins to pulse gently with a soft blue light as the camera moves, with the key and rim lighting setup creating beautiful highlights and defining the form, conveying an elegant, functional, and high-tech atmosphere."
+  }
+}
+
+SEGMENT PROMPTS (formatted for Veo):
+--------------------------------------------------------------------------------
+
+Segment 1:
+Extreme close-up shot of the silver metallic accent on a single sleek matte black wireless earbud, static product with no movement, placed on a polished dark grey concrete circular platform, set against a clean minimalist studio with a soft-gradient grey backdrop, where a soft diffused key light from the top-right creates a clean highlight on the metal, establishing a premium and sophisticated atmosphere.. Continuing from the previous shot, a slow dolly out from extreme close-up to a close-up, revealing the full elegant shape of the single sleek matte black wireless earbud with a silver metallic accent, resting on a polished dark grey concrete circular platform, within a clean minimalist studio setting, as the consistent soft diffused key light from the top-right maintains beautiful contouring highlights, creating a clean and modern mood.. The slow dolly out continues, transitioning to a medium shot that perfectly centers the single sleek matte black wireless earbud with a silver metallic accent on its polished dark grey concrete circular platform, in a minimalist studio environment with ample negative space, the soft diffused key light from the top-right now casting a gentle long shadow, creating a composed and premium atmosphere.
+--------------------------------------------------------------------------------
+
+Segment 2:
+Medium close-up shot of the single sleek matte black wireless earbud with a silver metallic accent, as the camera begins a slow 90-degree arc shot from left to right focusing on the touch control surface, placed on a polished dark grey concrete circular platform against a minimalist studio backdrop, with a studio key light from the top-right and a new soft rim light from the back-left outlining the silhouette, a single soft pulse of light briefly illuminates the touch surface, creating a technical and sleek mood.. Continuing the slow arc shot to settle on a perfect three-quarter hero angle of the single sleek matte black wireless earbud with a silver metallic accent, resting on its polished dark grey concrete circular platform in a minimalist studio, the small LED indicator begins to pulse gently with a soft blue light as the camera moves, with the key and rim lighting setup creating beautiful highlights and defining the form, conveying an elegant, functional, and high-tech atmosphere.
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-02 22:50:54
+Model: gemini-2.5-pro
+================================================================================
+
+USER REQUIREMENTS:
+
+    Create a premium product video for wireless earbuds.
+    Start with a wide shot of the earbuds on a minimalist white platform.
+    Then zoom in to show the metallic finish and LED indicators.
+    Show the touch controls being activated.
+    Maintain professional studio lighting throughout.
+    Style should be clean, modern, and suitable for e-commerce.
+    
+
+GENERATED PROMPTS:
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Wide shot of a pair of glossy black wireless stem-style earbuds resting in an open charging case with a matte black base and a striking translucent teal interior, the product is static and centered, placed on a minimalist matte white platform against a clean white studio backdrop, professional soft diffused key light from the top-right creates gentle highlights on the glossy surfaces, atmosphere is clean and modern.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "A slow dolly in towards the pair of glossy black wireless stem-style earbuds in their open charging case with a matte black base and translucent teal interior, placed on a minimalist matte white platform, against a clean white studio backdrop, the consistent soft diffused key light emphasizes the contrast between the matte case and glossy earbuds as the camera moves closer, mood is sophisticated and focused.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "The dolly move concludes in a medium close-up framing the glossy black wireless stem-style earbuds and the vibrant translucent teal interior of the charging case, product is stationary on the minimalist matte white platform, the clean white studio backdrop becomes softly out of focus, soft diffused key light from the top-right makes the teal interior glow faintly and highlights the earbud curves, creating a premium and intriguing atmosphere."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Extreme close-up on the side of one glossy black wireless stem-style earbud, where a tiny, seamless white LED indicator gently pulses twice with a soft glow, sitting in its translucent teal charging case which is soft-focused in the background, placed on a minimalist matte white platform, a single focused studio spotlight from above creates a sharp, clean reflection along the earbud's stem, highlighting its sleek form, atmosphere is technical and premium.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Continuing the extreme close-up, the camera performs a slow 45-degree orbit to the right around the glossy black wireless stem-style earbud, as a subtle ring of soft blue light emanates outwards from the center of the flat touch-sensitive surface to visualize activation, placed on a minimalist matte white platform, the focused studio spotlight sweeps across the surface during the orbit, creating a dynamic highlight, the mood is responsive and futuristic."
+  }
+}
+
+SEGMENT PROMPTS (formatted for Veo):
+--------------------------------------------------------------------------------
+
+Segment 1:
+Wide shot of a pair of glossy black wireless stem-style earbuds resting in an open charging case with a matte black base and a striking translucent teal interior, the product is static and centered, placed on a minimalist matte white platform against a clean white studio backdrop, professional soft diffused key light from the top-right creates gentle highlights on the glossy surfaces, atmosphere is clean and modern.. A slow dolly in towards the pair of glossy black wireless stem-style earbuds in their open charging case with a matte black base and translucent teal interior, placed on a minimalist matte white platform, against a clean white studio backdrop, the consistent soft diffused key light emphasizes the contrast between the matte case and glossy earbuds as the camera moves closer, mood is sophisticated and focused.. The dolly move concludes in a medium close-up framing the glossy black wireless stem-style earbuds and the vibrant translucent teal interior of the charging case, product is stationary on the minimalist matte white platform, the clean white studio backdrop becomes softly out of focus, soft diffused key light from the top-right makes the teal interior glow faintly and highlights the earbud curves, creating a premium and intriguing atmosphere.
+--------------------------------------------------------------------------------
+
+Segment 2:
+Extreme close-up on the side of one glossy black wireless stem-style earbud, where a tiny, seamless white LED indicator gently pulses twice with a soft glow, sitting in its translucent teal charging case which is soft-focused in the background, placed on a minimalist matte white platform, a single focused studio spotlight from above creates a sharp, clean reflection along the earbud's stem, highlighting its sleek form, atmosphere is technical and premium.. Continuing the extreme close-up, the camera performs a slow 45-degree orbit to the right around the glossy black wireless stem-style earbud, as a subtle ring of soft blue light emanates outwards from the center of the flat touch-sensitive surface to visualize activation, placed on a minimalist matte white platform, the focused studio spotlight sweeps across the surface during the orbit, creating a dynamic highlight, the mood is responsive and futuristic.
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-02 22:53:22
+Model: gemini-2.5-pro
+================================================================================
+
+USER REQUIREMENTS:
+
+    Create a premium product video for wireless earbuds.
+    Start with a wide shot of the earbuds on a minimalist white platform.
+    Then zoom in to show the metallic finish and LED indicators.
+    Show the touch controls being activated.
+    Maintain professional studio lighting throughout.
+    Style should be clean, modern, and suitable for e-commerce.
+    
+
+GENERATED PROMPTS:
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Wide shot of a pair of glossy black wireless earbuds with silicone tips resting inside an open charging case, which has a matte black exterior and a vibrant translucent cyan interior, centered on a minimalist white platform in a seamless white studio background, lit by soft, diffused overhead studio lighting creating gentle reflections, atmosphere is clean and modern.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Slow dolly in towards the glossy black wireless earbuds in their open case with a matte black exterior and translucent cyan interior, with the focus pulling to the striking color contrast between the black earbuds and the glowing cyan plastic, placed on a white platform, professional studio lighting enhances the glossy and matte textures, mood is sophisticated and intriguing.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "Continuing the slow dolly shot to frame a medium close-up of the glossy black wireless earbuds, revealing their sculpted shape and the detail of the translucent cyan interior of the case, under bright, even studio lighting that creates clean highlights on the product's surfaces, atmosphere is premium and detailed."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Medium close-up performing a slow 15-degree arc shot to the right around the glossy black wireless earbuds in their open case with a matte black exterior and translucent cyan interior, a small white LED light on one earbud stem gently pulses on and then off, placed on a white platform, a key light from the left glides across the glossy earbud surface, creating a specular highlight that showcases its finish, mood is sleek and technical.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Extreme close-up on the outer stem of one glossy black wireless earbud, where a soft, glowing cyan light ring animates briefly on the surface to signify touch control activation before fading away, followed by a slow dolly out to a close-up, set against the out-of-focus translucent cyan case interior, sharp studio lighting defines the product's edges, atmosphere is responsive and elegant."
+  }
+}
+
+SEGMENT PROMPTS (formatted for Veo):
+--------------------------------------------------------------------------------
+
+Segment 1:
+Wide shot of a pair of glossy black wireless earbuds with silicone tips resting inside an open charging case, which has a matte black exterior and a vibrant translucent cyan interior, centered on a minimalist white platform in a seamless white studio background, lit by soft, diffused overhead studio lighting creating gentle reflections, atmosphere is clean and modern.. Slow dolly in towards the glossy black wireless earbuds in their open case with a matte black exterior and translucent cyan interior, with the focus pulling to the striking color contrast between the black earbuds and the glowing cyan plastic, placed on a white platform, professional studio lighting enhances the glossy and matte textures, mood is sophisticated and intriguing.. Continuing the slow dolly shot to frame a medium close-up of the glossy black wireless earbuds, revealing their sculpted shape and the detail of the translucent cyan interior of the case, under bright, even studio lighting that creates clean highlights on the product's surfaces, atmosphere is premium and detailed.
+--------------------------------------------------------------------------------
+
+Segment 2:
+Medium close-up performing a slow 15-degree arc shot to the right around the glossy black wireless earbuds in their open case with a matte black exterior and translucent cyan interior, a small white LED light on one earbud stem gently pulses on and then off, placed on a white platform, a key light from the left glides across the glossy earbud surface, creating a specular highlight that showcases its finish, mood is sleek and technical.. Extreme close-up on the outer stem of one glossy black wireless earbud, where a soft, glowing cyan light ring animates briefly on the surface to signify touch control activation before fading away, followed by a slow dolly out to a close-up, set against the out-of-focus translucent cyan case interior, sharp studio lighting defines the product's edges, atmosphere is responsive and elegant.
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-02 23:30:03
+Model: gemini-2.5-pro
+================================================================================
+
+USER REQUIREMENTS:
+
+    
+
+GENERATED PROMPTS:
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot focusing on the dark grey aerator mesh of a modern chrome pillar tap with a highly polished, mirror-like finish, camera slowly tilting up along the curved spout, placed on a polished black marble surface, against a minimalist dark gray studio background, soft studio key light from the top-left creates smooth, flowing highlights on the chrome, revealing its flawless surface, atmosphere is premium and detailed.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Continuing the camera motion, a slow dolly out combined with a gentle tilt up reveals the full cylindrical body and the distinctive wide, flat, slightly curved push-down lever handle of the modern chrome pillar tap, placed on the polished black marble surface, against a minimalist dark gray studio background, consistent soft studio lighting accentuates the clean lines and reflective surfaces, mood is sophisticated and revealing.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "The camera motion smoothly resolves into a stable medium shot, capturing the full modern chrome pillar tap with a highly polished, mirror-like finish, featuring a cylindrical body, a gently curved spout, and a distinctive push-down lever handle, presented in a three-quarter profile, placed on the polished black marble surface, against a minimalist dark gray studio background, balanced studio lighting defines the product's elegant silhouette, creating a clean and modern hero shot."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Medium close-up shot of the modern chrome pillar tap with a highly polished, mirror-like finish, featuring a cylindrical body, a gently curved spout with a visible dark grey aerator mesh, and a distinctive wide, flat, slightly curved push-down lever handle, showing the handle smoothly depressing downwards as a gentle, aerated, splash-free stream of clear water begins to flow from the spout, placed on the polished black marble surface, against a minimalist dark gray studio background, soft studio lighting illuminates the flowing water, mood is functional and serene.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "With the aerated water continuing to flow in a perfect stream, the camera performs a very slow dolly out to a final, elegant medium hero shot of the modern chrome pillar tap with a highly polished, mirror-like finish, featuring a cylindrical body, a gently curved spout with a visible dark grey aerator mesh, and a distinctive wide, flat, slightly curved push-down lever handle, centered perfectly on the polished black marble surface, against a minimalist dark gray studio background, cinematic studio lighting creates a premium commercial atmosphere."
+  }
+}
+
+SEGMENT PROMPTS (formatted for Veo):
+--------------------------------------------------------------------------------
+
+Segment 1:
+[00:00-00:03] Extreme close-up shot focusing on the dark grey aerator mesh of a modern chrome pillar tap with a highly polished, mirror-like finish, camera slowly tilting up along the curved spout, placed on a polished black marble surface, against a minimalist dark gray studio background, soft studio key light from the top-left creates smooth, flowing highlights on the chrome, revealing its flawless surface, atmosphere is premium and detailed., followed by [00:03-00:06] Continuing the camera motion, a slow dolly out combined with a gentle tilt up reveals the full cylindrical body and the distinctive wide, flat, slightly curved push-down lever handle of the modern chrome pillar tap, placed on the polished black marble surface, against a minimalist dark gray studio background, consistent soft studio lighting accentuates the clean lines and reflective surfaces, mood is sophisticated and revealing., followed by [00:06-00:08] The camera motion smoothly resolves into a stable medium shot, capturing the full modern chrome pillar tap with a highly polished, mirror-like finish, featuring a cylindrical body, a gently curved spout, and a distinctive push-down lever handle, presented in a three-quarter profile, placed on the polished black marble surface, against a minimalist dark gray studio background, balanced studio lighting defines the product's elegant silhouette, creating a clean and modern hero shot.
+--------------------------------------------------------------------------------
+
+Segment 2:
+[00:00-00:04] Medium close-up shot of the modern chrome pillar tap with a highly polished, mirror-like finish, featuring a cylindrical body, a gently curved spout with a visible dark grey aerator mesh, and a distinctive wide, flat, slightly curved push-down lever handle, showing the handle smoothly depressing downwards as a gentle, aerated, splash-free stream of clear water begins to flow from the spout, placed on the polished black marble surface, against a minimalist dark gray studio background, soft studio lighting illuminates the flowing water, mood is functional and serene., followed by [00:04-00:08] With the aerated water continuing to flow in a perfect stream, the camera performs a very slow dolly out to a final, elegant medium hero shot of the modern chrome pillar tap with a highly polished, mirror-like finish, featuring a cylindrical body, a gently curved spout with a visible dark grey aerator mesh, and a distinctive wide, flat, slightly curved push-down lever handle, centered perfectly on the polished black marble surface, against a minimalist dark gray studio background, cinematic studio lighting creates a premium commercial atmosphere.
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-02 23:55:10
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot panning slowly right across the flat, slightly arched top lever handle of a modern chrome pillar tap with a highly polished mirror finish, placed on a polished white marble surface with faint grey veining, against a minimalist soft grey studio backdrop, where soft diffused studio lighting from the top-left creates a clean, sweeping highlight, establishing an elegant and intriguing atmosphere.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Continuing the motion, a slow dolly out combined with a gentle tilt down reveals the full form of the modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body, a gently curved spout with a dark mesh aerator, and a distinctive flat, slightly arched top lever handle, standing on a polished white marble surface with faint grey veining, as soft diffused studio lighting highlights the contours of the body, creating a sophisticated and clean mood.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "The camera motion resolves into a static medium shot, showcasing the perfectly centered modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body, a gently curved spout with a dark mesh aerator, and a distinctive flat, slightly arched top lever handle, presented on a polished white marble surface with faint grey veining against a minimalist soft grey studio backdrop, with balanced studio lighting creating flawless mirror-like reflections, conveying a premium and confident atmosphere."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Medium close-up shot of the modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body, a gently curved spout with a dark mesh aerator, and a distinctive flat, slightly arched top lever handle, where the lever handle tilts upwards smoothly over two seconds, placed on its polished white marble surface with faint grey veining against a soft grey studio backdrop, as soft studio lighting catches the moving chrome edge, creating a functional and elegant mood.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Extreme close-up slow-motion shot focusing on the spout, as a stream of crystal clear, aerated water flows from the dark mesh aerator of the modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body and a distinctive flat, slightly arched top lever handle, the camera slowly orbiting right to capture light interacting with the non-splashing flow, presented on a polished white marble surface with faint grey veining, with bright, clean lighting making the water sparkle, conveying a feeling of purity and high-performance."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot panning slowly right across the flat, slightly arched top lever handle of a modern chrome pillar tap with a highly polished mirror finish, placed on a polished white marble surface with faint grey veining, against a minimalist soft grey studio backdrop, where soft diffused studio lighting from the top-left creates a clean, sweeping highlight, establishing an elegant and intriguing atmosphere.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Continuing the motion, a slow dolly out combined with a gentle tilt down reveals the full form of the modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body, a gently curved spout with a dark mesh aerator, and a distinctive flat, slightly arched top lever handle, standing on a polished white marble surface with faint grey veining, as soft diffused studio lighting highlights the contours of the body, creating a sophisticated and clean mood.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "The camera motion resolves into a static medium shot, showcasing the perfectly centered modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body, a gently curved spout with a dark mesh aerator, and a distinctive flat, slightly arched top lever handle, presented on a polished white marble surface with faint grey veining against a minimalist soft grey studio backdrop, with balanced studio lighting creating flawless mirror-like reflections, conveying a premium and confident atmosphere."
+}
+--------------------------------------------------------------------------------
+
+Segment 2:
+{
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "Medium close-up shot of the modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body, a gently curved spout with a dark mesh aerator, and a distinctive flat, slightly arched top lever handle, where the lever handle tilts upwards smoothly over two seconds, placed on its polished white marble surface with faint grey veining against a soft grey studio backdrop, as soft studio lighting catches the moving chrome edge, creating a functional and elegant mood.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "Extreme close-up slow-motion shot focusing on the spout, as a stream of crystal clear, aerated water flows from the dark mesh aerator of the modern chrome pillar tap with a highly polished mirror finish, featuring a cylindrical body and a distinctive flat, slightly arched top lever handle, the camera slowly orbiting right to capture light interacting with the non-splashing flow, presented on a polished white marble surface with faint grey veining, with bright, clean lighting making the water sparkle, conveying a feeling of purity and high-performance."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 00:02:21
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot focusing on the flat, slightly curved push-down lever handle of a modern chrome pillar tap, with the camera slowly tilting down its surface to reveal an etched brand name, placed on a polished white marble surface with subtle grey veining, against a minimalist soft grey studio backdrop, a soft studio key light from the top-left creates a clean sweeping highlight on the mirror-like finish, establishing a premium and precise atmosphere.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Slow dolly out to a medium shot revealing the full form of the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, resting on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, with the soft studio key light creating elegant reflections on its curves, establishing a sophisticated and clean mood.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "Static medium shot holding on the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, perfectly centered on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, the soft studio lighting perfectly defining its form and mirror-like chrome finish, creating a confident and high-quality atmosphere."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Medium close-up shot of the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, as the handle depresses smoothly and a clear, aerated, splash-free stream of water flows from the spout, placed on the polished white marble surface with subtle grey veining, against a minimalist soft grey studio backdrop, the soft studio lighting glistening on the flowing water, creating a functional and satisfying mood.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Slow 90-degree arc shot from right to left around the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, while the clear, aerated water continues to flow in a gentle arc, placed on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, with the studio lighting creating dynamic reflections that glide across the mirror-like chrome surface, creating an elegant and dynamic atmosphere."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot focusing on the flat, slightly curved push-down lever handle of a modern chrome pillar tap, with the camera slowly tilting down its surface to reveal an etched brand name, placed on a polished white marble surface with subtle grey veining, against a minimalist soft grey studio backdrop, a soft studio key light from the top-left creates a clean sweeping highlight on the mirror-like finish, establishing a premium and precise atmosphere.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Slow dolly out to a medium shot revealing the full form of the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, resting on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, with the soft studio key light creating elegant reflections on its curves, establishing a sophisticated and clean mood.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Static medium shot holding on the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, perfectly centered on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, the soft studio lighting perfectly defining its form and mirror-like chrome finish, creating a confident and high-quality atmosphere."
+}
+--------------------------------------------------------------------------------
+
+Segment 2:
+{
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "Medium close-up shot of the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, as the handle depresses smoothly and a clear, aerated, splash-free stream of water flows from the spout, placed on the polished white marble surface with subtle grey veining, against a minimalist soft grey studio backdrop, the soft studio lighting glistening on the flowing water, creating a functional and satisfying mood.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "Slow 90-degree arc shot from right to left around the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, while the clear, aerated water continues to flow in a gentle arc, placed on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, with the studio lighting creating dynamic reflections that glide across the mirror-like chrome surface, creating an elegant and dynamic atmosphere."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 00:17:06
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot of the dark mesh aerator on a highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, with the product remaining static, resting on a polished white marble surface with faint grey veining, set against a soft, minimalist light gray studio background, where a soft key light from the top-left creates a crisp highlight on the chrome nozzle edge, establishing a technical and premium atmosphere.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Slowly tilting up and dollying out from the aerator to reveal the elegant curve of the spout and the main cylindrical body of the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, resting on a polished white marble surface with faint grey veining against a minimalist light gray studio background, with soft studio lighting causing smooth, flowing highlights to travel across the reflective surface, creating an elegant and revealing mood.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "Continuing the slow dolly out to settle on a balanced medium shot of the complete highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, centered perfectly on the polished white marble surface with faint grey veining against a minimalist light gray studio background, where the soft, diffused studio lighting fully illuminates its form and creates clean reflections, conveying a sophisticated and modern atmosphere."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Static medium shot from a slightly low angle of the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, where the push-down handle depresses smoothly and mechanically downwards, resting on a polished white marble surface with faint grey veining against a minimalist light gray studio background, with soft studio lighting creating subtle shifts in reflections on the moving part, highlighting its precise and satisfying functionality.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "A slow 45-degree arc shot from left to right around the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, while the handle slowly and smoothly returns to its original upright position, placed on a polished white marble surface with faint grey veining against a minimalist light gray studio background, where the directional studio lighting creates a dynamic, sweeping play of light and shadow across the chrome surface, emphasizing a premium and elegant mood."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot of the dark mesh aerator on a highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, with the product remaining static, resting on a polished white marble surface with faint grey veining, set against a soft, minimalist light gray studio background, where a soft key light from the top-left creates a crisp highlight on the chrome nozzle edge, establishing a technical and premium atmosphere.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Slowly tilting up and dollying out from the aerator to reveal the elegant curve of the spout and the main cylindrical body of the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, resting on a polished white marble surface with faint grey veining against a minimalist light gray studio background, with soft studio lighting causing smooth, flowing highlights to travel across the reflective surface, creating an elegant and revealing mood.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Continuing the slow dolly out to settle on a balanced medium shot of the complete highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, centered perfectly on the polished white marble surface with faint grey veining against a minimalist light gray studio background, where the soft, diffused studio lighting fully illuminates its form and creates clean reflections, conveying a sophisticated and modern atmosphere."
+}
+--------------------------------------------------------------------------------
+
+Segment 2:
+{
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "Static medium shot from a slightly low angle of the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, where the push-down handle depresses smoothly and mechanically downwards, resting on a polished white marble surface with faint grey veining against a minimalist light gray studio background, with soft studio lighting creating subtle shifts in reflections on the moving part, highlighting its precise and satisfying functionality.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "A slow 45-degree arc shot from left to right around the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, while the handle slowly and smoothly returns to its original upright position, placed on a polished white marble surface with faint grey veining against a minimalist light gray studio background, where the directional studio lighting creates a dynamic, sweeping play of light and shadow across the chrome surface, emphasizing a premium and elegant mood."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 07:19:42
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    None
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up shot of the black mesh aerator on the spout of a modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, with the camera performing a slow dolly out, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting from the top-left creates crisp highlights on the chrome edges, atmosphere is technical and premium.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Medium shot continuing the slow dolly out while adding a smooth right-to-left arc camera movement, revealing the full profile of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, the bright diffused studio lighting creates shifting, fluid reflections across the chrome surface, atmosphere is elegant and modern.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "Static medium shot holding a perfect three-quarter view of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, as the camera motion comes to a gentle stop, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting perfectly defines the elegant contours with clean, unbroken highlights, atmosphere is sophisticated and pristine."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot of the black mesh aerator on the spout of a modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, with the camera performing a slow dolly out, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting from the top-left creates crisp highlights on the chrome edges, atmosphere is technical and premium.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot continuing the slow dolly out while adding a smooth right-to-left arc camera movement, revealing the full profile of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, the bright diffused studio lighting creates shifting, fluid reflections across the chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Static medium shot holding a perfect three-quarter view of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, as the camera motion comes to a gentle stop, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting perfectly defines the elegant contours with clean, unbroken highlights, atmosphere is sophisticated and pristine."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 07:57:20
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    None
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up on the embossed logo atop the flat rectangular push-down handle of a modern pillar tap, which has a highly polished, mirror-like chrome finish, camera performs a slow dolly out and tilt down, placed on a polished white marble surface against a minimalist light gray studio backdrop, soft diffused studio lighting from the top-right creates smooth highlights, atmosphere is premium and sleek.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "Medium shot revealing the full form of the modern pillar tap with its highly polished, mirror-like chrome finish, cylindrical body, curved spout, and flat rectangular push-down handle, as the camera continues to dolly out and centers the product, placed on a polished white marble surface against a minimalist light gray studio backdrop, consistent soft studio lighting reflects beautifully off the entire chrome surface, atmosphere is elegant and modern.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "Close-up focusing on the dark grey aerator at the tip of the curved spout of the modern pillar tap with its highly polished, mirror-like chrome finish, as the camera performs a slow 15-degree arc shot from left to right, placed on the polished white marble surface against a minimalist light gray studio backdrop, soft lighting catches the spout's curve creating a clean highlight, atmosphere showcases precision engineering and quality."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up on the embossed logo atop the flat rectangular push-down handle of a modern pillar tap, which has a highly polished, mirror-like chrome finish, camera performs a slow dolly out and tilt down, placed on a polished white marble surface against a minimalist light gray studio backdrop, soft diffused studio lighting from the top-right creates smooth highlights, atmosphere is premium and sleek.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot revealing the full form of the modern pillar tap with its highly polished, mirror-like chrome finish, cylindrical body, curved spout, and flat rectangular push-down handle, as the camera continues to dolly out and centers the product, placed on a polished white marble surface against a minimalist light gray studio backdrop, consistent soft studio lighting reflects beautifully off the entire chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Close-up focusing on the dark grey aerator at the tip of the curved spout of the modern pillar tap with its highly polished, mirror-like chrome finish, as the camera performs a slow 15-degree arc shot from left to right, placed on the polished white marble surface against a minimalist light gray studio backdrop, soft lighting catches the spout's curve creating a clean highlight, atmosphere showcases precision engineering and quality."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 08:06:16
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    None
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "Extreme close-up starting on the flat, gently curved rectangular push-down lever handle of a highly polished chrome pillar tap, camera slowly tilts down to reveal the cylindrical neck, placed on a polished black marble surface, against a minimalist soft gray studio background, soft studio key light from the top-left creates clean, linear highlights on the mirror-like chrome, atmosphere is premium and precise.",
+    "timestamp2": "00:03-00:05",
+    "timestamp2_prompt": "Continuing from the previous shot, a slow dolly pull-out transitions from a close-up to a medium shot revealing the full form of the highly polished chrome pillar tap with a flat rectangular push-down lever handle, cylindrical body, and a short, curved spout, showing it centered on a polished black marble surface that displays soft reflections, against a minimalist soft gray studio background, consistent soft studio key light from top-left glints across the curved surfaces, atmosphere is elegant and revealing.",
+    "timestamp3": "00:05-00:08",
+    "timestamp3_prompt": "Static medium shot of the highly polished chrome pillar tap with a flat rectangular push-down lever handle, cylindrical body, and a short, curved spout, the tap rotates very slowly clockwise on its central axis, centered on the polished black marble surface, against a minimalist soft gray studio background, the soft studio key light from the top-left creates sweeping, liquid-like highlights that glide across the mirror-like chrome finish as it turns, mood is sophisticated and confident."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up starting on the flat, gently curved rectangular push-down lever handle of a highly polished chrome pillar tap, camera slowly tilts down to reveal the cylindrical neck, placed on a polished black marble surface, against a minimalist soft gray studio background, soft studio key light from the top-left creates clean, linear highlights on the mirror-like chrome, atmosphere is premium and precise.",
+  "timestamp2": "00:03-00:05",
+  "timestamp2_prompt": "Continuing from the previous shot, a slow dolly pull-out transitions from a close-up to a medium shot revealing the full form of the highly polished chrome pillar tap with a flat rectangular push-down lever handle, cylindrical body, and a short, curved spout, showing it centered on a polished black marble surface that displays soft reflections, against a minimalist soft gray studio background, consistent soft studio key light from top-left glints across the curved surfaces, atmosphere is elegant and revealing.",
+  "timestamp3": "00:05-00:08",
+  "timestamp3_prompt": "Static medium shot of the highly polished chrome pillar tap with a flat rectangular push-down lever handle, cylindrical body, and a short, curved spout, the tap rotates very slowly clockwise on its central axis, centered on the polished black marble surface, against a minimalist soft gray studio background, the soft studio key light from the top-left creates sweeping, liquid-like highlights that glide across the mirror-like chrome finish as it turns, mood is sophisticated and confident."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 17:35:41
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    None
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "DESCRIPTION: The scene opens with a dramatic macro shot focused on the flawless, curved junction between the spout and the main body of a modern chrome pillar tap. The camera executes a slow, smooth dolly pull-back while simultaneously tracking left, revealing the solid cylindrical form and its mirror-like finish. PRODUCT FOCUS: Showcasing the seamless construction and the perfect, highly-reflective chrome plating of the faucet body. The product is a single-body pillar tap with a flat push-down lever, presented in pristine, untouched, showroom condition. CAMERA: Macro lens starts at a 3cm distance, performing a fluid dolly pull-back combined with a gentle leftward arc. The movement is stabilized and precise. LIGHTING: A large, soft, diffused light source from the top-right creates a clean, sweeping highlight that traces the faucet's curves as the camera moves. The lighting is neutral white (5000K), evoking a clean, modern bathroom feel. ENVIRONMENT: The faucet is placed on a dark, wet-look slate tile. In the out-of-focus background, a single large, dark green botanical leaf (like a monstera) is partially visible, providing a soft, organic contrast. MOTION: Very slow and deliberate, with a 0.5x speed feel to emphasize luxury and precision engineering. ENDING FRAME: The camera rests at a low angle, looking up at the full profile of the faucet body, ready to transition upwards. STYLE: High-end bathroom fixture commercial, minimalist luxury aesthetic, reminiscent of Grohe or Hansgrohe product films. TECHNICAL SPECS: 16:9 aspect ratio, cinematic 24fps feel, extremely shallow depth of field, no text.",
+    "timestamp2": "00:03-00:06",
+    "timestamp2_prompt": "DESCRIPTION: Continuing seamlessly from the previous frame, the camera executes a graceful crane-up motion, ascending vertically while performing a subtle 20-degree clockwise orbit around the faucet. The movement brings the unique, flat, rectangular push-down handle into sharp focus. PRODUCT FOCUS: Highlighting the geometric design of the handle and revealing the subtle, embossed brand logo on its top surface. The modern chrome pillar tap is identical to the previous shot, in pristine condition. CAMERA: A smooth, continuous J-curve movement, combining a vertical crane with a slow rotational orbit. Focus racks perfectly from the body to the handle's surface. LIGHTING: The key light now glides across the flat top of the handle, catching the edges sharply and revealing the texture of the logo through specular highlights. ENVIRONMENT: The dark slate and soft-focus botanical leaf remain consistent. A very faint wisp of atmospheric mist drifts slowly in the deep background, adding a spa-like quality without obscuring the product. MOTION: Fluid and unbroken, maintaining the elegant and luxurious pace. ENDING FRAME: The camera is now positioned slightly above the handle, looking down at a 15-degree angle, with the logo centered and crisp. STYLE: Apple product launch video aesthetic, focusing on precision machining and material finish. TECHNICAL SPECS: 16:9 aspect ratio, cinematic 24fps feel, shallow depth of field, no text.",
+    "timestamp3": "00:06-00:08",
+    "timestamp3_prompt": "DESCRIPTION: The camera's motion transitions from the orbit into a final, elegant downward glide, following the gentle curve of the spout towards its tip. The movement resolves into a perfect, static, three-quarter hero shot of the entire faucet. PRODUCT FOCUS: Drawing attention to the clean spout exit and the detailed aerator, before concluding on a composition showcasing the faucet's complete, balanced design. The chrome pillar tap is identical to the previous shot, in pristine condition. CAMERA: A gentle downward dolly combined with a slight pan-right to achieve the classic three-quarter composition. The motion has a soft 'ease-out', coming to a complete and stable stop. LIGHTING: Perfect commercial three-point lighting settles on the final frame, defining the product's entire form with soft highlights and gentle shadows, creating depth and showcasing the flawless chrome reflections. ENVIRONMENT: The faucet stands as the hero on the dark slate stage. The background elements are perfectly blurred, ensuring all attention is on the product. MOTION: Decelerates to a complete stop in the last second, creating a powerful, stable final image. ENDING FRAME: A static, perfectly composed three-quarter view of the entire faucet, centered in the frame. STYLE: Professional e-commerce product hero shot, clean, aspirational, and premium. TECHNICAL SPECS: 16:9 aspect ratio, cinematic 24fps feel, shallow depth of field, no text."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "DESCRIPTION: The scene opens with a dramatic macro shot focused on the flawless, curved junction between the spout and the main body of a modern chrome pillar tap. The camera executes a slow, smooth dolly pull-back while simultaneously tracking left, revealing the solid cylindrical form and its mirror-like finish. PRODUCT FOCUS: Showcasing the seamless construction and the perfect, highly-reflective chrome plating of the faucet body. The product is a single-body pillar tap with a flat push-down lever, presented in pristine, untouched, showroom condition. CAMERA: Macro lens starts at a 3cm distance, performing a fluid dolly pull-back combined with a gentle leftward arc. The movement is stabilized and precise. LIGHTING: A large, soft, diffused light source from the top-right creates a clean, sweeping highlight that traces the faucet's curves as the camera moves. The lighting is neutral white (5000K), evoking a clean, modern bathroom feel. ENVIRONMENT: The faucet is placed on a dark, wet-look slate tile. In the out-of-focus background, a single large, dark green botanical leaf (like a monstera) is partially visible, providing a soft, organic contrast. MOTION: Very slow and deliberate, with a 0.5x speed feel to emphasize luxury and precision engineering. ENDING FRAME: The camera rests at a low angle, looking up at the full profile of the faucet body, ready to transition upwards. STYLE: High-end bathroom fixture commercial, minimalist luxury aesthetic, reminiscent of Grohe or Hansgrohe product films. TECHNICAL SPECS: 16:9 aspect ratio, cinematic 24fps feel, extremely shallow depth of field, no text.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "DESCRIPTION: Continuing seamlessly from the previous frame, the camera executes a graceful crane-up motion, ascending vertically while performing a subtle 20-degree clockwise orbit around the faucet. The movement brings the unique, flat, rectangular push-down handle into sharp focus. PRODUCT FOCUS: Highlighting the geometric design of the handle and revealing the subtle, embossed brand logo on its top surface. The modern chrome pillar tap is identical to the previous shot, in pristine condition. CAMERA: A smooth, continuous J-curve movement, combining a vertical crane with a slow rotational orbit. Focus racks perfectly from the body to the handle's surface. LIGHTING: The key light now glides across the flat top of the handle, catching the edges sharply and revealing the texture of the logo through specular highlights. ENVIRONMENT: The dark slate and soft-focus botanical leaf remain consistent. A very faint wisp of atmospheric mist drifts slowly in the deep background, adding a spa-like quality without obscuring the product. MOTION: Fluid and unbroken, maintaining the elegant and luxurious pace. ENDING FRAME: The camera is now positioned slightly above the handle, looking down at a 15-degree angle, with the logo centered and crisp. STYLE: Apple product launch video aesthetic, focusing on precision machining and material finish. TECHNICAL SPECS: 16:9 aspect ratio, cinematic 24fps feel, shallow depth of field, no text.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "DESCRIPTION: The camera's motion transitions from the orbit into a final, elegant downward glide, following the gentle curve of the spout towards its tip. The movement resolves into a perfect, static, three-quarter hero shot of the entire faucet. PRODUCT FOCUS: Drawing attention to the clean spout exit and the detailed aerator, before concluding on a composition showcasing the faucet's complete, balanced design. The chrome pillar tap is identical to the previous shot, in pristine condition. CAMERA: A gentle downward dolly combined with a slight pan-right to achieve the classic three-quarter composition. The motion has a soft 'ease-out', coming to a complete and stable stop. LIGHTING: Perfect commercial three-point lighting settles on the final frame, defining the product's entire form with soft highlights and gentle shadows, creating depth and showcasing the flawless chrome reflections. ENVIRONMENT: The faucet stands as the hero on the dark slate stage. The background elements are perfectly blurred, ensuring all attention is on the product. MOTION: Decelerates to a complete stop in the last second, creating a powerful, stable final image. ENDING FRAME: A static, perfectly composed three-quarter view of the entire faucet, centered in the frame. STYLE: Professional e-commerce product hero shot, clean, aspirational, and premium. TECHNICAL SPECS: 16:9 aspect ratio, cinematic 24fps feel, shallow depth of field, no text."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 17:55:37
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    Valuable Versatility. 3-in-1 Ready: mulch, rear bag, rear-discharge capable. Whether it's reducing clumps and adding nutrients with the mulching option, a perfectly manicured look with bagging, or powering through tall, thick grass with the optional side discharge, you'll enjoy exceptional versatility regardless of your mowing preference.
+Save Storage Space Now you can fold, lock, and store your Toro practically anywhere in your garage or shed with SmartStow
+Personal Pace Auto-Drive No levers, no adjustments, no learning - the self-propel, evolved
+Vortex Technology More airflow to supercharge your grass cutting
+Super Bagger Get the job done more easily than ever with our new Super Bagger, shaped for easier lifting, no-shake pouring and zero-hassle cleanup
+Feed Your Lawn The ultra-fine clippings created by our Recycler Cutting System which are cosidered as the Lawn Vitamins, nourishing your grass and cultivating a greener, more lush lawn
+Hassle-free maintenance, just top it off and no oil change required
+Roll with it, with a tread pattern that adds traction without tearing up your grass, our new wheels give you just enough bite to get up hills and sail through slippery, damp conditions
+Bag On Demand, switch from mulching to bagging in seconds while leaving the bag on the mower
+Optional Side Discharge Chute not Included in the box. The free discharge chute for walk behind mowers can be requested at time of registration at Toro.com/register
+Time saver, cut a wider path with each pass with an extra-long 22 in. blade to mow more in less time
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "description: A cinematic macro shot begins on the aggressive tread of the rear wheel of a Toro lawn mower, resting on pristine, dew-kissed blades of a perfect green lawn. The camera starts low and slowly pulls back while simultaneously tracking sideways from right to left, revealing the vibrant red of the mower deck against the lush grass. style: Premium outdoor equipment commercial, with a nature documentary's precision. camera: Macro lens dolly pull-back combined with a smooth, stabilized tracking shot. lighting: Soft, diffused early morning sunlight (golden hour) from the side, creating beautiful highlights on the water droplets and defining the texture of the wheel tread. environment: A flawless, manicured suburban lawn at sunrise, with a shallow depth of field softly blurring the background. The air is clean and crisp. motion: Very slow and deliberate, creating a sense of quality and power in reserve. ending: The camera is mid-track, revealing the side profile of the red cutting deck. product_focus: Highlighting the wheel tread for superior traction ('Roll with it'). product_fidelity: The Toro self-propelled lawn mower with a red deck, black engine, and black bagger, in pristine, showroom condition. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "description: Continuing the smooth leftward track from the previous shot, the camera's path accentuates the full length of the 22-inch cutting deck. As it reaches the rear of the mower, the camera executes a graceful crane-up and slight orbit, settling on a heroic three-quarter rear view that frames the 'Super Bagger' and its prominent 'TORO' branding. style: High-end product showcase, Apple-style product reveal aesthetic. camera: Continued tracking shot seamlessly transitioning into a J-curve (crane up and orbit). lighting: Consistent golden hour light now catches the form of the bagger, giving it dimension and a premium feel. environment: The same perfect lawn, with the mower as the undeniable hero of the scene. motion: Fluid, continuous, and confident motion that concludes in a strong, stable composition. ending: A static, hero shot of the mower's rear three-quarter view, focusing on the Super Bagger. product_focus: Emphasizing the wide 22-inch deck ('Time saver') and the design of the 'Super Bagger'. product_fidelity: The identical pristine Toro mower from the previous shot. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:05",
+    "timestamp1_prompt": "description: The scene opens on the Toro mower, identical to the previous segment, now positioned centrally in a clean, modern, and brightly lit garage with polished concrete floors. The camera executes a slow, majestic 180-degree orbit from front-right to front-left, gliding over the engine housing. Abstract light caustics play across the floor. style: Tech product launch video, focusing on engineering and design. camera: Low-angle orbital shot on a perfectly smooth track. lighting: Bright, diffused studio-style lighting from above and the sides, creating soft, defined reflections on the mower's chassis and engine. No harsh shadows. environment: A minimalist and clean garage space with architectural lighting. Nothing else is visible except the mower and the floor. motion: A steady and constant orbital speed, showcasing the mower from all frontal angles. ending: The camera is positioned at the front-left of the mower, ready for the next action. product_focus: Showcasing the 'Vortex Technology' engine design and implying 'Hassle-free maintenance' through its clean, accessible look. product_fidelity: The identical pristine Toro mower, with photo-realistic red painted deck and black plastic engine housing. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic.",
+    "timestamp2": "00:05-00:08",
+    "timestamp2_prompt": "description: As the camera continues its motion, a seamless and magical transition occurs. The mower is now in its vertical 'SmartStow' folded position in the exact same spot. The camera smoothly cranes upward, following the line of the folded handle, coming to a final, perfect composition on the 'Personal Pace Auto-Drive' handlebar. style: High-tech, futuristic product reveal with a touch of magic. camera: A smooth transition from orbit to a vertical crane shot (jib up). lighting: The studio lighting remains consistent, now highlighting the vertical form and the details of the handlebar. environment: The same minimalist garage, emphasizing the small storage footprint. motion: The transition is fluid, not a hard cut. The crane movement is elegant and concludes with a gentle ease-in. ending: A static shot, slightly low angle, looking up at the 'Personal Pace' handlebar against the clean garage background. product_focus: Highlighting the 'SmartStow' space-saving feature and the 'Personal Pace' handle. product_fidelity: The identical pristine Toro mower, now in its folded configuration. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "description: A cinematic macro shot begins on the aggressive tread of the rear wheel of a Toro lawn mower, resting on pristine, dew-kissed blades of a perfect green lawn. The camera starts low and slowly pulls back while simultaneously tracking sideways from right to left, revealing the vibrant red of the mower deck against the lush grass. style: Premium outdoor equipment commercial, with a nature documentary's precision. camera: Macro lens dolly pull-back combined with a smooth, stabilized tracking shot. lighting: Soft, diffused early morning sunlight (golden hour) from the side, creating beautiful highlights on the water droplets and defining the texture of the wheel tread. environment: A flawless, manicured suburban lawn at sunrise, with a shallow depth of field softly blurring the background. The air is clean and crisp. motion: Very slow and deliberate, creating a sense of quality and power in reserve. ending: The camera is mid-track, revealing the side profile of the red cutting deck. product_focus: Highlighting the wheel tread for superior traction ('Roll with it'). product_fidelity: The Toro self-propelled lawn mower with a red deck, black engine, and black bagger, in pristine, showroom condition. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "description: Continuing the smooth leftward track from the previous shot, the camera's path accentuates the full length of the 22-inch cutting deck. As it reaches the rear of the mower, the camera executes a graceful crane-up and slight orbit, settling on a heroic three-quarter rear view that frames the 'Super Bagger' and its prominent 'TORO' branding. style: High-end product showcase, Apple-style product reveal aesthetic. camera: Continued tracking shot seamlessly transitioning into a J-curve (crane up and orbit). lighting: Consistent golden hour light now catches the form of the bagger, giving it dimension and a premium feel. environment: The same perfect lawn, with the mower as the undeniable hero of the scene. motion: Fluid, continuous, and confident motion that concludes in a strong, stable composition. ending: A static, hero shot of the mower's rear three-quarter view, focusing on the Super Bagger. product_focus: Emphasizing the wide 22-inch deck ('Time saver') and the design of the 'Super Bagger'. product_fidelity: The identical pristine Toro mower from the previous shot. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic."
+}
+--------------------------------------------------------------------------------
+
+Segment 2:
+{
+  "timestamp1": "00:00-00:05",
+  "timestamp1_prompt": "description: The scene opens on the Toro mower, identical to the previous segment, now positioned centrally in a clean, modern, and brightly lit garage with polished concrete floors. The camera executes a slow, majestic 180-degree orbit from front-right to front-left, gliding over the engine housing. Abstract light caustics play across the floor. style: Tech product launch video, focusing on engineering and design. camera: Low-angle orbital shot on a perfectly smooth track. lighting: Bright, diffused studio-style lighting from above and the sides, creating soft, defined reflections on the mower's chassis and engine. No harsh shadows. environment: A minimalist and clean garage space with architectural lighting. Nothing else is visible except the mower and the floor. motion: A steady and constant orbital speed, showcasing the mower from all frontal angles. ending: The camera is positioned at the front-left of the mower, ready for the next action. product_focus: Showcasing the 'Vortex Technology' engine design and implying 'Hassle-free maintenance' through its clean, accessible look. product_fidelity: The identical pristine Toro mower, with photo-realistic red painted deck and black plastic engine housing. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic.",
+  "timestamp2": "00:05-00:08",
+  "timestamp2_prompt": "description: As the camera continues its motion, a seamless and magical transition occurs. The mower is now in its vertical 'SmartStow' folded position in the exact same spot. The camera smoothly cranes upward, following the line of the folded handle, coming to a final, perfect composition on the 'Personal Pace Auto-Drive' handlebar. style: High-tech, futuristic product reveal with a touch of magic. camera: A smooth transition from orbit to a vertical crane shot (jib up). lighting: The studio lighting remains consistent, now highlighting the vertical form and the details of the handlebar. environment: The same minimalist garage, emphasizing the small storage footprint. motion: The transition is fluid, not a hard cut. The crane movement is elegant and concludes with a gentle ease-in. ending: A static shot, slightly low angle, looking up at the 'Personal Pace' handlebar against the clean garage background. product_focus: Highlighting the 'SmartStow' space-saving feature and the 'Personal Pace' handle. product_fidelity: The identical pristine Toro mower, now in its folded configuration. technical_specs: 16:9 aspect ratio, cinematic 24fps feel, no text, photo-realistic."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 18:24:27
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    Valuable Versatility. 3-in-1 Ready: mulch, rear bag, rear-discharge capable. Whether it's reducing clumps and adding nutrients with the mulching option, a perfectly manicured look with bagging, or powering through tall, thick grass with the optional side discharge, you'll enjoy exceptional versatility regardless of your mowing preference.
+Save Storage Space Now you can fold, lock, and store your Toro practically anywhere in your garage or shed with SmartStow
+Personal Pace Auto-Drive No levers, no adjustments, no learning - the self-propel, evolved
+Vortex Technology More airflow to supercharge your grass cutting
+Super Bagger Get the job done more easily than ever with our new Super Bagger, shaped for easier lifting, no-shake pouring and zero-hassle cleanup
+Feed Your Lawn The ultra-fine clippings created by our Recycler Cutting System which are cosidered as the Lawn Vitamins, nourishing your grass and cultivating a greener, more lush lawn
+Hassle-free maintenance, just top it off and no oil change required
+Roll with it, with a tread pattern that adds traction without tearing up your grass, our new wheels give you just enough bite to get up hills and sail through slippery, damp conditions
+Bag On Demand, switch from mulching to bagging in seconds while leaving the bag on the mower
+Optional Side Discharge Chute not Included in the box. The free discharge chute for walk behind mowers can be requested at time of registration at Toro.com/register
+Time saver, cut a wider path with each pass with an extra-long 22 in. blade to mow more in less time
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "description: A slow, cinematic, low-angle tracking shot glides from left to right across the front of a Toro lawn mower, emphasizing its wide 22-inch red cutting deck. The mower is static and in pristine, showroom condition, resting on a perfect, lush green lawn glistening with morning dew. Subtle, glowing green light particles float up from the grass, symbolizing 'Lawn Vitamins' from the Recycler Cutting System. product_focus: The wide 22-inch blade path and the lawn-nourishing Recycler Cutting System. camera: Low-angle tracking shot moving parallel to the product, 1 foot off the ground. lighting: Warm, golden hour sunrise light casting long, soft shadows and highlighting the dew on the grass. environment: A perfectly manicured, vibrant green lawn at dawn. Shallow depth of field keeps the focus entirely on the mower deck. motion: Smooth, deliberate, and slow, like a high-end car commercial. ending_frame: The camera is positioned at the front-right corner of the mower, ready to transition into an upward movement. style: Professional e-commerce showcase with a nature documentary precision. technical_specs: 16:9 aspect ratio, cinematic 24fps feel. The Toro lawn mower with red deck and black accents is perfectly static; only the camera moves. No humans or product operation."
+  },
+  "segment_2": {
+    "timestamp1": "00:04-00:08",
+    "timestamp1_prompt": "description: Continuing the motion, the camera begins to crane upwards and orbits slightly around the mower's side, revealing the powerful black engine assembly. Abstract beams of soft white light are visualized flowing into the underside of the red deck to represent the airflow of the 'Vortex Technology'. The product, a Toro lawn mower with a red deck and black engine, remains static and in pristine condition. product_focus: Vortex Technology airflow and the mower's robust engine design. camera: A smooth transition from a track to a crane-up and slight clockwise orbit. lighting: The golden hour light evolves into a brighter, clean commercial studio light, making the product's colors pop. environment: The lawn background becomes a soft, blurred green bokeh as the depth of field narrows. motion: Elegant and continuous, creating a heroic reveal of the product's form. ending_frame: A stable, three-quarter hero shot of the entire mower, perfectly centered. style: Tech product launch aesthetic, emphasizing innovation and power. technical_specs: 16:9, cinematic 24fps feel. The mower is stationary. No humans or product in use. No logos are animated."
+  },
+  "segment_3": {
+    "timestamp1": "00:00-00:03",
+    "timestamp1_prompt": "description: An extreme macro shot focuses on the intricate, high-traction tread pattern of the rear wheel of a Toro lawn mower. The environment is a clean, modern garage with a polished, reflective concrete floor. The camera slowly pulls back, revealing more of the wheel and the mower's chassis. The product is in pristine, showroom condition and is completely static. product_focus: The high-traction wheel tread design for grip without damaging grass. camera: Macro lens start, followed by a smooth dolly pull-back. lighting: Cool, diffused, even studio lighting from above, creating soft highlights on the wheel's rubber and plastic textures. environment: Minimalist and clean garage setting with geometric light reflections on the floor. motion: Very slow and precise, highlighting material detail. ending_frame: The camera has pulled back to show the entire rear wheel and the edge of the Super Bagger. style: High-end automotive commercial aesthetic, focusing on engineering detail. technical_specs: 16:9 aspect ratio, cinematic 24fps feel. The mower does not move or roll. No humans."
+  },
+  "segment_4": {
+    "timestamp1": "00:03-00:08",
+    "timestamp1_prompt": "description: The camera motion continues, pulling back further and tilting up to reveal the Toro lawn mower in its vertical, folded 'SmartStow' position against a clean garage wall. The camera arc gracefully reveals the compact form, passing the 'Super Bagger' and handle assembly before settling on a final wide shot. The mower is static, representing its stored state. product_focus: The space-saving SmartStow feature and the sleek design of the Super Bagger. camera: A continuous dolly pull-back and tilt-up into a final wide, stable shot. lighting: Bright, clean, and even commercial lighting, making the product look heroic and showcasing its compact footprint. environment: A tidy, organized garage space that reinforces the theme of saving space. motion: A smooth, conclusive revealing motion that ends on a static, powerful frame. ending_frame: A wide hero shot of the Toro mower in its upright, stored position, looking compact and efficient. style: Modern, minimalist product showcase, similar to a smart-home device commercial. technical_specs: 16:9, cinematic 24fps feel. The mower is not shown folding; it is already in its static, folded state. No people."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "description: A slow, cinematic, low-angle tracking shot glides from left to right across the front of a Toro lawn mower, emphasizing its wide 22-inch red cutting deck. The mower is static and in pristine, showroom condition, resting on a perfect, lush green lawn glistening with morning dew. Subtle, glowing green light particles float up from the grass, symbolizing 'Lawn Vitamins' from the Recycler Cutting System. product_focus: The wide 22-inch blade path and the lawn-nourishing Recycler Cutting System. camera: Low-angle tracking shot moving parallel to the product, 1 foot off the ground. lighting: Warm, golden hour sunrise light casting long, soft shadows and highlighting the dew on the grass. environment: A perfectly manicured, vibrant green lawn at dawn. Shallow depth of field keeps the focus entirely on the mower deck. motion: Smooth, deliberate, and slow, like a high-end car commercial. ending_frame: The camera is positioned at the front-right corner of the mower, ready to transition into an upward movement. style: Professional e-commerce showcase with a nature documentary precision. technical_specs: 16:9 aspect ratio, cinematic 24fps feel. The Toro lawn mower with red deck and black accents is perfectly static; only the camera moves. No humans or product operation."
+}
+--------------------------------------------------------------------------------
+
+Segment 2:
+{
+  "timestamp1": "00:04-00:08",
+  "timestamp1_prompt": "description: Continuing the motion, the camera begins to crane upwards and orbits slightly around the mower's side, revealing the powerful black engine assembly. Abstract beams of soft white light are visualized flowing into the underside of the red deck to represent the airflow of the 'Vortex Technology'. The product, a Toro lawn mower with a red deck and black engine, remains static and in pristine condition. product_focus: Vortex Technology airflow and the mower's robust engine design. camera: A smooth transition from a track to a crane-up and slight clockwise orbit. lighting: The golden hour light evolves into a brighter, clean commercial studio light, making the product's colors pop. environment: The lawn background becomes a soft, blurred green bokeh as the depth of field narrows. motion: Elegant and continuous, creating a heroic reveal of the product's form. ending_frame: A stable, three-quarter hero shot of the entire mower, perfectly centered. style: Tech product launch aesthetic, emphasizing innovation and power. technical_specs: 16:9, cinematic 24fps feel. The mower is stationary. No humans or product in use. No logos are animated."
+}
+--------------------------------------------------------------------------------
+
+Segment 3:
+{
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "description: An extreme macro shot focuses on the intricate, high-traction tread pattern of the rear wheel of a Toro lawn mower. The environment is a clean, modern garage with a polished, reflective concrete floor. The camera slowly pulls back, revealing more of the wheel and the mower's chassis. The product is in pristine, showroom condition and is completely static. product_focus: The high-traction wheel tread design for grip without damaging grass. camera: Macro lens start, followed by a smooth dolly pull-back. lighting: Cool, diffused, even studio lighting from above, creating soft highlights on the wheel's rubber and plastic textures. environment: Minimalist and clean garage setting with geometric light reflections on the floor. motion: Very slow and precise, highlighting material detail. ending_frame: The camera has pulled back to show the entire rear wheel and the edge of the Super Bagger. style: High-end automotive commercial aesthetic, focusing on engineering detail. technical_specs: 16:9 aspect ratio, cinematic 24fps feel. The mower does not move or roll. No humans."
+}
+--------------------------------------------------------------------------------
+
+Segment 4:
+{
+  "timestamp1": "00:03-00:08",
+  "timestamp1_prompt": "description: The camera motion continues, pulling back further and tilting up to reveal the Toro lawn mower in its vertical, folded 'SmartStow' position against a clean garage wall. The camera arc gracefully reveals the compact form, passing the 'Super Bagger' and handle assembly before settling on a final wide shot. The mower is static, representing its stored state. product_focus: The space-saving SmartStow feature and the sleek design of the Super Bagger. camera: A continuous dolly pull-back and tilt-up into a final wide, stable shot. lighting: Bright, clean, and even commercial lighting, making the product look heroic and showcasing its compact footprint. environment: A tidy, organized garage space that reinforces the theme of saving space. motion: A smooth, conclusive revealing motion that ends on a static, powerful frame. ending_frame: A wide hero shot of the Toro mower in its upright, stored position, looking compact and efficient. style: Modern, minimalist product showcase, similar to a smart-home device commercial. technical_specs: 16:9, cinematic 24fps feel. The mower is not shown folding; it is already in its static, folded state. No people."
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Generated at: 2025-11-03 19:16:50
+Model: gemini-2.5-pro
+Prompt Format Mode: full_json
+================================================================================
+
+USER REQUIREMENTS:
+
+    Brand theme: Blue, white. ABstract, with organic key elements, professionally created video of the shoe pair.
+    
+
+GENERATED PROMPTS (Raw JSON from LLM):
+{
+  "segment_1": {
+    "timestamp1": "00:00-00:04",
+    "timestamp1_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Establish the hero composition of the stacked pair of navy blue canvas sneakers. Camera: 50mm lens, starting on a medium shot showing the full pair. A slow, elegant camera arc begins from front-left to front-right with a subtle push-in. Pose Anchor: The pair of navy blue canvas sneakers with white soles and silver eyelets are static, stacked exactly as in the reference image. Lighting: Soft, diffused key light from upper right, gentle fill from the left, with a cool-toned rim light to separate the blue canvas from the background. Environment: The shoes rest on a pristine matte white pedestal against an abstract background of large, soft-focus, light blue and white geometric forms. Continuity: Start from initial state: medium wide shot, left-of-center framing. End state: Camera is mid-arc, now framing the shoes centrally, slightly closer. Motion is continuous.",
+    "timestamp2": "00:04-00:08",
+    "timestamp2_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Highlight the form of the toe box and the clean lacing system. Camera: 50mm lens. The camera continues its smooth arc-and-push-in motion, transitioning into a tighter medium-close shot. Framing narrows to focus on the front half of the top shoe, from the white rubber toe cap to the third eyelet. Shallow depth of field begins to soften the background shapes. Lighting: Consistent soft key and rim lighting, creating a gentle highlight along the curve of the toe. Environment: The pristine matte white pedestal and abstract blue/white background remain consistent. Continuity: Start from end state: camera is mid-arc, framing shoes centrally. Continue the arc and push-in. End state: Camera has settled at a 3/4 front-right angle, framing the top shoe's toe, laces, and brand tag, ready for a detail shot. The camera motion is at a near stop."
+  },
+  "segment_2": {
+    "timestamp1": "00:00-00:05",
+    "timestamp1_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Showcase the 'differente' brand tag and the texture of the navy blue canvas. Camera: 85mm macro lens. The camera performs a slow, precise lateral glide from right to left along the side of the top shoe. Focus is critically sharp on the white fabric 'differente' tag, with the foreground laces and background heel falling into soft focus. Lighting: A soft kicker light catches the texture of the canvas weave. Overall lighting remains consistent with Segment 1. Environment: The shoe remains on the matte white surface, with the abstract background now a soft, out-of-focus bokeh. Continuity: Start from end state: 3/4 front-right angle, framing the top shoe's toe, laces, and brand tag. The new motion is a pure lateral slide leftwards. End state: The 'differente' tag is perfectly centered in the macro frame. Camera is still sliding left.",
+    "timestamp2": "00:05-00:08",
+    "timestamp2_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Emphasize the clean stitching on the heel counter and the texture of the white rubber sole. Camera: 85mm macro lens. Continue the slow lateral glide to the left. The focus smoothly racks from the brand tag to the precise stitching detail on the shoe's heel section. The clean line where the canvas meets the ribbed white sole is prominent in the lower third of the frame. Lighting: Rim light defines the curve of the heel. Specular highlights are controlled and clean. Environment: The matte white surface and bokeh background remain consistent. Continuity: Start from end state: 'differente' tag centered in macro frame, camera sliding left. Continue the slide. End state: The frame is filled with the macro detail of the heel's canvas texture, stitching, and the top edge of the white sole. Camera motion comes to a complete stop."
+  }
+}
+
+SEGMENT PROMPTS (Formatted for Veo):
+Mode: full_json
+--------------------------------------------------------------------------------
+
+Segment 1:
+{
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Establish the hero composition of the stacked pair of navy blue canvas sneakers. Camera: 50mm lens, starting on a medium shot showing the full pair. A slow, elegant camera arc begins from front-left to front-right with a subtle push-in. Pose Anchor: The pair of navy blue canvas sneakers with white soles and silver eyelets are static, stacked exactly as in the reference image. Lighting: Soft, diffused key light from upper right, gentle fill from the left, with a cool-toned rim light to separate the blue canvas from the background. Environment: The shoes rest on a pristine matte white pedestal against an abstract background of large, soft-focus, light blue and white geometric forms. Continuity: Start from initial state: medium wide shot, left-of-center framing. End state: Camera is mid-arc, now framing the shoes centrally, slightly closer. Motion is continuous.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Highlight the form of the toe box and the clean lacing system. Camera: 50mm lens. The camera continues its smooth arc-and-push-in motion, transitioning into a tighter medium-close shot. Framing narrows to focus on the front half of the top shoe, from the white rubber toe cap to the third eyelet. Shallow depth of field begins to soften the background shapes. Lighting: Consistent soft key and rim lighting, creating a gentle highlight along the curve of the toe. Environment: The pristine matte white pedestal and abstract blue/white background remain consistent. Continuity: Start from end state: camera is mid-arc, framing shoes centrally. Continue the arc and push-in. End state: Camera has settled at a 3/4 front-right angle, framing the top shoe's toe, laces, and brand tag, ready for a detail shot. The camera motion is at a near stop."
+}
+--------------------------------------------------------------------------------
+
+Segment 2:
+{
+  "timestamp1": "00:00-00:05",
+  "timestamp1_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Showcase the 'differente' brand tag and the texture of the navy blue canvas. Camera: 85mm macro lens. The camera performs a slow, precise lateral glide from right to left along the side of the top shoe. Focus is critically sharp on the white fabric 'differente' tag, with the foreground laces and background heel falling into soft focus. Lighting: A soft kicker light catches the texture of the canvas weave. Overall lighting remains consistent with Segment 1. Environment: The shoe remains on the matte white surface, with the abstract background now a soft, out-of-focus bokeh. Continuity: Start from end state: 3/4 front-right angle, framing the top shoe's toe, laces, and brand tag. The new motion is a pure lateral slide leftwards. End state: The 'differente' tag is perfectly centered in the macro frame. Camera is still sliding left.",
+  "timestamp2": "00:05-00:08",
+  "timestamp2_prompt": "Use provided reference images as canonical ground truth; replicate exact product identity, pose/configuration, color, materials, finish; product remains static; never in operation. This is a 4K, 16:9 cinematic shot. Feature: Emphasize the clean stitching on the heel counter and the texture of the white rubber sole. Camera: 85mm macro lens. Continue the slow lateral glide to the left. The focus smoothly racks from the brand tag to the precise stitching detail on the shoe's heel section. The clean line where the canvas meets the ribbed white sole is prominent in the lower third of the frame. Lighting: Rim light defines the curve of the heel. Specular highlights are controlled and clean. Environment: The matte white surface and bokeh background remain consistent. Continuity: Start from end state: 'differente' tag centered in macro frame, camera sliding left. Continue the slide. End state: The frame is filled with the macro detail of the heel's canvas texture, stitching, and the top edge of the white sole. Camera motion comes to a complete stop."
+}
+--------------------------------------------------------------------------------

@@ -10,8 +10,9 @@ from pathlib import Path
 import tempfile
 
 # Import pipelines
-from image_pipeline import generate_images
-from ad_pipeline import generate_product_video
+#from marketing_image_pipeline import generate_images
+#from video_pipeline import generate_product_video
+from marketing_image_pipeline import generate_marketing_images
 from config import ENABLE_PROMPT_VIEW, PROMPT_DISPLAY_FILE
 
 load_dotenv()
@@ -28,41 +29,44 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 #Port = os.getenv("PORT")
 @app.route('/api/generate', methods=['POST'])
-def generate_images_endpoint():
+def generate_marketing_images_endpoint():
     """
-    Image generation endpoint - calls image_pipeline module
+    Endpoint to generate 3 marketing creative image variations
     """
-    image_files = request.files.getlist('images')
-    product_type = request.form.get('product_type', 'default_product')
-    guidelines = request.form.get('guidelines', '')
-    marketing_copy = request.form.get('marketing_copy', '')
-
-    if not image_files:
-        return jsonify({"error": "At least one product image is required."}), 400
-
     try:
-        user_images_bytes_list = [img.read() for img in image_files]
+        # Extract form data
+        product_type = request.form.get('product_type')
+        marketing_copy = request.form.get('marketing_copy')
         
-        # Call image pipeline
-        result = generate_images(
+        # Extract uploaded images
+        uploaded_files = request.files.getlist('images')
+        
+        if not uploaded_files:
+            return jsonify({"error": "No images provided"}), 400
+        
+        if not product_type:
+            return jsonify({"error": "Product type is required"}), 400
+        
+        # Convert uploaded files to bytes
+        user_images_bytes = []
+        for file in uploaded_files:
+            img_bytes = file.read()
+            user_images_bytes.append(img_bytes)
+        
+        print(f"Received request: Product={product_type}, Images={len(user_images_bytes)}")
+        
+        # Generate marketing images
+        result = generate_marketing_images(
             product_type=product_type,
-            guidelines=guidelines,
             marketing_copy=marketing_copy,
-            user_images_bytes_list=user_images_bytes_list
+            user_images_bytes_list=user_images_bytes
         )
         
-        if result["success"]:
-            return jsonify({
-                "status": "success",
-                "message": result["message"],
-                "generated_image_urls": result["generated_image_urls"]
-            })
-        else:
-            return jsonify({"error": "Image generation failed"}), 500
-
+        return jsonify(result), 200 if result["success"] else 500
+        
     except Exception as e:
-        print(f"Error in image generation endpoint: {e}")
-        return jsonify({"error": "An internal server error occurred."}), 500
+        print(f"Error in endpoint: {e}")
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route('/api/generate-video', methods=['POST'])
@@ -165,17 +169,10 @@ def edit_image_endpoint():
                 "error": "operation_id is required. Select an operation from the dropdown."
             }), 400
         
-                # Get operation_id (required)
-        operation_id = request.form.get('operation_id', '').strip()
-        if not operation_id:
-            return jsonify({
-                "error": "operation_id is required. Select an operation from the dropdown."
-            }), 400
-        
         # Validate operation_id
         try:
             operation_id = int(operation_id)
-            if operation_id < 1 or operation_id > 38:
+            if operation_id < 1 or operation_id > 39:
                 raise ValueError("Invalid range")
         except ValueError:
             return jsonify({

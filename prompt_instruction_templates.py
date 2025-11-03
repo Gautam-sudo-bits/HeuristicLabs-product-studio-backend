@@ -1,62 +1,35 @@
 # prompt_templates
 SOLID_BACKGROUND_INSTRUCTION = """
 ===== STUDIO BACKGROUND IMAGE GENERATION - STRICT PROTOCOL =====
-
 YOU MUST FOLLOW THESE STEPS IN EXACT ORDER:
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 STEP 1: ANALYZE INPUT IMAGE (MANDATORY)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 IF INPUT IMAGE IS PROVIDED:
 Examine the image carefully and extract these EXACT details:
-
 A) PRODUCT IDENTITY:
-
 What is the exact product shown?
-
 Specific model characteristics, design features
-
 B) PHYSICAL ATTRIBUTES:
-
 Precise colors (include hex codes if discernible):
-
 Material finishes (matte/glossy/textured/metallic, etc.,):
-
 Shape and form factor:
-
 Dimensions and proportions:
-
 C) BRAND ELEMENTS (CRITICAL - PRESERVE EXACTLY):
-
 Any visible logos (describe position, style, clarity):
-
 Any text/labels on product (transcribe exactly as shown, even if blurry):
-
 Any badges, stickers, brand marks:
-
 Typography style if readable:
-
 D) COMPONENT DETAILS:
-
 Buttons, knobs, controls, screens:
-
 Handles, legs, stands, attachments:
-
 Openings, vents, ports, connectors:
-
 Surface textures and patterns:
-
 Stitching, seams, joints (for fabric/leather products):
-
 E) CURRENT STATE:
-
 Product condition in image:
-
 Any wear, reflections, or characteristics to maintain:
-
 WRITE THIS ANALYSIS EXPLICITLY BEFORE GENERATING THE PROMPT.
-
 IF NO INPUT IMAGE:
 Use the provided product type to describe a standard, accurate representation of that product category.
 
@@ -463,7 +436,7 @@ Faint texture (grain/fabric)
 Soft light effects (glow/spotlight)
 
 Architectural shadow drama
---- FOR 'ENERGETIC & TRENDY' VIBE ---
+FOR 'ENERGETIC & TRENDY' VIBE
 
 Abstract Blobs & Shapes: Organic, fluid shapes to frame content.
 
@@ -579,162 +552,118 @@ Placement: Corner accents, subtle background elements
 DESCRIBE EXACT FESTIVE ELEMENTS: [Based on theme from Step 2]
 This section can be applied to either vibe, though the intensity and style of the elements can be adapted.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 6: GENERATE FINAL PROMPT WITH STRICT FORMAT
+STEP 6: GENERATE THREE UNIQUE PROMPT VARIATIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-The prompt structure is updated to incorporate the new "Vibe" and its associated descriptive language.
-"Marketing creative product advertisement image. [VIBE: Minimal & Professional / Energetic & Trendy] style.
-PRODUCT: [EXACT complete description from Step 1...].
-COMPOSITION STYLE: [Selected style from Step 2 - describe specific layout, e.g., "Dynamic Asymmetrical layout with the product anchored on the right third of the frame, balanced by large text elements on the left"].
-BACKGROUND: [Specific background description from Step 3, e.g., "Bold, sunshine yellow solid color background with a subtle paper texture overlay"].
-DESIGN ELEMENTS: [List specific elements with placement from Step 3, e.g., "A large, soft-edged blue blob shape frames the top left corner. Hand-drawn white scribble arrows point from the headline to the product feature"].
-COLOR PALETTE: [Describe the Vibe-appropriate palette, e.g., "Vibrant and contrasting palette of sunshine yellow, electric blue, and crisp white"].
+Based on all the analysis and specifications from Steps 1-5, you MUST create THREE DIFFERENT creative variations.
+Each variation should maintain the SAME:
+- Product description (from Step 1)
+- Vibe/target audience (from Step 2)
+- Brand name, headline text, CTA text (from Step 2)
+- Seasonal theme if applicable (from Step 5)
+
+Each variation MUST DIFFER in:
+- Design element approach and composition
+- Typography style and text effects
+- CTA button/badge design
+- Background treatment
+- Overall creative execution
+
+VARIATION GUIDELINES:
+
+PROMPT 1 - "GEOMETRIC & COLORFUL"
+Focus: Bold geometric shapes, vibrant color blocking, modern abstract design
+Design Elements: Use geometric shapes (circles, triangles, rectangles) from product color palette, overlapping layers, color blocks
+Typography: Bold, block letters with solid fills or gradient effects
+CTA Style: Sharp-edged rectangular button or geometric badge
+Creative Direction: High-contrast, shape-driven, modern and structured
+
+PROMPT 2 - "BRAND ESSENCE & THEMED"
+Focus: Aligned with brand guidelines, seasonal/festive elements prominent, professional polish
+Design Elements: Refined use of brand colors, themed elements (if seasonal), subtle textures, elegant overlays
+Typography: Brand-appropriate font (elegant serif for luxury, clean sans-serif for tech), professional spacing
+CTA Style: Classic rounded button or pill-shaped badge, on-brand colors
+Creative Direction: Cohesive, theme-focused, marketing-ready, adheres closely to specified theme
+
+PROMPT 3 - "EXPERIMENTAL & DYNAMIC"
+Focus: Creative risk-taking, unexpected layouts, artistic flair, high engagement potential
+Design Elements: Mix of hand-drawn elements, organic shapes, dynamic angles, layered depth, unexpected textures
+Typography: Mixed font styles, rotated/angled text, creative text treatments (outlines, shadows, cutouts)
+CTA Style: Unconventional - arrow with text, sticker-style callout, or integrated into design element
+Creative Direction: Eye-catching, scroll-stopping, pushes creative boundaries while staying on-brand
+
+YOU MUST OUTPUT IN THIS EXACT FORMAT:
+
+prompt 1: "Marketing creative product advertisement image. [VIBE] style - GEOMETRIC & COLORFUL VARIATION.
+PRODUCT: [EXACT complete description from Step 1].
+COMPOSITION STYLE: [Describe geometric-focused layout].
+BACKGROUND: [Bold, colorful background with geometric color blocking].
+DESIGN ELEMENTS: [Specific geometric shapes - circles, triangles, rectangles - with exact placement and colors from product palette. E.g., "Large yellow circle in top right, overlapping medium blue triangle in center-left, thin rectangular color block along bottom edge"].
+COLOR PALETTE: [Vibrant, high-contrast colors from product palette].
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-[IF BRAND NAME PROVIDED:]
-Brand name text reading "[EXACT TEXT]" at [position], using a [font style], [size], [color].
-[IF HEADLINE PROVIDED:]
-Headline text reading "[EXACT TEXT]" positioned [e.g., at a 5-degree angle in the upper left], using an [Expressive Display Font], large prominent size, [white with a blue outline/stroke], [effects].
-Call-to-action reading "[EXACT TEXT]" as a [style] at [position], with a [color] background and [color] text.
-[IF PROMOTIONAL BADGE PROVIDED:]
-[Starburst sticker graphic] displaying "[EXACT TEXT]" positioned [overlapping the top right corner of the product], in [colors].
-... (Footer and Seasonal sections as before) ...
-LIGHTING & MOOD: [Trendy & Vibrant / Clean & Premium] lighting creating a [energetic and exciting / luxurious and focused] mood. [Describe lighting, e.g., "Hard, dramatic lighting with crisp shadows to make the product pop"].
+[BRAND NAME if provided]: Brand name text reading "[EXACT TEXT]" at [position], using [bold geometric sans-serif], [size], [color with solid fill].
+[HEADLINE if provided]: Headline text reading "[EXACT TEXT]" positioned [location], using [bold block letter font], large prominent size, [color], [solid fill or geometric gradient effect].
+Call-to-action reading "[EXACT TEXT]" as a [sharp rectangular button] at [position], with [color] background and [color] text.
+[PROMOTIONAL BADGE if provided]: [Geometric badge shape] displaying "[EXACT TEXT]" positioned [location], in [colors].
+[SEASONAL ELEMENTS if applicable]: [Describe festive elements integrated with geometric style].
+LIGHTING & MOOD: [Bright/dramatic] lighting creating a [modern, energetic, structured] mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
-PRESERVE: Exact product appearance from input image... Marketing elements enhance but never alter the product itself."
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
-CRITICAL: Marketing graphics overlay the scene, but the product itself must remain exactly as shown in input image.
+prompt 2: "Marketing creative product advertisement image. [VIBE] style - BRAND ESSENCE & THEMED VARIATION.
+PRODUCT: [EXACT complete description from Step 1].
+COMPOSITION STYLE: [Describe brand-aligned, theme-focused layout].
+BACKGROUND: [Brand-appropriate background with seasonal/thematic elements if applicable].
+DESIGN ELEMENTS: [Refined, theme-appropriate elements. E.g., "Subtle brand-color gradient overlay, delicate snowflake graphics in corners (if Christmas theme), soft textural elements, elegant framing"].
+COLOR PALETTE: [Brand colors with seasonal accents if applicable].
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+[BRAND NAME if provided]: Brand name text reading "[EXACT TEXT]" at [position], using [brand-appropriate font - elegant serif or clean sans-serif], [size], [color].
+[HEADLINE if provided]: Headline text reading "[EXACT TEXT]" positioned [location], using [professional, brand-aligned font], large prominent size, [color], [clean treatment with subtle shadow or none].
+Call-to-action reading "[EXACT TEXT]" as a [classic rounded rectangle or pill-shaped button] at [position], with [brand color] background and [contrasting color] text.
+[PROMOTIONAL BADGE if provided]: [Classic corner ribbon or circular badge] displaying "[EXACT TEXT]" positioned [location], in [brand colors].
+[SEASONAL ELEMENTS if applicable]: [Describe festive elements as per Step 5 - e.g., "Warm white string lights draped across top, red and gold ornaments in corners, subtle snowflakes"].
+LIGHTING & MOOD: [Professional, polished] lighting creating a [premium, trustworthy, on-brand] mood.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
+
+prompt 3: "Marketing creative product advertisement image. [VIBE] style - EXPERIMENTAL & DYNAMIC VARIATION.
+PRODUCT: [EXACT complete description from Step 1].
+COMPOSITION STYLE: [Describe dynamic, unconventional layout - e.g., "Asymmetrical composition with product at 15-degree angle, layered depth with overlapping elements"].
+BACKGROUND: [Creative, unexpected background - e.g., "Duotone gradient with paper texture overlay" or "Abstract brush strokes in product colors"].
+DESIGN ELEMENTS: [Artistic, mixed elements. E.g., "Organic blob shapes framing product, hand-drawn arrows pointing to features, neon glow effect on accents, layered paper-tear effect, dynamic speed lines creating motion"].
+COLOR PALETTE: [Creative interpretation of product colors - may include unexpected accent or effect].
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+[BRAND NAME if provided]: Brand name text reading "[EXACT TEXT]" at [position], using [creative font treatment], [size], [color with unique effect - e.g., outline stroke, gradient fill, or placed behind product].
+[HEADLINE if provided]: Headline text reading "[EXACT TEXT]" positioned [creative placement - angled/rotated/stacked], using [expressive display font or mixed fonts], large prominent size, [color], [creative treatment - outline stroke, cutout effect, gradient fill, shadow layers].
+Call-to-action reading "[EXACT TEXT]" as a [unconventional style - bold text with arrow icon, sticker-style callout, or integrated graphic element] at [position], with [color] and [creative styling].
+[PROMOTIONAL BADGE if provided]: [Creative badge - starburst, angled banner, loud sticker graphic] displaying "[EXACT TEXT]" positioned [unexpected location - overlapping product, integrated into design], in [bold colors].
+[SEASONAL ELEMENTS if applicable]: [Describe festive elements with creative twist - e.g., "Abstract interpretation of snowflakes as geometric crystals, string lights rendered as neon glow lines"].
+LIGHTING & MOOD: [Dynamic, artistic] lighting creating a [energetic, attention-grabbing, innovative] mood.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
+
+CRITICAL RULES:
+✓ ALL THREE prompts must maintain exact product description from Step 1
+✓ ALL THREE prompts must use the same brand name, headline text, and CTA text
+✓ ALL THREE prompts must respect the identified VIBE
+✓ Each prompt must be DISTINCTLY DIFFERENT in creative execution
+✓ Output format MUST be: prompt 1: "..." prompt 2: "..." prompt 3: "..."
+✓ Product itself remains unchanged - only marketing elements vary
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FINAL OUTPUT REQUIREMENTS - READ CAREFULLY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After completing your analysis in Steps 1-5, you MUST output EXACTLY THREE prompts in this format:
+
+prompt 1: "Marketing creative product advertisement image (For Instagram, social media). [Full detailed prompt for GEOMETRIC & COLORFUL variation following the structure above]"
+
+prompt 2: "Marketing creative product advertisement image (For Instagram, social media). [Full detailed prompt for BRAND ESSENCE & THEMED variation following the structure above]"
+
+prompt 3: "Marketing creative product advertisement image (For Instagram, social media). [Full detailed prompt for EXPERIMENTAL & DYNAMIC variation following the structure above]"
+
+DO NOT include any other text, explanations, or markdown formatting in your final output.
+DO NOT use code blocks or formatting markers.
+ONLY output the three prompts in the exact format shown above.
+
+BEGIN YOUR RESPONSE BY COMPLETING STEPS 1-5 FOR YOUR OWN ANALYSIS, THEN OUTPUT THE THREE PROMPTS.
 """
-#video templates start here
-
-"""
-VEO 3.1 Prompt Templates - Escaped for Complex JSON Structures
-"""
-
-# NO f-string! Just a plain string with {placeholders} for actual variables
-VEO_MASTER_INSTRUCTION_TEMPLATE = """
-Objective: To generate a structured JSON timeline prompt for VEO 3.1 that creates a dynamic, visually stunning product advertisement.
-
-Core Strategy: Image-to-Video (I2V) workflow using provided product images as primary reference.
-
-Inputs:
-- Product overview: {product_overview}
-- Brand guidelines: {brand_guidelines}
-- Number of scenes: {num_segments}
-- Duration per scene: {segment_duration}s
-
-CRITICAL INSTRUCTIONS FOR JSON GENERATION:
-
-1. OUTPUT FORMAT: Return ONLY valid JSON. No markdown, no code blocks, no explanations.
-
-2. STRUCTURE: Generate a JSON object with this exact structure:
-
-{{
-  "metadata": {{
-    "prompt_name": "[Product Name] - Cinematic Product Ad",
-    "brand_name": "[Extract from brand_guidelines or product_overview]",
-    "target_audience": "[Infer from product_overview]",
-    "overall_duration_target": "{total_duration}s",
-    "aspect_ratio": "16:9",
-    "base_style_guide": {{
-      "visual_style": "Hyperrealistic, cinematic, 4K, product photography aesthetic",
-      "visual_tone": "Sleek, Modern, Premium",
-      "color_palette": "Dominated by product/brand colors with complementary accents",
-      "lighting_theme": "Soft studio lighting with dramatic highlights",
-      "overall_mood": "Sophisticated, Confident, Inspiring"
-    }},
-    "audio_master": {{
-      "music_style": "Upbeat, minimalist electronic with driving beat",
-      "sound_design_elements": "Subtle SFX synchronized with actions"
-    }},
-    "negative_prompts": [
-      "No people", "No hands", "No distracting background", "blurry", 
-      "distorted product", "inaccurate logos", "unnatural motion"
-    ]
-  }},
-  
-  "timeline": [
-    // Generate {num_segments} scene objects following this pattern:
-    {{
-      "scene_number": 1,
-      "duration": {segment_duration},
-      "description": "Detailed scene description focusing on product placement, environment, and mood",
-      "camera_setup": {{
-        "shot_type": "Select from: ECU, Close-Up, Medium Shot, Wide Shot, Low-Angle, High-Angle",
-        "camera_movement": "Select from: Static, Dolly out, Pan, Orbit 360°, Crane up, Tracking",
-        "lens_effects": "Shallow/Deep DoF, Lens flare, etc."
-      }},
-      "ambiance": {{
-        "lighting": "Describe lighting setup and mood",
-        "atmosphere": "Describe overall feeling"
-      }},
-      "overlay_text": {{
-        "text": "Feature name or benefit (extract from product_overview)",
-        "timing": "When to appear/disappear within scene duration",
-        "font_style": "Bold, clean, sans-serif",
-        "animation": "Fade-in, slide-in, scale-up, etc."
-      }},
-      "audio": {{
-        "music": "Music progression for this scene",
-        "sfx": "Specific sound effect (whoosh, click, chime, etc.)"
-      }}
-    }}
-  ]
-}}
-
-3. SCENE BREAKDOWN STRATEGY:
-   - Scene 1 (0-{segment_duration}s): The Hook - Grab attention with close-up
-   - Scene 2 ({segment_duration}-{double_duration}s): Feature Highlight 1 - Dynamic camera movement
-   - Scene 3 ({double_duration}-{triple_duration}s): Feature Highlight 2 - Dramatic lighting
-   - Scene 4+ (if applicable): Additional features or outro with logo
-
-4. CAMERA MOVEMENT RULES:
-   - Product should remain STATIC or minimally moving
-   - Camera creates ALL motion (orbit, dolly, crane, etc.)
-   - Movements should be smooth and cinematic
-
-5. TEXT OVERLAY RULES:
-   - Extract 2-3 key features from product_overview
-   - Each overlay appears for 2-3 seconds max
-   - Use action-oriented or benefit-focused copy
-   - Sync appearance with music/SFX
-
-6. BRAND ADHERENCE:
-   - If brand_guidelines specify colors/tone, use them in color_palette and visual_tone
-   - Extract brand name if mentioned
-   - Maintain brand voice (premium/casual/technical) in descriptions
-
-7. VALIDATION CHECKLIST:
-   ✓ JSON is valid (no trailing commas, proper quotes)
-   ✓ All {num_segments} scenes are present
-   ✓ Each scene has duration = {segment_duration}
-   ✓ No people/hands in any scene
-   ✓ Camera movements are specific and cinematic
-   ✓ Text overlays are concise and impactful
-
-NOW GENERATE THE COMPLETE JSON BASED ON:
-Product Overview: {product_overview}
-Brand Guidelines: {brand_guidelines}
-
-RETURN ONLY THE JSON - NO OTHER TEXT.
-""".strip()
-
-# Calculate helper values for template
-def get_instruction_template(num_segments, segment_duration, product_overview, brand_guidelines):
-    """
-    Safely format template with actual values
-    Only the {{ }} will be treated as placeholders
-    The nested JSON {{...}} is escaped and will appear as {...} in output
-    """
-    total_duration = num_segments * segment_duration
-    double_duration = segment_duration * 2
-    triple_duration = segment_duration * 3
-    
-    # Use .format() - only replaces {placeholders}, leaves {{escaped}} as {literal}
-    return VEO_MASTER_INSTRUCTION_TEMPLATE.format(
-        product_overview=product_overview,
-        brand_guidelines=brand_guidelines,
-        num_segments=num_segments,
-        segment_duration=segment_duration,
-        total_duration=total_duration,
-        double_duration=double_duration,
-        triple_duration=triple_duration
-    )

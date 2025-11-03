@@ -1,0 +1,379 @@
+
+================================================================================
+PIPELINE STARTED: 2025-11-02 22:40:36
+================================================================================
+User Requirements:
+
+    Create a premium product video for wireless earbuds.
+    Start with a wide shot of the earbuds on a minimalist white platform.
+    Then zoom in to show the metallic finish and LED indicators.
+    Show the touch controls being activated.
+    Maintain professional studio lighting throughout.
+    Style should be clean, modern, and suitable for e-commerce.
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\earpods.png
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-02 22:40:40
+================================================================================
+Error: from_data
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-02 22:50:21
+================================================================================
+User Requirements:
+
+    Create a premium product video for wireless earbuds.
+    Start with a wide shot of the earbuds on a minimalist white platform.
+    Then zoom in to show the metallic finish and LED indicators.
+    Show the touch controls being activated.
+    Maintain professional studio lighting throughout.
+    Style should be clean, modern, and suitable for e-commerce.
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\earpods.png
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-02 22:52:49
+================================================================================
+User Requirements:
+
+    Create a premium product video for wireless earbuds.
+    Start with a wide shot of the earbuds on a minimalist white platform.
+    Then zoom in to show the metallic finish and LED indicators.
+    Show the touch controls being activated.
+    Maintain professional studio lighting throughout.
+    Style should be clean, modern, and suitable for e-commerce.
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\earpods.png
+================================================================================
+
+
+================================================================================
+PIPELINE COMPLETED: 2025-11-02 22:57:40
+================================================================================
+Final Video: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251102_225737/final/final_product_video_20251102_225619.mp4
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-02 23:29:28
+================================================================================
+User Requirements:
+
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-02 23:54:30
+================================================================================
+User Requirements:
+
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 00:01:39
+================================================================================
+User Requirements:
+
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE COMPLETED: 2025-11-03 00:06:12
+================================================================================
+Final Video: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_000609/final/final_product_video_20251103_000512.mp4
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 00:16:28
+================================================================================
+User Requirements:
+
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE COMPLETED: 2025-11-03 00:20:55
+================================================================================
+Final Video: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_002051/final/final_product_video_20251103_001957.mp4
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 07:19:11
+================================================================================
+User Requirements:
+
+    None
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-03 07:20:08
+================================================================================
+Error: Failed to generate segment 1
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 07:56:44
+================================================================================
+User Requirements:
+
+    None
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-03 07:57:50
+================================================================================
+Error: Failed to generate segment 1
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 08:05:32
+================================================================================
+User Requirements:
+
+    None
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE COMPLETED: 2025-11-03 08:07:50
+================================================================================
+Final Video: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_080743/final/final_product_video_20251103_080738.mp4
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 17:30:54
+================================================================================
+User Requirements:
+
+    None
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-03 17:31:00
+================================================================================
+Error: '\n  "timestamp1"'
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 17:34:02
+================================================================================
+User Requirements:
+
+    None
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-03 17:34:06
+================================================================================
+Error: '\n    "timestamp1"'
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 17:34:57
+================================================================================
+User Requirements:
+
+    None
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\faucet_plantex.png
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 17:54:58
+================================================================================
+User Requirements:
+
+    Valuable Versatility. 3-in-1 Ready: mulch, rear bag, rear-discharge capable. Whether it's reducing clumps and adding nutrients with the mulching option, a perfectly manicured look with bagging, or powering through tall, thick grass with the optional side discharge, you'll enjoy exceptional versatility regardless of your mowing preference.
+Save Storage Space Now you can fold, lock, and store your Toro practically anywhere in your garage or shed with SmartStow
+Personal Pace Auto-Drive No levers, no adjustments, no learning - the self-propel, evolved
+Vortex Technology More airflow to supercharge your grass cutting
+Super Bagger Get the job done more easily than ever with our new Super Bagger, shaped for easier lifting, no-shake pouring and zero-hassle cleanup
+Feed Your Lawn The ultra-fine clippings created by our Recycler Cutting System which are cosidered as the Lawn Vitamins, nourishing your grass and cultivating a greener, more lush lawn
+Hassle-free maintenance, just top it off and no oil change required
+Roll with it, with a tread pattern that adds traction without tearing up your grass, our new wheels give you just enough bite to get up hills and sail through slippery, damp conditions
+Bag On Demand, switch from mulching to bagging in seconds while leaving the bag on the mower
+Optional Side Discharge Chute not Included in the box. The free discharge chute for walk behind mowers can be requested at time of registration at Toro.com/register
+Time saver, cut a wider path with each pass with an extra-long 22 in. blade to mow more in less time
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\lawn_mower.png
+================================================================================
+
+
+================================================================================
+PIPELINE COMPLETED: 2025-11-03 17:59:42
+================================================================================
+Final Video: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_175937/final/final_product_video_20251103_175830.mp4
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 18:23:45
+================================================================================
+User Requirements:
+
+    Valuable Versatility. 3-in-1 Ready: mulch, rear bag, rear-discharge capable. Whether it's reducing clumps and adding nutrients with the mulching option, a perfectly manicured look with bagging, or powering through tall, thick grass with the optional side discharge, you'll enjoy exceptional versatility regardless of your mowing preference.
+Save Storage Space Now you can fold, lock, and store your Toro practically anywhere in your garage or shed with SmartStow
+Personal Pace Auto-Drive No levers, no adjustments, no learning - the self-propel, evolved
+Vortex Technology More airflow to supercharge your grass cutting
+Super Bagger Get the job done more easily than ever with our new Super Bagger, shaped for easier lifting, no-shake pouring and zero-hassle cleanup
+Feed Your Lawn The ultra-fine clippings created by our Recycler Cutting System which are cosidered as the Lawn Vitamins, nourishing your grass and cultivating a greener, more lush lawn
+Hassle-free maintenance, just top it off and no oil change required
+Roll with it, with a tread pattern that adds traction without tearing up your grass, our new wheels give you just enough bite to get up hills and sail through slippery, damp conditions
+Bag On Demand, switch from mulching to bagging in seconds while leaving the bag on the mower
+Optional Side Discharge Chute not Included in the box. The free discharge chute for walk behind mowers can be requested at time of registration at Toro.com/register
+Time saver, cut a wider path with each pass with an extra-long 22 in. blade to mow more in less time
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\lawn_mower.png
+================================================================================
+
+
+================================================================================
+PIPELINE COMPLETED: 2025-11-03 18:31:39
+================================================================================
+Final Video: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_183134/final/final_product_video_20251103_183001.mp4
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 19:08:46
+================================================================================
+User Requirements:
+
+    Valuable Versatility. 3-in-1 Ready: mulch, rear bag, rear-discharge capable. Whether it's reducing clumps and adding nutrients with the mulching option, a perfectly manicured look with bagging, or powering through tall, thick grass with the optional side discharge, you'll enjoy exceptional versatility regardless of your mowing preference.
+Save Storage Space Now you can fold, lock, and store your Toro practically anywhere in your garage or shed with SmartStow
+Personal Pace Auto-Drive No levers, no adjustments, no learning - the self-propel, evolved
+Vortex Technology More airflow to supercharge your grass cutting
+Super Bagger Get the job done more easily than ever with our new Super Bagger, shaped for easier lifting, no-shake pouring and zero-hassle cleanup
+Feed Your Lawn The ultra-fine clippings created by our Recycler Cutting System which are cosidered as the Lawn Vitamins, nourishing your grass and cultivating a greener, more lush lawn
+Hassle-free maintenance, just top it off and no oil change required
+Roll with it, with a tread pattern that adds traction without tearing up your grass, our new wheels give you just enough bite to get up hills and sail through slippery, damp conditions
+Bag On Demand, switch from mulching to bagging in seconds while leaving the bag on the mower
+Optional Side Discharge Chute not Included in the box. The free discharge chute for walk behind mowers can be requested at time of registration at Toro.com/register
+Time saver, cut a wider path with each pass with an extra-long 22 in. blade to mow more in less time
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\lawn_mower.png
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 19:11:48
+================================================================================
+User Requirements:
+
+    Brand theme: Blue, white. ABstract, with organic key elements, professionally created video of the shoe pair.
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\shoe_pair.jpg
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-03 19:11:52
+================================================================================
+Error: 'product_name'
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 19:13:53
+================================================================================
+User Requirements:
+
+    Brand theme: Blue, white. ABstract, with organic key elements, professionally created video of the shoe pair.
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\shoe_pair.jpg
+================================================================================
+
+
+================================================================================
+PIPELINE FAILED: 2025-11-03 19:13:57
+================================================================================
+Error: 'feature'
+================================================================================
+
+
+================================================================================
+PIPELINE STARTED: 2025-11-03 19:16:12
+================================================================================
+User Requirements:
+
+    Brand theme: Blue, white. ABstract, with organic key elements, professionally created video of the shoe pair.
+    
+
+Reference Images: 1
+  1. E:\product-image-backend\test_images\shoe_pair.jpg
+================================================================================
+

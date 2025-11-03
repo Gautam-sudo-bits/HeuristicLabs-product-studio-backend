@@ -1,0 +1,263 @@
+
+================================================================================
+[2025-11-02 22:53:28] SEGMENT 1 - STARTED
+Operation ID: 66122511-8d8d-49e2-ace6-f9fcf43a9944
+Prompt: Wide shot of a pair of glossy black wireless earbuds with silicone tips resting inside an open charging case, which has a matte black exterior and a vibrant translucent cyan interior, centered on a minimalist white platform in a seamless white studio background, lit by soft, diffused overhead studio lighting creating gentle reflections, atmosphere is clean and modern.. Slow dolly in towards the glossy black wireless earbuds in their open case with a matte black exterior and translucent cyan interior, with the focus pulling to the striking color contrast between the black earbuds and the glowing cyan plastic, placed on a white platform, professional studio lighting enhances the glossy and matte textures, mood is sophisticated and intriguing.. Continuing the slow dolly shot to frame a medium close-up of the glossy black wireless earbuds, revealing their sculpted shape and the detail of the translucent cyan interior of the case, under bright, even studio lighting that creates clean highlights on the product's surfaces, atmosphere is premium and detailed.
+================================================================================
+[2025-11-02 22:54:46] SEGMENT 1 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251102_225322/segments/14817521314091492411/sample_0.mp4
+
+
+================================================================================
+[2025-11-02 22:54:52] SEGMENT 2 - STARTED
+Operation ID: 49747d36-bb76-4bad-a2e6-139f62861199
+Prompt: Medium close-up performing a slow 15-degree arc shot to the right around the glossy black wireless earbuds in their open case with a matte black exterior and translucent cyan interior, a small white LED light on one earbud stem gently pulses on and then off, placed on a white platform, a key light from the left glides across the glossy earbud surface, creating a specular highlight that showcases its finish, mood is sleek and technical.. Extreme close-up on the outer stem of one glossy black wireless earbud, where a soft, glowing cyan light ring animates briefly on the surface to signify touch control activation before fading away, followed by a slow dolly out to a close-up, set against the out-of-focus translucent cyan case interior, sharp studio lighting defines the product's edges, atmosphere is responsive and elegant.
+================================================================================
+[2025-11-02 22:56:13] SEGMENT 2 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251102_225322/segments/13970893886390934303/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 00:02:27] SEGMENT 1 - STARTED
+Operation ID: 338d0a13-e129-486c-85f4-acfc20555b6d
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot focusing on the flat, slightly curved push-down lever handle of a modern chrome pillar tap, with the camera slowly tilting down its surface to reveal an etched brand name, placed on a polished white marble surface with subtle grey veining, against a minimalist soft grey studio backdrop, a soft studio key light from the top-left creates a clean sweeping highlight on the mirror-like finish, establishing a premium and precise atmosphere.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Slow dolly out to a medium shot revealing the full form of the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, resting on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, with the soft studio key light creating elegant reflections on its curves, establishing a sophisticated and clean mood.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Static medium shot holding on the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, perfectly centered on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, the soft studio lighting perfectly defining its form and mirror-like chrome finish, creating a confident and high-quality atmosphere."
+}
+================================================================================
+[2025-11-03 00:03:42] SEGMENT 1 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_000221/segments/4833297184328156153/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 00:03:48] SEGMENT 2 - STARTED
+Operation ID: bf31405d-eff4-405a-bec9-00852c2ed95f
+Prompt: {
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "Medium close-up shot of the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, as the handle depresses smoothly and a clear, aerated, splash-free stream of water flows from the spout, placed on the polished white marble surface with subtle grey veining, against a minimalist soft grey studio backdrop, the soft studio lighting glistening on the flowing water, creating a functional and satisfying mood.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "Slow 90-degree arc shot from right to left around the modern chrome pillar tap with a cylindrical body, a short curved spout ending in a dark mesh aerator, and a distinctive flat, slightly curved push-down lever handle with an etched brand name on top, while the clear, aerated water continues to flow in a gentle arc, placed on the polished white marble surface with subtle grey veining, against the minimalist soft grey studio backdrop, with the studio lighting creating dynamic reflections that glide across the mirror-like chrome surface, creating an elegant and dynamic atmosphere."
+}
+================================================================================
+[2025-11-03 00:05:06] SEGMENT 2 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_000221/segments/11756594940803572597/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 00:17:12] SEGMENT 1 - STARTED
+Operation ID: f88c995d-c6b3-44af-a041-ac89ecf8ebc4
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot of the dark mesh aerator on a highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, with the product remaining static, resting on a polished white marble surface with faint grey veining, set against a soft, minimalist light gray studio background, where a soft key light from the top-left creates a crisp highlight on the chrome nozzle edge, establishing a technical and premium atmosphere.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Slowly tilting up and dollying out from the aerator to reveal the elegant curve of the spout and the main cylindrical body of the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, resting on a polished white marble surface with faint grey veining against a minimalist light gray studio background, with soft studio lighting causing smooth, flowing highlights to travel across the reflective surface, creating an elegant and revealing mood.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Continuing the slow dolly out to settle on a balanced medium shot of the complete highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, centered perfectly on the polished white marble surface with faint grey veining against a minimalist light gray studio background, where the soft, diffused studio lighting fully illuminates its form and creates clean reflections, conveying a sophisticated and modern atmosphere."
+}
+================================================================================
+[2025-11-03 00:18:29] SEGMENT 1 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_001706/segments/12379953956944165114/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 00:18:34] SEGMENT 2 - STARTED
+Operation ID: 073a7949-a02d-47a6-83ac-096103161439
+Prompt: {
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "Static medium shot from a slightly low angle of the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, where the push-down handle depresses smoothly and mechanically downwards, resting on a polished white marble surface with faint grey veining against a minimalist light gray studio background, with soft studio lighting creating subtle shifts in reflections on the moving part, highlighting its precise and satisfying functionality.",
+  "timestamp2": "00:04-00:08",
+  "timestamp2_prompt": "A slow 45-degree arc shot from left to right around the highly polished chrome pillar tap featuring a cylindrical body, a curved spout with a dark mesh aerator, and a distinctive flat, gently curved rectangular push-down lever handle on top, while the handle slowly and smoothly returns to its original upright position, placed on a polished white marble surface with faint grey veining against a minimalist light gray studio background, where the directional studio lighting creates a dynamic, sweeping play of light and shadow across the chrome surface, emphasizing a premium and elegant mood."
+}
+================================================================================
+[2025-11-03 00:19:50] SEGMENT 2 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_001706/segments/14608055511408587709/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 07:19:42] SEGMENT 1 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot of the black mesh aerator on the spout of a modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, with the camera performing a slow dolly out, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting from the top-left creates crisp highlights on the chrome edges, atmosphere is technical and premium.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot continuing the slow dolly out while adding a smooth right-to-left arc camera movement, revealing the full profile of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, the bright diffused studio lighting creates shifting, fluid reflections across the chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Static medium shot holding a perfect three-quarter view of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, as the camera motion comes to a gentle stop, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting perfectly defines the elegant contours with clean, unbroken highlights, atmosphere is sophisticated and pristine."
+}
+================================================================================
+
+================================================================================
+[2025-11-03 07:19:55] SEGMENT 1 - STARTED
+Operation ID: attempt_2
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot of the black mesh aerator on the spout of a modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, with the camera performing a slow dolly out, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting from the top-left creates crisp highlights on the chrome edges, atmosphere is technical and premium.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot continuing the slow dolly out while adding a smooth right-to-left arc camera movement, revealing the full profile of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, the bright diffused studio lighting creates shifting, fluid reflections across the chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Static medium shot holding a perfect three-quarter view of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, as the camera motion comes to a gentle stop, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting perfectly defines the elegant contours with clean, unbroken highlights, atmosphere is sophisticated and pristine."
+}
+================================================================================
+
+================================================================================
+[2025-11-03 07:20:06] SEGMENT 1 - STARTED
+Operation ID: attempt_3
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up shot of the black mesh aerator on the spout of a modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, with the camera performing a slow dolly out, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting from the top-left creates crisp highlights on the chrome edges, atmosphere is technical and premium.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot continuing the slow dolly out while adding a smooth right-to-left arc camera movement, revealing the full profile of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, the bright diffused studio lighting creates shifting, fluid reflections across the chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Static medium shot holding a perfect three-quarter view of the modern chrome pillar tap with a highly reflective, mirror-like finish, a cylindrical main body, a short curved spout with a black mesh aerator, and a distinctive flat, gently curved push-down top lever with a subtle etched logo, as the camera motion comes to a gentle stop, placed on a polished white marble surface with faint grey veining, against a minimalist soft-focus gray studio backdrop, bright diffused studio lighting perfectly defines the elegant contours with clean, unbroken highlights, atmosphere is sophisticated and pristine."
+}
+================================================================================
+[2025-11-03 07:20:08] SEGMENT 1 - FAILED
+Error: 403 Your application is authenticating by using local Application Default Credentials. The aiplatform.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds . [reason: "SERVICE_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "aiplatform.googleapis.com"
+}
+metadata {
+  key: "consumer"
+  value: "projects/764086051850"
+}
+, locale: "en-US"
+message: "Your application is authenticating by using local Application Default Credentials. The aiplatform.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."
+]
+
+
+================================================================================
+[2025-11-03 07:57:20] SEGMENT 1 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up on the embossed logo atop the flat rectangular push-down handle of a modern pillar tap, which has a highly polished, mirror-like chrome finish, camera performs a slow dolly out and tilt down, placed on a polished white marble surface against a minimalist light gray studio backdrop, soft diffused studio lighting from the top-right creates smooth highlights, atmosphere is premium and sleek.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot revealing the full form of the modern pillar tap with its highly polished, mirror-like chrome finish, cylindrical body, curved spout, and flat rectangular push-down handle, as the camera continues to dolly out and centers the product, placed on a polished white marble surface against a minimalist light gray studio backdrop, consistent soft studio lighting reflects beautifully off the entire chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Close-up focusing on the dark grey aerator at the tip of the curved spout of the modern pillar tap with its highly polished, mirror-like chrome finish, as the camera performs a slow 15-degree arc shot from left to right, placed on the polished white marble surface against a minimalist light gray studio backdrop, soft lighting catches the spout's curve creating a clean highlight, atmosphere showcases precision engineering and quality."
+}
+================================================================================
+
+================================================================================
+[2025-11-03 07:57:36] SEGMENT 1 - STARTED
+Operation ID: attempt_2
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up on the embossed logo atop the flat rectangular push-down handle of a modern pillar tap, which has a highly polished, mirror-like chrome finish, camera performs a slow dolly out and tilt down, placed on a polished white marble surface against a minimalist light gray studio backdrop, soft diffused studio lighting from the top-right creates smooth highlights, atmosphere is premium and sleek.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot revealing the full form of the modern pillar tap with its highly polished, mirror-like chrome finish, cylindrical body, curved spout, and flat rectangular push-down handle, as the camera continues to dolly out and centers the product, placed on a polished white marble surface against a minimalist light gray studio backdrop, consistent soft studio lighting reflects beautifully off the entire chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Close-up focusing on the dark grey aerator at the tip of the curved spout of the modern pillar tap with its highly polished, mirror-like chrome finish, as the camera performs a slow 15-degree arc shot from left to right, placed on the polished white marble surface against a minimalist light gray studio backdrop, soft lighting catches the spout's curve creating a clean highlight, atmosphere showcases precision engineering and quality."
+}
+================================================================================
+
+================================================================================
+[2025-11-03 07:57:48] SEGMENT 1 - STARTED
+Operation ID: attempt_3
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up on the embossed logo atop the flat rectangular push-down handle of a modern pillar tap, which has a highly polished, mirror-like chrome finish, camera performs a slow dolly out and tilt down, placed on a polished white marble surface against a minimalist light gray studio backdrop, soft diffused studio lighting from the top-right creates smooth highlights, atmosphere is premium and sleek.",
+  "timestamp2": "00:03-00:06",
+  "timestamp2_prompt": "Medium shot revealing the full form of the modern pillar tap with its highly polished, mirror-like chrome finish, cylindrical body, curved spout, and flat rectangular push-down handle, as the camera continues to dolly out and centers the product, placed on a polished white marble surface against a minimalist light gray studio backdrop, consistent soft studio lighting reflects beautifully off the entire chrome surface, atmosphere is elegant and modern.",
+  "timestamp3": "00:06-00:08",
+  "timestamp3_prompt": "Close-up focusing on the dark grey aerator at the tip of the curved spout of the modern pillar tap with its highly polished, mirror-like chrome finish, as the camera performs a slow 15-degree arc shot from left to right, placed on the polished white marble surface against a minimalist light gray studio backdrop, soft lighting catches the spout's curve creating a clean highlight, atmosphere showcases precision engineering and quality."
+}
+================================================================================
+[2025-11-03 07:57:50] SEGMENT 1 - FAILED
+Error: 403 Your application is authenticating by using local Application Default Credentials. The aiplatform.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds . [reason: "SERVICE_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "aiplatform.googleapis.com"
+}
+metadata {
+  key: "consumer"
+  value: "projects/764086051850"
+}
+, locale: "en-US"
+message: "Your application is authenticating by using local Application Default Credentials. The aiplatform.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."
+]
+
+
+================================================================================
+[2025-11-03 08:06:18] SEGMENT 1 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "Extreme close-up starting on the flat, gently curved rectangular push-down lever handle of a highly polished chrome pillar tap, camera slowly t...
+================================================================================
+[2025-11-03 08:07:33] SEGMENT 1 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_080616/segments/17638472468539900579/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 17:55:39] SEGMENT 1 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "description: A cinematic macro shot begins on the aggressive tread of the rear wheel of a Toro lawn mower, resting on pristine, dew-kissed blad...
+================================================================================
+[2025-11-03 17:57:09] SEGMENT 1 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_175537/segments/5862431913416190007/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 17:57:11] SEGMENT 2 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:05",
+  "timestamp1_prompt": "description: The scene opens on the Toro mower, identical to the previous segment, now positioned centrally in a clean, modern, and brightly li...
+================================================================================
+[2025-11-03 17:58:23] SEGMENT 2 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_175537/segments/16962382584745922974/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 18:24:28] SEGMENT 1 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:04",
+  "timestamp1_prompt": "description: A slow, cinematic, low-angle tracking shot glides from left to right across the front of a Toro lawn mower, emphasizing its wide 2...
+================================================================================
+[2025-11-03 18:25:40] SEGMENT 1 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_182427/segments/1021240902878408147/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 18:25:43] SEGMENT 2 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:04-00:08",
+  "timestamp1_prompt": "description: Continuing the motion, the camera begins to crane upwards and orbits slightly around the mower's side, revealing the powerful blac...
+================================================================================
+[2025-11-03 18:27:11] SEGMENT 2 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_182427/segments/12701003807948699716/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 18:27:13] SEGMENT 3 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:00-00:03",
+  "timestamp1_prompt": "description: An extreme macro shot focuses on the intricate, high-traction tread pattern of the rear wheel of a Toro lawn mower. The environmen...
+================================================================================
+[2025-11-03 18:28:25] SEGMENT 3 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_182427/segments/17644436767463665767/sample_0.mp4
+
+
+================================================================================
+[2025-11-03 18:28:28] SEGMENT 4 - STARTED
+Operation ID: attempt_1
+Prompt: {
+  "timestamp1": "00:03-00:08",
+  "timestamp1_prompt": "description: The camera motion continues, pulling back further and tilting up to reveal the Toro lawn mower in its vertical, folded 'SmartStow'...
+================================================================================
+[2025-11-03 18:29:40] SEGMENT 4 - SUCCESS (Attempt 1)
+Video URI: gs://vertex-ai-veo-outputs/veo-product-videos/projects/project_20251103_182427/segments/3338418898509837473/sample_0.mp4
+

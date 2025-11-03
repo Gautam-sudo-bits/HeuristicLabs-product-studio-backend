@@ -1,306 +1,109 @@
---- LOG FOR GENERATION REQUEST 20251101_065908 ---
-
---- PROMPT 1 ---
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 1: ANALYZE INPUT IMAGE (MANDATORY)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-A) PRODUCT IDENTITY:
-A modern, minimalist countertop espresso machine. The design is characterized by a clean, blocky main body with softly rounded corners on the upper front panel.
-
-B) PHYSICAL ATTRIBUTES:
-Precise colors:
-- Main body: Matte white (approx. #FDFDFD)
-- Controls: Glossy black button faces (#000000) with polished chrome trim rings. Textured matte black side knob (#1C1C1C).
-- Accents: Polished chrome/stainless steel (#D0D0D0) for the portafilter head, steam wand, drip tray grate, and top cup-warming rails.
-- Portafilter Handle: Glossy white (#FFFFFF).
-- Water Reservoir: Translucent dark gray plastic.
-
-Material finishes:
-- Main body: Matte finish.
-- Drip tray, rails, portafilter, steam wand: Highly reflective, polished metal (chrome/stainless steel).
-- Buttons: Glossy plastic faces with metallic rings.
-- Side knob & steam wand grip: Textured, matte rubber or plastic.
-- Portafilter handle: Smooth, glossy plastic or ceramic.
-
-Shape and form factor:
-- Compact, rectangular design for countertop use. The main body is a solid block, with a separate, vertically oriented water tank attached to the right-rear side.
-
-C) BRAND ELEMENTS (CRITICAL - PRESERVE EXACTLY):
-Any visible logos: No visible brand names or logos.
-Any text/labels on product: The four front buttons have icons instead of text:
-- Far left button: Power symbol (circle with a vertical line at the top).
-- Second button from left: Single espresso cup icon.
-- Third button from left: Double espresso cup icon.
-- Far right button: Steam icon (three wavy vertical lines).
-Any badges, stickers, brand marks: None.
-
-D) COMPONENT DETAILS:
-Buttons, knobs, controls, screens:
-- Four circular push-buttons arranged horizontally on the upper front panel.
-- One large, cylindrical, textured rotary knob on the right side of the machine.
-- No screen is visible.
-
-Handles, legs, stands, attachments:
-- A chrome-plated portafilter with a double spout and a solid white handle.
-- A chrome-plated steam wand on the right side, with a black rubberized grip piece.
-- The machine sits on a flat base that is integral to the main body.
-- Two chrome rails run front-to-back on the top surface.
-
-Openings, vents, ports, connectors:
-- Group head for the portafilter is located centrally under the front panel.
-- A removable stainless steel drip tray with a perforated grate forms the base platform.
-- A removable translucent water reservoir is located on the right side of the machine.
-
-E) CURRENT STATE:
-Product condition in image: The machine appears new and clean.
-Any wear, reflections, or characteristics to maintain: The polished chrome parts have soft, diffused reflections. The machine is shown actively brewing espresso, but the protocol requires a non-operational state.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 2: CONSTRUCT STUDIO SCENE SPECIFICATIONS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-BACKGROUND:
-Color: Light gray (#F5F5F5)
-Texture: Seamless, perfectly smooth, gradient-free
-Type: Infinity curve backdrop
-
-PRODUCT POSITIONING:
-Placement: Centered in frame
-Angle: Front-facing 3/4 view (showing the front buttons, side knob, portafilter, and steam wand)
-Distance: 15-20% margin from all frame edges
-
-LIGHTING SETUP:
-Primary: Three-point studio lighting (key + fill + rim)
-Quality: Soft, diffused, professional
-Shadows: Subtle, falling to the back and right, opposite the key light, 30-40% opacity
-Reflections: Natural floor reflection showing 40-50% opacity of product base
-Highlights: Gentle specular highlights on the chrome and glossy surfaces without overexposure
-
-PRODUCT STATE:
-Condition: Pristine, brand new appearance
-Operational status: OFF/RESTING (no power, no brewing, no steam)
-Configuration: Portafilter is locked into the group head. Steam wand is in its resting position. Drip tray is clean and empty. No cup is present.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 3: GENERATE FINAL PROMPT WITH STRICT FORMAT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Professional studio product photography.
-
-PRODUCT: A modern countertop espresso machine with a matte white main body and a rectangular form factor. The top front corners are softly rounded. It features a removable translucent dark gray water reservoir on the right side. CRITICAL: The front panel has four horizontally-aligned circular buttons with glossy black faces and polished chrome trim rings. The button icons, from left to right, are: Power symbol, single cup icon, double cup icon, and a steam icon (three wavy vertical lines). A large, textured matte black rotary knob is on the right side panel. The machine includes a polished chrome portafilter with a double spout and a glossy white handle. A polished chrome steam wand with a black rubber grip is on the right. The base consists of a removable, polished stainless steel drip tray with a perforated grate. Two polished chrome rails are on the top surface.
-
-SCENE: Product isolated and centered on a light gray (#F5F5F5) seamless infinity backdrop. Product positioned at a front-facing 3/4 view.
-
-LIGHTING: Professional three-point studio lighting with soft diffused key light from the front-left, fill light reducing shadows, and rim light creating edge definition. Soft shadow cast to the back-right at 30-40% opacity. Natural reflection beneath the product on a glossy floor at 40-50% opacity showing the product's underside.
-
-STATE: Product in pristine, non-operational condition, powered off. The portafilter is attached to the group head, the steam wand is in its resting position, and the drip tray is clean and empty. No cups or accessories are present.
-
-TECHNICAL: High-resolution commercial product photography, tack-sharp focus throughout entire product, no depth-of-field blur, neutral white balance (5500K), minimal lens distortion, e-commerce platform ready.
-
-PRESERVE: Exact product appearance from input image including all icons, text, material finishes, and design details without any alterations.
-
----------------------------------------
-
---- PROMPT 2 ---
-**Request-ID: 20251101_065908_lifestyle**
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-**STEP 1: ANALYZE INPUT IMAGE (MANDATORY)**
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**A) PRODUCT COMPLETE DESCRIPTION:**
-
-*   **Exact product type and model:** A compact, semi-automatic countertop espresso machine with a modern, minimalist design.
-*   **Precise color palette:** The main body is matte white. The portafilter, grouphead, steam wand, drip tray surface, and cup warmer rails are polished chrome/stainless steel. The four control buttons, the large steam knob, and the steam wand grip are matte black. The portafilter handle is glossy white. The water reservoir on the right is a translucent, slightly smoked grey plastic.
-*   **Material composition:** The main body is plastic or painted metal. The functional components like the steam wand and drip tray are stainless steel. The buttons, knob, and reservoir are plastic.
-*   **Texture and finish:** The white body has a smooth, matte finish. The chrome/steel elements are highly polished and reflective. The black steam knob features a knurled, textured grip for easy handling. The glossy white handle is smooth.
-*   **Exact dimensions and proportions:** A compact, rectangular machine suitable for a countertop, with a boxy main housing featuring softly rounded corners. Its height is approximately 1.5 times its width.
-
-**B) BRAND PRESERVATION (MUST MAINTAIN):**
-
-*   **All visible logos:** There are no visible brand names or logos.
-*   **All text on product:** There is no text. The four front buttons feature universal icons. From left to right: a power symbol, a single-cup icon, a double-cup icon, and a steam/hot water icon.
-*   **Brand marks, symbols, badges:** The four specific circular buttons with their icons are a key design element to preserve.
-*   **Maintain the same viewing angle/ camera angle:** The prompt will aim for a similar front-three-quarters view to showcase the front controls and side components.
-*   **Color schemes associated with branding:** White, chrome, and black.
-
-**C) DESIGN FEATURES:**
-
-*   **All buttons, controls, displays, interfaces:** A front panel with four round, black, slightly concave push-buttons with white illuminated icons. A large, textured black rotary knob is located on the right side of the machine, appearing to have an integrated pressure gauge on its face.
-*   **Structural elements:** A stainless steel drip tray with a perforated cover at the base. A prominent chrome grouphead for the portafilter. A removable, translucent vertical water tank on the right-hand side. Two parallel chrome rails on top serve as a cup warming rack.
-*   **Unique design characteristics:** A clean, uncluttered aesthetic combining retro-inspired elements (like the white handle) with a modern, boxy form.
-*   **Any attachments or accessories visible:** A chrome portafilter with a double spout and a distinctive glossy white handle. A chrome steam wand with a small black grip is mounted on the right.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-**STEP 2: DETERMINE SCENE TYPE FROM THEME GUIDELINES**
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-The guidelines request a "cafe shop environment appropriately set," which focuses on the product within a specific setting without mentioning human interaction.
-
-**STATE YOUR CHOICE:** [ ] Option A - Human Interaction [X] Option B - Standalone
-
-**Define contextual props:**
-*   A high-quality, coffee-colored ceramic cappuccino cup and saucer, placed to the left of the machine.
-*   A small, polished stainless steel milk frothing pitcher sitting next to the cup.
-*   A bag of artisanal coffee beans with a simple, modern paper label, standing upright in the soft-focus background.
-*   A neatly folded, dark grey barista cloth resting on the counter near the machine.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-**STEP 3: DEFINE LOGICAL ENVIRONMENT**
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**SELECTED ENVIRONMENT:** The service counter of a bright, modern, and clean independent coffee shop.
-
-**ENVIRONMENTAL DETAILS:**
-*   **Primary surface:** A light-colored, polished concrete countertop with subtle texture.
-*   **Background elements:** A clean, white subway tile backsplash; a floating oak wood shelf above holding a few stacked white mugs and a small green potted plant (like a succulent); a hint of a black metal-framed menu board on the wall in the soft-focus background.
-*   **Environmental storytelling:** The setting is pristine and organized, ready for morning service. The presence of the milk pitcher, high-quality cup, and artisanal beans reinforces the machine's function and suggests a focus on quality coffee, all while the machine is in a clean, resting state.
-*   **Depth:** A shallow depth of field, keeping the espresso machine and immediate props sharp while the background elements are softly and pleasingly blurred.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-**STEP 4: DEFINE LIGHTING & ATMOSPHERE**
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**LIGHTING TYPE:**
-[X] Natural window light (soft, directional)
-
-**SELECTED:** Natural window light (soft, directional) coming from the side to create soft, natural shadows and highlight the machine's different textures and finishes.
-
-**ATMOSPHERIC MOOD:**
-*   **Color temperature:** Neutral with a hint of warmth.
-*   **Overall feeling:** Fresh, professional, artisanal, and inviting.
-*   **Shadow quality:** Soft and natural.
-*   **Time of day suggestion:** Morning.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-**STEP 5: GENERATE FINAL PROMPT WITH STRICT FORMAT**
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Lifestyle product photography, standalone presentation.**
-
-**PRODUCT:** A compact semi-automatic countertop espresso machine with a matte white rectangular body and rounded corners. It features a polished chrome grouphead, steam wand, and drip tray cover. On the front are four round black control buttons with icons (power, single cup, double cup, steam). A large, black, knurled steam knob is on the right side. The machine is fitted with a chrome portafilter that has a double spout and a glossy white handle. A translucent, smoked grey plastic water reservoir is attached to the right side, and two chrome rails sit on top. Product in non-operational, resting state.
-
-**PRODUCT POSITIONING:** The machine is placed on a counter, angled in a front-three-quarters view, showcasing the front buttons, side knob, and portafilter.
-
-**CONTEXTUAL PROPS:** To the left of the machine, a coffee-colored ceramic cappuccino cup and saucer are neatly placed. Next to it sits a small, polished stainless steel milk frothing pitcher. In the background, a bag of artisanal coffee beans with a minimalist label is partially visible. A folded dark grey barista cloth rests on the counter.
-
-**ENVIRONMENT:** The product is set on a light-colored, polished concrete countertop inside a modern, airy coffee shop. The background consists of a white subway tile backsplash and a floating oak shelf holding stacked mugs and a small potted succulent. The environment is clean and organized, suggesting the start of a morning service.
-
-**COMPOSITION:** Product as the hero element in the foreground, framed using the rule of thirds. The contextual environment supports the product's story of making high-quality coffee.
-
-**LIGHTING:** Soft, directional natural window light coming from the side. The color temperature is neutral-warm, creating a fresh, professional, and inviting atmosphere with soft, natural shadows.
-
-**TECHNICAL:** Photorealistic lifestyle photography, natural perspective, shallow depth of field with a soft background blur, authentic context, e-commerce ready.
-
-**PRESERVE:** Exact product appearance from the input image, including the matte white finish, chrome details, glossy white handle, and the specific icons on the four black buttons, all maintained without alteration.
-
----------------------------------------
-
---- PROMPT 3 ---
-===== MARKETING CREATIVE IMAGE GENERATION - STRICT PROTOCOL =====
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 1: ANALYZE INPUT IMAGE (MANDATORY)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-**EXPLICIT ANALYSIS:**
-*   **COMPLETE PRODUCT DESCRIPTION:** A modern, compact home espresso machine is captured mid-brew, with espresso pouring into a small clear glass cup.
-*   **Product type and specific model:** Home espresso machine, unknown model.
-*   **All colors (precise shades):** The main body is matte white. The drip tray, portafilter metal, and steam wand are polished chrome/stainless steel. The portafilter handle is white. The control knob on the side and the steam wand grip are matte black. The water reservoir is a translucent grey plastic. The espresso is a rich caramel brown.
-*   **All materials and finishes:** Painted metal or high-quality plastic for the body, stainless steel, chrome, rubber/plastic for controls, and clear glass for the cup.
-*   **Exact proportions and size:** A compact countertop appliance, with a boxy main unit and a slender water reservoir on the right.
-*   **ALL visible brand text/logos:** There are no visible brand names or logos on the product itself. The four front buttons have standard icons for power, single shot, double shot, and steam.
-*   **All design features:** The design is minimalist and modern, featuring a clean white rectangular body with rounded corners, four circular front buttons with chrome rings, a large black textured rotary knob on the right side, a chrome steam wand, and a stainless steel drip tray. A clear water tank is visible at the rear right.
-*   **Unique identifying characteristics:** The combination of the stark white body, white portafilter handle, and the prominent black side control knob gives it a distinctive, clean aesthetic.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 2: EXTRACT MARKETING SPECIFICATIONS FROM USER INPUT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*   **[NEW] CREATIVE VIBE / TARGET AUDIENCE:**
-    *   [X] A - MINIMAL & PROFESSIONAL: The user request for a "Premium look visual" and a "Coffee related theme" for a high-end kitchen appliance aligns perfectly with this vibe. The focus is on elegance, quality, and a sophisticated feel.
-*   **TEXT ELEMENTS:**
-    *   **Brand Name:** "Cafe De Latte"
-    *   **Headline Text:** [none provided]
-    *   **Call-to-Action:** "Order now" (corrected from "Orde now")
-    *   **Footer Text:** [none]
-*   **PROMOTIONAL ELEMENTS:**
-    *   **Discount/Sale callout:** "Sale 30% off"
-    *   **Badge/Banner needed:** YES - "Sale 30% off"
-*   **SEASONAL/FESTIVE THEME:**
-    *   **Theme:** None
-*   **[UPDATED] COMPOSITION STYLE:**
-    *   **SELECTED STYLE:** A - Hero Product (single large product, 60-70% of frame)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 3: DEFINE VISUAL DESIGN ELEMENTS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*   **[UPDATED] BACKGROUND DESIGN:**
-    *   --- VIBE IS 'MINIMAL & PROFESSIONAL' ---
-    *   **SELECTED BACKGROUND:** A premium, dark charcoal background (#221F1F) with a subtle, soft spotlight effect behind the product. The surface has a faint, elegant texture like dark slate or brushed concrete. To incorporate the "Coffee related theme," a few whole coffee beans are artfully scattered in the foreground and background with a shallow depth of field, making them soft and out of focus.
-*   **[UPDATED] COLOR PALETTE:**
-    *   --- VIBE IS 'MINIMAL & PROFESSIONAL' ---
-    *   **SELECTED PALETTE:**
-        *   **Primary:** Dark Charcoal (#221F1F)
-        *   **Accent:** Premium Gold (#C8A464)
-        *   **Supporting:** Crisp White (#FFFFFF), Muted Grey (#A0A0A0)
-*   **[UPDATED] DESIGN ELEMENTS TO INCLUDE:**
-    *   --- FOR 'MINIMAL & PROFESSIONAL' VIBE ---
-        *   **Soft light effects (glow/spotlight):** A key light illuminates the espresso machine, making the white body pop against the dark background.
-        *   **Architectural shadow drama:** The machine casts a soft, realistic shadow on the dark surface, grounding it in the scene.
-        *   **Subtle texture:** A faint slate texture on the background surface adds a premium tactile quality.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 4: DEFINE TEXT PLACEMENT & TYPOGRAPHY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*   **[UPDATED] TYPOGRAPHY:**
-    *   --- VIBE IS 'MINIMAL & PROFESSIONAL' ---
-        *   **Brand/Sale Text:** Sleek uppercase sans-serif (e.g., Montserrat Bold).
-        *   **CTA:** Clean sans-serif (e.g., Lato).
-*   **[UPDATED] TEXT PLACEMENT & EFFECTS:**
-    *   **BRAND NAME:**
-        *   **Text:** "Cafe De Latte"
-        *   **Position:** Top center, above the product.
-        *   **Effects:** No effects. Uses a clean, elegant sans-serif font in a muted grey color (#A0A0A0) and a smaller size to be sophisticated and not distracting.
-    *   **CALL-TO-ACTION:**
-        *   **Text:** "Order now"
-        *   **Style:** Minimal underlined text.
-        *   **Position:** Bottom left corner, as requested.
-        *   **Colors & Size:** Crisp white (#FFFFFF), clear and readable size.
-    *   **PROMOTIONAL BADGE/BANNER:**
-        *   **Style:** Angled Banner.
-        *   **Text:** "Sale 30% off"
-        *   **Position:** Slanting across the top right corner.
-        *   **Colors:** A solid premium gold (#C8A464) banner with the text in crisp white (#FFFFFF) for a high-contrast, luxurious look.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 5: DEFINE FESTIVE/SEASONAL OVERLAYS (if applicable)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*   Not applicable.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP 6: GENERATE FINAL PROMPT WITH STRICT FORMAT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Marketing creative product advertisement image. VIBE: Minimal & Professional style.
-
-PRODUCT: A modern, compact home espresso machine with a matte white body, chrome details, and a white portafilter handle. The machine is actively brewing a rich, caramel-colored espresso into a small, clear glass cup placed on its stainless steel drip tray.
-
-COMPOSITION STYLE: Hero Product layout, with the single espresso machine centered and occupying approximately 60-70% of the frame, viewed from a front three-quarter angle.
-
-BACKGROUND: A premium, dark charcoal (#221F1F) surface with a faint, elegant texture like dark slate. A few whole coffee beans are artfully scattered and out of focus in the foreground and background to subtly enhance the coffee theme.
-
-DESIGN ELEMENTS: The machine casts a soft, realistic shadow on the surface below it, grounding the product in the scene.
-
-COLOR PALETTE: A sophisticated and premium palette of dark charcoal, premium gold (#C8A464), and crisp white.
-
+================================================================================
+MARKETING IMAGE GENERATION LOG
+Timestamp: 20251103_232858
+Product: Product Type: Faucet
+================================================================================
+
+FULL PLANNED RESPONSE:
+
+prompt 1: "Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - GEOMETRIC & COLORFUL VARIATION.
+PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
+COMPOSITION STYLE: Hero Product composition. The faucet is the central focus, large and occupying 60-70% of the frame, angled slightly to show its profile.
+BACKGROUND: A deep charcoal background (#1E2A3A) with a bold, vertical rectangular color block of bright blue (#007BFF) along the left third of the image.
+DESIGN ELEMENTS: A large, faint, light gray circle graphic is positioned behind the main body of the faucet. Thin white geometric lines form a subtle grid pattern in the background. The overall look is clean, structured, and modern.
+COLOR PALETTE: Primary: Charcoal (#1E2A3A). Accent: Bright Blue (#007BFF). Supporting: Light Gray, White.
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-Brand name text reading "Cafe De Latte" at the top center, using a clean sans-serif font, small size, in a muted grey color.
-Call-to-action reading "Order now" as minimal underlined text at the bottom left corner, in crisp white.
-Promotional angled banner at the top right corner, slanting downwards. The banner has a solid premium gold background with text inside reading "Sale 30% off" in a bold, uppercase sans-serif font in white.
+BRAND NAME: Brand name text reading "AQUAFLOW" at the top left corner, using a clean geometric sans-serif, medium size, in white solid fill.
+HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned in the upper right quadrant, using a bold, uppercase block letter font, large prominent size, in white with a solid fill.
+Call-to-action reading "SHOP NOW" as a sharp rectangular button at the bottom right corner, with a bright blue (#007BFF) background and white text.
+PROMOTIONAL BADGE: A solid white circle badge displaying "NEW" in blue text, positioned in the top right corner.
+LIGHTING & MOOD: Bright, studio lighting creating a modern, structured, and high-tech mood with clean reflections on the chrome.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
-LIGHTING & MOOD: Clean & Premium studio lighting with a soft key light that beautifully illuminates the white product, making it stand out against the dark, moody background and creating a luxurious and focused mood.
+prompt 2: "Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - BRAND ESSENCE & THEMED VARIATION.
+PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
+COMPOSITION STYLE: Feature Showcase composition. The main faucet is clearly visible. A circular, magnified callout is focused on the precision-engineered hose connector nozzle, highlighting its quality and detail.
+BACKGROUND: A soft, blurred photo-realistic background of a clean, modern gray tiled wall, suggesting a utility room or high-end garage setting. A subtle, dark navy blue gradient overlay is applied over the background.
+DESIGN ELEMENTS: A soft spotlight effect illuminates the faucet, making the chrome pop. A thin, white circular line defines the feature callout area. The overall feel is premium and trustworthy.
+COLOR PALETTE: Primary: Navy Blue (#1E2A3A). Accent: Muted Gold (#C0A062). Supporting: Grays, White.
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+BRAND NAME: Brand name text reading "AQUAFLOW" at the top center, using an elegant, clean sans-serif font, medium size, in a subtle light gray.
+HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned centrally below the brand name, using a professional sans-serif font (Helvetica Neue Bold), large prominent size, in white with a very subtle drop shadow for depth.
+Call-to-action reading "SHOP NOW" as a classic pill-shaped button at the bottom center, with a muted gold (#C0A062) background and white text.
+PROMOTIONAL BADGE: A classic corner ribbon in muted gold displaying "NEW" in white, positioned on the top right corner of the frame.
+LIGHTING & MOOD: Professional, polished lighting creating a premium, trustworthy, and high-quality mood.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
-TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, perfect for an Instagram post.
+prompt 3: "Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - EXPERIMENTAL & DYNAMIC VARIATION.
+PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
+COMPOSITION STYLE: Dynamic Asymmetry. The faucet is positioned off-center to the right, creating dramatic negative space on the left. The product is shot from a slightly low angle to give it a heroic feel.
+BACKGROUND: A dark, textured concrete or slate surface, providing a gritty and durable feel that contrasts with the faucet's polished chrome finish.
+DESIGN ELEMENTS: A single, dramatic, long architectural shadow is cast from the faucet across the background to the left. The composition is stark and minimalist, relying on the interplay between the product, shadow, and text.
+COLOR PALETTE: Primary: Dark Slate Gray (#333333). Accent: Bright White (#FFFFFF). Supporting: Medium Gray.
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+BRAND NAME: Brand name text reading "AQUAFLOW" at the bottom right, tucked near the corner, using a simple sans-serif, small size, in a medium gray color.
+HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned on the left side, stacked vertically with "RELIABLE." above "EVERY DROP.", using a condensed, impactful sans-serif font, large prominent size, in bright white. The text fills the negative space and balances the faucet.
+Call-to-action reading "SHOP NOW" as an unconventional style: bold white text with a simple white arrow icon (→) next to it, placed at the bottom center. No button background.
+PROMOTIONAL BADGE: A loud, sticker-style graphic with a slightly distressed edge, displaying "NEW", positioned to slightly overlap the threaded inlet pipe of the faucet, in a high-contrast white with black text.
+LIGHTING & MOOD: Dynamic, artistic side-lighting creating a dramatic, attention-grabbing, and innovative mood.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
-PRESERVE: Exact product appearance from the input image must be perfectly maintained. Marketing elements enhance but never alter the product itself.
+================================================================================
 
----------------------------------------
+--- EXTRACTED PROMPT 1 ---
+Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - GEOMETRIC & COLORFUL VARIATION.
+PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
+COMPOSITION STYLE: Hero Product composition. The faucet is the central focus, large and occupying 60-70% of the frame, angled slightly to show its profile.
+BACKGROUND: A deep charcoal background (#1E2A3A) with a bold, vertical rectangular color block of bright blue (#007BFF) along the left third of the image.
+DESIGN ELEMENTS: A large, faint, light gray circle graphic is positioned behind the main body of the faucet. Thin white geometric lines form a subtle grid pattern in the background. The overall look is clean, structured, and modern.
+COLOR PALETTE: Primary: Charcoal (#1E2A3A). Accent: Bright Blue (#007BFF). Supporting: Light Gray, White.
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+BRAND NAME: Brand name text reading "AQUAFLOW" at the top left corner, using a clean geometric sans-serif, medium size, in white solid fill.
+HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned in the upper right quadrant, using a bold, uppercase block letter font, large prominent size, in white with a solid fill.
+Call-to-action reading "SHOP NOW" as a sharp rectangular button at the bottom right corner, with a bright blue (#007BFF) background and white text.
+PROMOTIONAL BADGE: A solid white circle badge displaying "NEW" in blue text, positioned in the top right corner.
+LIGHTING & MOOD: Bright, studio lighting creating a modern, structured, and high-tech mood with clean reflections on the chrome.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself.
+
+--------------------------------------------------------------------------------
+
+--- EXTRACTED PROMPT 2 ---
+Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - BRAND ESSENCE & THEMED VARIATION.
+PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
+COMPOSITION STYLE: Feature Showcase composition. The main faucet is clearly visible. A circular, magnified callout is focused on the precision-engineered hose connector nozzle, highlighting its quality and detail.
+BACKGROUND: A soft, blurred photo-realistic background of a clean, modern gray tiled wall, suggesting a utility room or high-end garage setting. A subtle, dark navy blue gradient overlay is applied over the background.
+DESIGN ELEMENTS: A soft spotlight effect illuminates the faucet, making the chrome pop. A thin, white circular line defines the feature callout area. The overall feel is premium and trustworthy.
+COLOR PALETTE: Primary: Navy Blue (#1E2A3A). Accent: Muted Gold (#C0A062). Supporting: Grays, White.
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+BRAND NAME: Brand name text reading "AQUAFLOW" at the top center, using an elegant, clean sans-serif font, medium size, in a subtle light gray.
+HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned centrally below the brand name, using a professional sans-serif font (Helvetica Neue Bold), large prominent size, in white with a very subtle drop shadow for depth.
+Call-to-action reading "SHOP NOW" as a classic pill-shaped button at the bottom center, with a muted gold (#C0A062) background and white text.
+PROMOTIONAL BADGE: A classic corner ribbon in muted gold displaying "NEW" in white, positioned on the top right corner of the frame.
+LIGHTING & MOOD: Professional, polished lighting creating a premium, trustworthy, and high-quality mood.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself.
+
+--------------------------------------------------------------------------------
+
+--- EXTRACTED PROMPT 3 ---
+Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - EXPERIMENTAL & DYNAMIC VARIATION.
+PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
+COMPOSITION STYLE: Dynamic Asymmetry. The faucet is positioned off-center to the right, creating dramatic negative space on the left. The product is shot from a slightly low angle to give it a heroic feel.
+BACKGROUND: A dark, textured concrete or slate surface, providing a gritty and durable feel that contrasts with the faucet's polished chrome finish.
+DESIGN ELEMENTS: A single, dramatic, long architectural shadow is cast from the faucet across the background to the left. The composition is stark and minimalist, relying on the interplay between the product, shadow, and text.
+COLOR PALETTE: Primary: Dark Slate Gray (#333333). Accent: Bright White (#FFFFFF). Supporting: Medium Gray.
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+BRAND NAME: Brand name text reading "AQUAFLOW" at the bottom right, tucked near the corner, using a simple sans-serif, small size, in a medium gray color.
+HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned on the left side, stacked vertically with "RELIABLE." above "EVERY DROP.", using a condensed, impactful sans-serif font, large prominent size, in bright white. The text fills the negative space and balances the faucet.
+Call-to-action reading "SHOP NOW" as an unconventional style: bold white text with a simple white arrow icon (→) next to it, placed at the bottom center. No button background.
+PROMOTIONAL BADGE: A loud, sticker-style graphic with a slightly distressed edge, displaying "NEW", positioned to slightly overlap the threaded inlet pipe of the faucet, in a high-contrast white with black text.
+LIGHTING & MOOD: Dynamic, artistic side-lighting creating a dramatic, attention-grabbing, and innovative mood.
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself.
+
+--------------------------------------------------------------------------------
 
