@@ -714,199 +714,123 @@ Generate the instruction.
         "category": "Furniture, Tools",
         "test_image_type": "furniture_chair",
         "instruction_template": """
-OPERATION: Professional Dimension Overlay for E-Commerce
+ROLE & GOAL:
+You are an expert technical illustrator and prompt engineer. Your sole mission is to generate a hyper-specific, step-by-step prompt for an image generation model. This prompt will instruct the model to add professional dimension and scale graphics to a product image for e-commerce. Your generated prompt must be flawless, unambiguous, and lead to a production-quality image with zero errors.
 
-GOAL: Add accurate, professional dimension lines and measurements to help customers understand product size.
+CORE DIRECTIVE:
+The product itself is immutable. All generated graphics (lines, text, arrows) MUST be placed in the empty space AROUND the product, NEVER touching or overlapping it. The final image must contain only the requested dimension overlays and nothing more.
 
-CRITICAL REQUIREMENTS:
-1. NEVER overlay dimension text or lines directly on the product itself
-2. Position ALL dimension indicators OUTSIDE the product boundaries
-3. Use contrasting colors based on background (dark on light, light on dark)
-4. Maintain professional technical drawing standards
-5. Measurements must be accurate or clearly marked as approximate
-6. Maintain absolute product fidelity. Instruct the model to maintain and preserve the product. NO duplicate overlays allowed.
-7. Do not alter the product in the image in any way. DO not invent any new features.
+EXECUTION WORKFLOW
+Follow this four-step process precisely.
 
-COLOR & CONTRAST RULES:
+Step 1: Analyze the Input Image
 
-Analyze Background Color:
-- Light backgrounds (white, cream, light gray, pastels): Use dark dimension graphics
-  → Lines: Dark gray (#2D3748) or black (#000000), 2-3px thickness
-  → Text: Black (#000000) or dark gray (#1A202C), bold font
-  → Arrows/caps: Matching dark color
-  
-- Dark backgrounds (black, dark gray, navy, dark wood): Use light dimension graphics
-  → Lines: White (#FFFFFF) or light gray (#E2E8F0), 2-3px thickness
-  → Text: White (#FFFFFF), bold font
-  → Arrows/caps: Matching light color
+Identify Product Boundaries: Mentally draw a tight bounding box around the main product. Note its outermost top, bottom, left, and right edges.
+Analyze Background: Determine the background's dominant color and brightness (e.g., "pure white," "dark gray," "light wood texture," "busy outdoor scene").
+Determine Dimension Count: Based on the user request ({user_details}) or the product's shape, decide which dimensions are necessary.
+Default: Width and Height.
+If 3D View: Add Depth.
+NEVER generate more than three dimension lines (Width, Height, Depth) unless explicitly ordered.
+Step 2: Select the Style Palette
+Based on your background analysis in Step 1, choose ONE of these palettes.
 
-- Medium/mixed backgrounds: Use dual approach
-  → Add subtle background panel behind text (semi-transparent: 85% opacity)
-  → Dark text on light panel OR light text on dark panel
-  → Example: White text on dark gray panel (rgba(0,0,0,0.85))
+palette_dark_on_light: For light backgrounds (white, cream, light gray).
+Line/Text Color: dark gray (#333333) or black (#000000)
+Line Weight: 2px
+palette_light_on_dark: For dark backgrounds (black, navy, charcoal).
+Line/Text Color: white (#FFFFFF) or light gray (#E0E0E0)
+Line Weight: 2px
+palette_high_contrast: For busy or mid-tone backgrounds.
+Line/Text Color: white (#FFFFFF)
+Text Background: A solid, opaque black (#000000) rectangular panel placed directly behind the text label.
+Line Weight: 3px (for extra visibility)
+Step 3: Construct the Prompt using the Formula
+You will now build the final prompt piece by piece using the strict formula below. Do not deviate.
 
-DIMENSION LINE PLACEMENT (CRITICAL - NO PRODUCT OVERLAP):
+[PROMPT FORMULA]
 
-Width Dimension (Horizontal):
-- Position: ABOVE the product, minimum 2 inches clearance from product's top edge
-- Line length: Spans the full width of the product
-- End caps: Perpendicular lines (0.5 inch tall) at each end, pointing toward product
-- Alignment: Perfectly horizontal, parallel to product's width
-- Extension lines (optional): Thin vertical dashed lines (1px, 50% opacity) from product edges up to dimension line
+text
 
-Height Dimension (Vertical):
-- Position: To the RIGHT of the product, minimum 2 inches clearance from product's right edge
-- Line length: Spans the full height of the product
-- End caps: Perpendicular lines (0.5 inch wide) at each end, pointing toward product
-- Alignment: Perfectly vertical, parallel to product's height
-- Extension lines (optional): Thin horizontal dashed lines (1px, 50% opacity) from product edges to dimension line
+A professional, clean, technical product photo of [Product Name].
 
-Depth Dimension (if needed):
-- Position: Bottom-left or top-right diagonal
-- Use angled dimension line (typically 30-45 degrees)
-- Clear of product with minimum 1.5 inch clearance
-- Label clearly as "Depth:" to distinguish from width/height
+The image has been edited to add dimension lines with the following strict instructions:
 
-TEXT LABEL POSITIONING (CRITICAL - NO PRODUCT OVERLAP):
+1.  **WIDTH:** [Insert WIDTH Component Snippet here]
+2.  **HEIGHT:** [Insert HEIGHT Component Snippet here]
+3.  **[OPTIONAL] DEPTH:** [Insert DEPTH Component Snippet here, if needed]
 
-Placement Rules:
-- Width measurement: Centered ABOVE the horizontal dimension line
-- Height measurement: Centered beside the vertical dimension line (on the right side)
-- Minimum distance from product: 2 inches (no exceptions)
-- Text should float in empty space, never touching product
+**Styling Rules:**
+*   All dimension lines and text are [Line/Text Color] with a line weight of [Line Weight].
+*   All graphics are positioned in the empty space, far away from the product, with a wide, clean gap.
+*   The product itself is perfectly preserved, untouched, and unchanged.
+*   Font for labels is a clean, bold, sans-serif like Arial.
 
-Text Background Panel (for readability):
-- If text might be hard to read: Add rectangular background panel
-- Panel: 120% of text width, 140% of text height
-- Panel color: Semi-transparent contrasting color (80-90% opacity)
-- Panel has subtle border: 1px, matching dimension line color
-- Text centered within panel
+**Negative Prompts (Crucial):**
+*   --no text on the product
+*   --no lines on the product
+*   --no extra lines
+*   --no duplicate dimensions
+*   --no clutter
+*   --no altering the original product
+Step 4: Fill the Formula with Component Snippets
+Select the appropriate snippets from the library below to fill in the [...Component Snippet...] placeholders in the formula.
 
-EXAMPLE APPROACHES:
+COMPONENT SNIPPET LIBRARY
+[WIDTH Component Snippet]
+A single horizontal dimension line is placed far above the product. This line precisely spans the product's maximum width. It has short, perpendicular tick marks at each end pointing downwards towards the product. The measurement label "[Value]" is centered directly above this line.
+Replace [Value] with user-provided data (e.g., 24") or a placeholder (e.g., Width).
 
-Example 1 - Light Background Product (White/Cream):
-"Product is on white background. Add dimension lines in dark gray (#2D3748). 
+[HEIGHT Component Snippet]
+A single vertical dimension line is placed far to the right of the product. This line precisely spans the product's maximum height. It has short, perpendicular tick marks at each end pointing leftwards towards the product. The measurement label "[Value]" is positioned to the right of this line, centered vertically.
+Replace [Value] with user-provided data (e.g., 36") or a placeholder (e.g., Height).
 
-WIDTH dimension: Draw horizontal line 2.5 inches ABOVE product's top edge, spanning exact product width from left edge to right edge. Line thickness: 3px. Add perpendicular end caps (0.5 inch tall, pointing down toward product). Center the text '{width_inches} inches' or '{width_cm} cm' in black Arial Bold 16pt, positioned 0.75 inches ABOVE the dimension line. Text has a subtle white semi-transparent background panel (90% opacity, 1px dark gray border) for maximum clarity.
+[DEPTH Component Snippet]
+An angled (45-degree) dimension line is placed at the bottom-left, indicating depth. This line does not touch the product. It has tick marks at its ends. The measurement label "Depth: [Value]" is positioned near the end of the line.
+Replace [Value] with user-provided data (e.g., 18") or a placeholder (e.g., Depth).
 
-HEIGHT dimension: Draw vertical line 2.5 inches to the RIGHT of product's right edge, spanning exact product height from top to bottom. Line thickness: 3px. Add perpendicular end caps (0.5 inch wide, pointing left toward product). Position text '{height_inches} inches' in black Arial Bold 16pt, 1 inch to the right of the dimension line, vertically centered. Text on white semi-transparent panel (90% opacity).
+[HUMAN SCALE Component Snippet - Alternative to Lines]
+If the goal is scale, not precise measurement, use this instead of the line snippets.
+To provide a sense of scale, a semi-transparent (15% opacity), gray, stylized silhouette of an average-height person (e.g., 5'9" or 175cm) stands in the background, several feet behind the product. The silhouette does not obscure any part of the product.
 
-Product itself: Completely unchanged, no overlays whatsoever."
+EXAMPLE OF YOUR FINAL OUTPUT (FOR A CHAIR ON A WHITE BACKGROUND)
+User Details: Product: Chair, Width: 22", Height: 38"
 
-Example 2 - Dark Background Product (Black/Charcoal):
-"Product is on dark gray background. Use white dimension graphics (#FFFFFF).
+Your Generated Prompt for Gemini 2.5 Flash:
 
-WIDTH dimension: Position horizontal line 3 inches ABOVE the product, spanning full width. Line: 2.5px white stroke. Perpendicular end caps at both ends (0.5 inch tall). Text '{width}\"' in white Arial Bold 18pt, positioned 0.75 inches above the dimension line, centered horizontally. Text has dark semi-transparent background panel (rgba(0,0,0,0.85), 1px white border).
+text
 
-HEIGHT dimension: Position vertical line 3 inches to the RIGHT of product. Line: 2.5px white stroke. End caps (0.5 inch wide). Text '{height}\"' in white Arial Bold 18pt, 1.25 inches to the right of the line. Dark panel background for text.
+A professional, clean, technical product photo of a chair.
 
-All dimension graphics clearly visible against dark background. Product area: pristine, no overlays."
+The image has been edited to add dimension lines with the following strict instructions:
 
-Example 3 - User Provides Specific Measurements:
-"User specified: Width = 24 inches, Height = 36 inches, Depth = 18 inches.
+1.  **WIDTH:** A single horizontal dimension line is placed far above the product. This line precisely spans the product's maximum width. It has short, perpendicular tick marks at each end pointing downwards towards the product. The measurement label "22"" is centered directly above this line.
+2.  **HEIGHT:** A single vertical dimension line is placed far to the right of the product. This line precisely spans the product's maximum height. It has short, perpendicular tick marks at each end pointing leftwards towards the product. The measurement label "38"" is positioned to the right of this line, centered vertically.
 
-Draw WIDTH dimension line 2 inches above product top edge. Span exactly from left edge to right edge of product. Dark gray line (3px) with end caps. Label: '24 inches' or '24\"' in Arial Bold 16pt, positioned above line, centered. Text color matches line color.
+**Styling Rules:**
+*   All dimension lines and text are dark gray (#333333) with a line weight of 2px.
+*   All graphics are positioned in the empty space, far away from the product, with a wide, clean gap.
+*   The product itself is perfectly preserved, untouched, and unchanged.
+*   Font for labels is a clean, bold, sans-serif like Arial.
 
-Draw HEIGHT dimension line 2.5 inches to right of product. Span from bottom edge to top edge. Same line style. Label: '36 inches' positioned to the right of line, centered vertically.
+**Negative Prompts (Crucial):**
+*   --no text on the product
+*   --no lines on the product
+*   --no extra lines
+*   --no duplicate dimensions
+*   --no clutter
+*   --no altering the original product
+USER SPECIFICATIONS & FINAL CHECK
+User Provided Details: {user_details}
+If no measurements are provided: Use logical placeholders like "Width," "Height," or estimate reasonable values based on the product category (e.g., Chair: W: 20", H: 35").
+Units: Default to inches (") unless specified otherwise.
+Final Check: Before outputting the prompt, review it against this checklist:
 
-Draw DEPTH dimension as diagonal line from bottom-left, angled 35 degrees, length representing depth proportion. Label: 'Depth: 18 inches' positioned at end of diagonal line.
-
-Use contrasting colors based on background brightness. ALL dimensions positioned OUTSIDE product boundaries with clear spacing."
-
-Example 4 - No Measurements Provided (Use Placeholders):
-"No specific measurements provided. Analyze product proportions visually.
-
-Add dimension lines as professional placeholders:
-- WIDTH line above product: Label as 'W: [specify width]' 
-- HEIGHT line beside product: Label as 'H: [specify height]'
-
-OR estimate based on product category:
-- If chair: Typical width 18-24\", height 30-40\"
-- If table: Typical width 48-72\", height 28-30\"
-- If tool: Indicate in inches or cm based on apparent size
-
-Use clear, professional dimension line formatting. Position all graphics OUTSIDE product area with minimum 2 inch clearance."
-
-Example 5 - Multiple Dimensions with Extension Lines:
-"Create technical drawing style with extension lines.
-
-From product's left and right edges: Draw thin vertical dashed lines (1px, gray, 40% opacity) extending UPWARD 2.5 inches beyond the product. These are extension lines showing where width is measured.
-
-Between these extension lines, 2.5 inches above product: Draw solid horizontal dimension line (3px, dark color) with arrow end caps. Label centered above.
-
-From product's top and bottom edges: Draw thin horizontal dashed lines extending RIGHTWARD 3 inches. 
-
-Between these extension lines, 3 inches to the right: Draw solid vertical dimension line with arrow caps. Label positioned beside.
-
-Professional CAD/technical drawing aesthetic. Product itself untouched."
-
-USER SPECIFICATIONS:
-{user_details}
-
-IF NO USER DETAILS PROVIDED:
-- Use product category to estimate typical dimensions
-- OR use placeholder labels: 'Width: [X]\"', 'Height: [Y]\"'
-- OR add generic scale reference (human silhouette at 15% opacity in far background)
-- Position dimensions professionally with proper clearance
-
-MEASUREMENT UNITS:
-- Default to inches for US market: '24\"' or '24 inches'
-- Use cm/mm for international: '61 cm' or '610 mm'
-- If user specifies units, use those
-- Be consistent - don't mix units
-
-LINE STYLE SPECIFICATIONS:
-
-Main Dimension Lines:
-- Thickness: 2-3px for visibility
-- Style: Solid (not dashed)
-- Color: High contrast with background
-- Ends: Perpendicular caps (0.4-0.6 inch) or small arrows
-
-Extension Lines (optional):
-- Thickness: 1px
-- Style: Dashed or dotted (dash: 4px, gap: 3px)
-- Color: 30-50% opacity of main line color
-- Purpose: Show measurement reference points clearly
-
-TEXT SPECIFICATIONS:
-
-Font: Arial Bold or Helvetica Bold (sans-serif, professional)
-Size: 14-18pt (readable but not dominating)
-Color: High contrast, matches dimension line color
-Background panel: Optional but recommended for clarity
-  - Color: Contrasting semi-transparent (80-90% opacity)
-  - Padding: 3-5px around text
-  - Border: 1px, matching dimension line color
-
-PROFESSIONAL STANDARDS:
-
-Accuracy:
-- If measurements provided: Use exact values
-- If estimated: Make reasonable estimates or use placeholders
-- If uncertain: Use bracketed placeholders [width] to indicate approximation
-
-Clarity:
-- Dimensions immediately understandable
-- No ambiguity about what's being measured
-- Clear visual connection between line and product edge
-
-Aesthetics:
-- Clean, technical drawing appearance
-- Not cluttered or busy
-- Enhances product presentation
-- Professional enough for product catalog or technical documentation
-
-NEVER DO:
-- Overlay dimensions on the product itself
-- Use colors that blend into background (no contrast)
-- Place text that obscures product features
-- Use illegible font sizes (too small < 12pt)
-- Create confusing or ambiguous dimension indicators
-- Add dimensions that appear inaccurate or arbitrary
-
-NOTE: The examples are for reference and you are not restricted to be imaginative(but professional)
-Generate a hyper-specific prompt that creates professional, accurate dimension overlays positioned OUTSIDE the product boundaries for the image provided.
+Does it follow the formula exactly? [Y/N]
+Are the component snippets used correctly? [Y/N]
+Is the palette choice correct for the background? [Y/N]
+Are the negative prompts included? [Y/N]
+Is the prompt unambiguous and free of creative language? [Y/N]
+If all answers are "Y", provide the final generated prompt.
 """
     },
 

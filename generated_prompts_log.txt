@@ -1,53 +1,56 @@
 ================================================================================
 MARKETING IMAGE GENERATION LOG
-Timestamp: 20251103_232858
-Product: Product Type: Faucet
+Timestamp: 20251114_215343
+Product: Snow Blower
 ================================================================================
 
 FULL PLANNED RESPONSE:
 
 prompt 1: "Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - GEOMETRIC & COLORFUL VARIATION.
-PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
-COMPOSITION STYLE: Hero Product composition. The faucet is the central focus, large and occupying 60-70% of the frame, angled slightly to show its profile.
-BACKGROUND: A deep charcoal background (#1E2A3A) with a bold, vertical rectangular color block of bright blue (#007BFF) along the left third of the image.
-DESIGN ELEMENTS: A large, faint, light gray circle graphic is positioned behind the main body of the faucet. Thin white geometric lines form a subtle grid pattern in the background. The overall look is clean, structured, and modern.
-COLOR PALETTE: Primary: Charcoal (#1E2A3A). Accent: Bright Blue (#007BFF). Supporting: Light Gray, White.
+PRODUCT: A robust, two-stage gas-powered TORO Power Max 826 OAE snow blower. The main body is glossy Toro Red, with a matte black frame, handles, and wheels. The engine and control panel are charcoal gray and black with silver accents. Brand text "TORO POWER MAX" and "FLEX-FORCE" is clearly visible.
+COMPOSITION STYLE: Hero Product composition, with the snow blower centrally positioned, taking up 60% of the frame, angled slightly to show its profile and front auger.
+BACKGROUND: A solid, deep charcoal gray background (#333333) with clean, sharp-edged color blocks. A wide Toro Red (#CC0000) rectangle runs along the bottom edge, and a thin white vertical line frames the left side of the image.
+DESIGN ELEMENTS: Stylized, geometric snowflakes made of clean white lines are sparsely scattered in the upper corners. A bold, red rectangular color block serves as the foundation at the bottom. The entire design is clean, sharp, and structured.
+COLOR PALETTE: Primary colors are Toro Red (#CC0000), charcoal gray (#333333), and black. Accent color is clean white (#FFFFFF).
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-BRAND NAME: Brand name text reading "AQUAFLOW" at the top left corner, using a clean geometric sans-serif, medium size, in white solid fill.
-HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned in the upper right quadrant, using a bold, uppercase block letter font, large prominent size, in white with a solid fill.
-Call-to-action reading "SHOP NOW" as a sharp rectangular button at the bottom right corner, with a bright blue (#007BFF) background and white text.
-PROMOTIONAL BADGE: A solid white circle badge displaying "NEW" in blue text, positioned in the top right corner.
-LIGHTING & MOOD: Bright, studio lighting creating a modern, structured, and high-tech mood with clean reflections on the chrome.
+BRAND NAME: Brand name text reading "TORO" at the top left, using a bold geometric sans-serif font (like Montserrat Bold), medium size, in clean white.
+HEADLINE: Headline text reading "UNWRAP POWER" positioned in the upper right quadrant, using a bold, uppercase block letter font, large prominent size, in white with a solid fill.
+Call-to-action reading "SHOP NOW" as a sharp rectangular button at the bottom right corner (within the red color block), with a white background and red text.
+PROMOTIONAL BADGE: A sharp-edged, red rectangular banner displaying "25% OFF" positioned in the top right corner, angled at 45 degrees, with bold white text.
+SEASONAL ELEMENTS: The festive elements are abstract and geometric, limited to the stylized line-art snowflakes and the red/white color scheme, maintaining a modern feel.
+LIGHTING & MOOD: Bright, clean studio lighting with defined shadows, creating a modern, structured, and powerful mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
 PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
 prompt 2: "Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - BRAND ESSENCE & THEMED VARIATION.
-PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
-COMPOSITION STYLE: Feature Showcase composition. The main faucet is clearly visible. A circular, magnified callout is focused on the precision-engineered hose connector nozzle, highlighting its quality and detail.
-BACKGROUND: A soft, blurred photo-realistic background of a clean, modern gray tiled wall, suggesting a utility room or high-end garage setting. A subtle, dark navy blue gradient overlay is applied over the background.
-DESIGN ELEMENTS: A soft spotlight effect illuminates the faucet, making the chrome pop. A thin, white circular line defines the feature callout area. The overall feel is premium and trustworthy.
-COLOR PALETTE: Primary: Navy Blue (#1E2A3A). Accent: Muted Gold (#C0A062). Supporting: Grays, White.
+PRODUCT: A robust, two-stage gas-powered TORO Power Max 826 OAE snow blower. The main body is glossy Toro Red, with a matte black frame, handles, and wheels. The engine and control panel are charcoal gray and black with silver accents. Brand text "TORO POWER MAX" and "FLEX-FORCE" is clearly visible.
+COMPOSITION STYLE: Lifestyle + Overlay composition. The snow blower is the clear hero on the right side of the frame, grounded as if on a surface. Text and promotional elements are layered cleanly on the left.
+BACKGROUND: A soft, out-of-focus, photo-realistic background of a snowy suburban home's driveway at dusk, with warm, glowing Christmas lights visible from the house windows, creating a cozy yet capable atmosphere.
+DESIGN ELEMENTS: Elegant pine branch graphics with a touch of snow frost frame the top left and bottom right corners. A subtle, soft-focus falling snow overlay is present throughout the scene.
+COLOR PALETTE: Brand colors of Toro Red and black dominate, complemented by the warm gold (#FFD700) of the lights and the deep blues of the dusk background. White is used for text and accents.
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-BRAND NAME: Brand name text reading "AQUAFLOW" at the top center, using an elegant, clean sans-serif font, medium size, in a subtle light gray.
-HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned centrally below the brand name, using a professional sans-serif font (Helvetica Neue Bold), large prominent size, in white with a very subtle drop shadow for depth.
-Call-to-action reading "SHOP NOW" as a classic pill-shaped button at the bottom center, with a muted gold (#C0A062) background and white text.
-PROMOTIONAL BADGE: A classic corner ribbon in muted gold displaying "NEW" in white, positioned on the top right corner of the frame.
-LIGHTING & MOOD: Professional, polished lighting creating a premium, trustworthy, and high-quality mood.
+BRAND NAME: Brand name text reading "TORO" at the top left, using a clean sans-serif font, medium size, in white with a subtle drop shadow for readability against the background.
+HEADLINE: Headline text reading "UNWRAP POWER" positioned prominently in the center-left, using a professional, clean sans-serif font (like Helvetica Neue Bold), large prominent size, in white with a clean treatment.
+Call-to-action reading "SHOP NOW" as a classic rounded rectangle button at the bottom center, with a Toro Red background and clean white text.
+PROMOTIONAL BADGE: A classic circular badge in the top right corner, with a red border and white background, displaying "25% OFF" in bold red text.
+SEASONAL ELEMENTS: Traditional and elegant Christmas elements are prominent: warm white string lights are artistically draped across the top third of the image, realistic pine branches frame the scene, and a gentle snowflake overlay completes the festive feel.
+LIGHTING & MOOD: Professional, polished lighting on the product that makes it stand out from the soft, warm ambient light of the background, creating a trustworthy, premium, and festive mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
 PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
 prompt 3: "Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - EXPERIMENTAL & DYNAMIC VARIATION.
-PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
-COMPOSITION STYLE: Dynamic Asymmetry. The faucet is positioned off-center to the right, creating dramatic negative space on the left. The product is shot from a slightly low angle to give it a heroic feel.
-BACKGROUND: A dark, textured concrete or slate surface, providing a gritty and durable feel that contrasts with the faucet's polished chrome finish.
-DESIGN ELEMENTS: A single, dramatic, long architectural shadow is cast from the faucet across the background to the left. The composition is stark and minimalist, relying on the interplay between the product, shadow, and text.
-COLOR PALETTE: Primary: Dark Slate Gray (#333333). Accent: Bright White (#FFFFFF). Supporting: Medium Gray.
+PRODUCT: A robust, two-stage gas-powered TORO Power Max 826 OAE snow blower. The main body is glossy Toro Red, with a matte black frame, handles, and wheels. The engine and control panel are charcoal gray and black with silver accents. Brand text "TORO POWER MAX" and "FLEX-FORCE" is clearly visible.
+COMPOSITION STYLE: Dynamic Asymmetry composition. The snow blower is placed off-center to the right, tilted at a slight 10-degree angle to create a sense of action. Layered depth is created by placing text and graphic elements both in front of and behind the product.
+BACKGROUND: A deep, moody navy blue (#101C2B) studio background with a single, dramatic spotlight shining down on the product, casting a long, sharp shadow to the left.
+DESIGN ELEMENTS: Abstract, glowing light trails in white and gold streak across the background, mimicking the motion of blowing snow or festive lights. A large, faint, geometric snowflake crystal graphic is subtly layered behind the snow blower.
+COLOR PALETTE: A dramatic palette of deep navy (#101C2B), Toro Red (#CC0000), and sharp white, with a striking warm gold (#FFD700) accent for the CTA and light trails.
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-BRAND NAME: Brand name text reading "AQUAFLOW" at the bottom right, tucked near the corner, using a simple sans-serif, small size, in a medium gray color.
-HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned on the left side, stacked vertically with "RELIABLE." above "EVERY DROP.", using a condensed, impactful sans-serif font, large prominent size, in bright white. The text fills the negative space and balances the faucet.
-Call-to-action reading "SHOP NOW" as an unconventional style: bold white text with a simple white arrow icon (→) next to it, placed at the bottom center. No button background.
-PROMOTIONAL BADGE: A loud, sticker-style graphic with a slightly distressed edge, displaying "NEW", positioned to slightly overlap the threaded inlet pipe of the faucet, in a high-contrast white with black text.
-LIGHTING & MOOD: Dynamic, artistic side-lighting creating a dramatic, attention-grabbing, and innovative mood.
+BRAND NAME: Brand name text reading "TORO" at the top left, in a clean sans-serif font, partially layered behind the handle of the snow blower to create depth, in white.
+HEADLINE: Headline text reading "UNWRAP POWER" is stacked vertically down the left side of the image, using a condensed, impact sans-serif font, large prominent size, in white. A cutout effect is applied to the text, revealing the glowing light trails in the background through the letters.
+Call-to-action reading "SHOP NOW" as an unconventional style: bold white text followed by a simple, elegant gold arrow icon, positioned at the bottom right. No button shape.
+PROMOTIONAL BADGE: A creative, gold, starburst-shaped sticker graphic displaying "25% OFF" in bold navy text, positioned so it slightly overlaps the front corner of the snow blower's auger housing.
+SEASONAL ELEMENTS: The Christmas theme is interpreted abstractly, with glowing light trails suggesting festive lights and motion, and large, stylized snowflake crystal graphics in the background creating a modern, wintery feel.
+LIGHTING & MOOD: Dramatic, high-contrast spotlighting creating long architectural shadows, which results in an energetic, attention-grabbing, and innovative mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
 PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself."
 
@@ -55,17 +58,18 @@ PRESERVE: Exact product appearance from input image. Marketing elements enhance 
 
 --- EXTRACTED PROMPT 1 ---
 Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - GEOMETRIC & COLORFUL VARIATION.
-PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
-COMPOSITION STYLE: Hero Product composition. The faucet is the central focus, large and occupying 60-70% of the frame, angled slightly to show its profile.
-BACKGROUND: A deep charcoal background (#1E2A3A) with a bold, vertical rectangular color block of bright blue (#007BFF) along the left third of the image.
-DESIGN ELEMENTS: A large, faint, light gray circle graphic is positioned behind the main body of the faucet. Thin white geometric lines form a subtle grid pattern in the background. The overall look is clean, structured, and modern.
-COLOR PALETTE: Primary: Charcoal (#1E2A3A). Accent: Bright Blue (#007BFF). Supporting: Light Gray, White.
+PRODUCT: A robust, two-stage gas-powered TORO Power Max 826 OAE snow blower. The main body is glossy Toro Red, with a matte black frame, handles, and wheels. The engine and control panel are charcoal gray and black with silver accents. Brand text "TORO POWER MAX" and "FLEX-FORCE" is clearly visible.
+COMPOSITION STYLE: Hero Product composition, with the snow blower centrally positioned, taking up 60% of the frame, angled slightly to show its profile and front auger.
+BACKGROUND: A solid, deep charcoal gray background (#333333) with clean, sharp-edged color blocks. A wide Toro Red (#CC0000) rectangle runs along the bottom edge, and a thin white vertical line frames the left side of the image.
+DESIGN ELEMENTS: Stylized, geometric snowflakes made of clean white lines are sparsely scattered in the upper corners. A bold, red rectangular color block serves as the foundation at the bottom. The entire design is clean, sharp, and structured.
+COLOR PALETTE: Primary colors are Toro Red (#CC0000), charcoal gray (#333333), and black. Accent color is clean white (#FFFFFF).
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-BRAND NAME: Brand name text reading "AQUAFLOW" at the top left corner, using a clean geometric sans-serif, medium size, in white solid fill.
-HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned in the upper right quadrant, using a bold, uppercase block letter font, large prominent size, in white with a solid fill.
-Call-to-action reading "SHOP NOW" as a sharp rectangular button at the bottom right corner, with a bright blue (#007BFF) background and white text.
-PROMOTIONAL BADGE: A solid white circle badge displaying "NEW" in blue text, positioned in the top right corner.
-LIGHTING & MOOD: Bright, studio lighting creating a modern, structured, and high-tech mood with clean reflections on the chrome.
+BRAND NAME: Brand name text reading "TORO" at the top left, using a bold geometric sans-serif font (like Montserrat Bold), medium size, in clean white.
+HEADLINE: Headline text reading "UNWRAP POWER" positioned in the upper right quadrant, using a bold, uppercase block letter font, large prominent size, in white with a solid fill.
+Call-to-action reading "SHOP NOW" as a sharp rectangular button at the bottom right corner (within the red color block), with a white background and red text.
+PROMOTIONAL BADGE: A sharp-edged, red rectangular banner displaying "25% OFF" positioned in the top right corner, angled at 45 degrees, with bold white text.
+SEASONAL ELEMENTS: The festive elements are abstract and geometric, limited to the stylized line-art snowflakes and the red/white color scheme, maintaining a modern feel.
+LIGHTING & MOOD: Bright, clean studio lighting with defined shadows, creating a modern, structured, and powerful mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
 PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself.
 
@@ -73,17 +77,18 @@ PRESERVE: Exact product appearance from input image. Marketing elements enhance 
 
 --- EXTRACTED PROMPT 2 ---
 Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - BRAND ESSENCE & THEMED VARIATION.
-PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
-COMPOSITION STYLE: Feature Showcase composition. The main faucet is clearly visible. A circular, magnified callout is focused on the precision-engineered hose connector nozzle, highlighting its quality and detail.
-BACKGROUND: A soft, blurred photo-realistic background of a clean, modern gray tiled wall, suggesting a utility room or high-end garage setting. A subtle, dark navy blue gradient overlay is applied over the background.
-DESIGN ELEMENTS: A soft spotlight effect illuminates the faucet, making the chrome pop. A thin, white circular line defines the feature callout area. The overall feel is premium and trustworthy.
-COLOR PALETTE: Primary: Navy Blue (#1E2A3A). Accent: Muted Gold (#C0A062). Supporting: Grays, White.
+PRODUCT: A robust, two-stage gas-powered TORO Power Max 826 OAE snow blower. The main body is glossy Toro Red, with a matte black frame, handles, and wheels. The engine and control panel are charcoal gray and black with silver accents. Brand text "TORO POWER MAX" and "FLEX-FORCE" is clearly visible.
+COMPOSITION STYLE: Lifestyle + Overlay composition. The snow blower is the clear hero on the right side of the frame, grounded as if on a surface. Text and promotional elements are layered cleanly on the left.
+BACKGROUND: A soft, out-of-focus, photo-realistic background of a snowy suburban home's driveway at dusk, with warm, glowing Christmas lights visible from the house windows, creating a cozy yet capable atmosphere.
+DESIGN ELEMENTS: Elegant pine branch graphics with a touch of snow frost frame the top left and bottom right corners. A subtle, soft-focus falling snow overlay is present throughout the scene.
+COLOR PALETTE: Brand colors of Toro Red and black dominate, complemented by the warm gold (#FFD700) of the lights and the deep blues of the dusk background. White is used for text and accents.
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-BRAND NAME: Brand name text reading "AQUAFLOW" at the top center, using an elegant, clean sans-serif font, medium size, in a subtle light gray.
-HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned centrally below the brand name, using a professional sans-serif font (Helvetica Neue Bold), large prominent size, in white with a very subtle drop shadow for depth.
-Call-to-action reading "SHOP NOW" as a classic pill-shaped button at the bottom center, with a muted gold (#C0A062) background and white text.
-PROMOTIONAL BADGE: A classic corner ribbon in muted gold displaying "NEW" in white, positioned on the top right corner of the frame.
-LIGHTING & MOOD: Professional, polished lighting creating a premium, trustworthy, and high-quality mood.
+BRAND NAME: Brand name text reading "TORO" at the top left, using a clean sans-serif font, medium size, in white with a subtle drop shadow for readability against the background.
+HEADLINE: Headline text reading "UNWRAP POWER" positioned prominently in the center-left, using a professional, clean sans-serif font (like Helvetica Neue Bold), large prominent size, in white with a clean treatment.
+Call-to-action reading "SHOP NOW" as a classic rounded rectangle button at the bottom center, with a Toro Red background and clean white text.
+PROMOTIONAL BADGE: A classic circular badge in the top right corner, with a red border and white background, displaying "25% OFF" in bold red text.
+SEASONAL ELEMENTS: Traditional and elegant Christmas elements are prominent: warm white string lights are artistically draped across the top third of the image, realistic pine branches frame the scene, and a gentle snowflake overlay completes the festive feel.
+LIGHTING & MOOD: Professional, polished lighting on the product that makes it stand out from the soft, warm ambient light of the background, creating a trustworthy, premium, and festive mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
 PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself.
 
@@ -91,17 +96,18 @@ PRESERVE: Exact product appearance from input image. Marketing elements enhance 
 
 --- EXTRACTED PROMPT 3 ---
 Marketing creative product advertisement image. MINIMAL & PROFESSIONAL style - EXPERIMENTAL & DYNAMIC VARIATION.
-PRODUCT: A compact, utilitarian faucet made of highly reflective, polished chrome-plated metal. The faucet features a single, quarter-turn lever handle, a short, downward-curving spout with a stepped hose connector nozzle, and a threaded male inlet pipe. The design is simple, functional, and modern.
-COMPOSITION STYLE: Dynamic Asymmetry. The faucet is positioned off-center to the right, creating dramatic negative space on the left. The product is shot from a slightly low angle to give it a heroic feel.
-BACKGROUND: A dark, textured concrete or slate surface, providing a gritty and durable feel that contrasts with the faucet's polished chrome finish.
-DESIGN ELEMENTS: A single, dramatic, long architectural shadow is cast from the faucet across the background to the left. The composition is stark and minimalist, relying on the interplay between the product, shadow, and text.
-COLOR PALETTE: Primary: Dark Slate Gray (#333333). Accent: Bright White (#FFFFFF). Supporting: Medium Gray.
+PRODUCT: A robust, two-stage gas-powered TORO Power Max 826 OAE snow blower. The main body is glossy Toro Red, with a matte black frame, handles, and wheels. The engine and control panel are charcoal gray and black with silver accents. Brand text "TORO POWER MAX" and "FLEX-FORCE" is clearly visible.
+COMPOSITION STYLE: Dynamic Asymmetry composition. The snow blower is placed off-center to the right, tilted at a slight 10-degree angle to create a sense of action. Layered depth is created by placing text and graphic elements both in front of and behind the product.
+BACKGROUND: A deep, moody navy blue (#101C2B) studio background with a single, dramatic spotlight shining down on the product, casting a long, sharp shadow to the left.
+DESIGN ELEMENTS: Abstract, glowing light trails in white and gold streak across the background, mimicking the motion of blowing snow or festive lights. A large, faint, geometric snowflake crystal graphic is subtly layered behind the snow blower.
+COLOR PALETTE: A dramatic palette of deep navy (#101C2B), Toro Red (#CC0000), and sharp white, with a striking warm gold (#FFD700) accent for the CTA and light trails.
 TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
-BRAND NAME: Brand name text reading "AQUAFLOW" at the bottom right, tucked near the corner, using a simple sans-serif, small size, in a medium gray color.
-HEADLINE: Headline text reading "RELIABLE. EVERY DROP." positioned on the left side, stacked vertically with "RELIABLE." above "EVERY DROP.", using a condensed, impactful sans-serif font, large prominent size, in bright white. The text fills the negative space and balances the faucet.
-Call-to-action reading "SHOP NOW" as an unconventional style: bold white text with a simple white arrow icon (→) next to it, placed at the bottom center. No button background.
-PROMOTIONAL BADGE: A loud, sticker-style graphic with a slightly distressed edge, displaying "NEW", positioned to slightly overlap the threaded inlet pipe of the faucet, in a high-contrast white with black text.
-LIGHTING & MOOD: Dynamic, artistic side-lighting creating a dramatic, attention-grabbing, and innovative mood.
+BRAND NAME: Brand name text reading "TORO" at the top left, in a clean sans-serif font, partially layered behind the handle of the snow blower to create depth, in white.
+HEADLINE: Headline text reading "UNWRAP POWER" is stacked vertically down the left side of the image, using a condensed, impact sans-serif font, large prominent size, in white. A cutout effect is applied to the text, revealing the glowing light trails in the background through the letters.
+Call-to-action reading "SHOP NOW" as an unconventional style: bold white text followed by a simple, elegant gold arrow icon, positioned at the bottom right. No button shape.
+PROMOTIONAL BADGE: A creative, gold, starburst-shaped sticker graphic displaying "25% OFF" in bold navy text, positioned so it slightly overlaps the front corner of the snow blower's auger housing.
+SEASONAL ELEMENTS: The Christmas theme is interpreted abstractly, with glowing light trails suggesting festive lights and motion, and large, stylized snowflake crystal graphics in the background creating a modern, wintery feel.
+LIGHTING & MOOD: Dramatic, high-contrast spotlighting creating long architectural shadows, which results in an energetic, attention-grabbing, and innovative mood.
 TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
 PRESERVE: Exact product appearance from input image. Marketing elements enhance but never alter the product itself.
 

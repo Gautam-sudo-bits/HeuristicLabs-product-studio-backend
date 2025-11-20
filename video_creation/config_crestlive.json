@@ -1,0 +1,245 @@
+{
+  "output_path": "output/Crestlive_Demo_Advanced_final_final_final.mp4",
+  "audio_path": "soundtrack/serene-horizons.mp3",
+  "width": 1184,
+  "height": 864,
+  "fps": 30,
+  "intro_fade": 0.5,
+  "outro_fade": 1.0,
+  "reading_speed": 1.5,
+  
+  "scenes": [
+    {
+      "name": "Intro",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene1.png",
+      "duration": 3,
+      "background_effect": { 
+        "type": "kenBurns", 
+        "zoom": 1.05, 
+        "direction": "in" 
+      }
+    },
+    {
+      "name": "Hook",
+      "type": "video",
+      "video_path": "scenes_crestlive/scene2.mp4",
+      "resize_method": "crop",
+      "transition": { "type": "fade", "duration": 1.0 },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "Your Personal Oasis Awaits",
+          "animation": "slide_right",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 30,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": true,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": [0.7, 0.25]
+        }
+      ]
+    },
+    {
+      "name": "Durability",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene3.png",
+      "duration": 5.5,
+      "transition": { "type": "fade", "duration": 0.8, "from_edge": "left" },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "direction": "right",
+        "zoom": 1.1,
+        "pan": "right"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "All-Weather Steel Frame",
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 30,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": true,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": [0.25, 0.8]
+        }
+      ]
+    },
+    {
+      "name": "Comfort",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene4.png",
+      "duration": 5.5,
+      "transition": { "type": "fade", "duration": 1.2 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "zoom": 1.1, 
+        "direction": "out" 
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "UV-Resistant\n&\nQuick-Dry Fabric",
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 30,
+          "color": "#333333",
+          "bold": false,
+          "shadow": false,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": [0.2, 0.2]
+        }
+      ]
+    },
+    {
+      "name": "Adjustability",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene5.png",
+      "duration": 5.5,
+      "transition": { "type": "fade", "duration": 1.0, "from_edge": "left" },
+      "background_effect": { 
+        "type": "kenBurns",
+        "zoom": 1.1,
+        "direction": "in"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "5 Adjustable Positions",
+          "animation": "slide_right",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 30,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": false,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": [0.75, 0.85]
+        }
+      ]
+    },
+    {
+      "name": "Relaxation",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene6.png",
+      "duration": 5.5,
+      "transition": { "type": "fade", "duration": 0.8 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "direction": "down",
+        "zoom": 1.15,
+        "pan": "down"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "Lay-Flat Comfort",
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 30,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": false,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": [0.2, 0.8]
+        }
+      ]
+    },
+    {
+      "name": "Lifestyle",
+      "type": "video",
+      "video_path": "scenes_crestlive/scene8.mp4",
+      "resize_method": "crop",
+      "transition": { "type": "fade", "duration": 1.0 },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "Lightweight & Easy to Enjoy",
+          "animation": "slide_right",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 25,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": false,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": [0.7, 0.8]
+        }
+      ]
+    },
+    {
+      "name": "CTA",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene7.png",
+      "duration": 5.5,
+      "transition": { "type": "fade", "duration": 1.2 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "direction": "out",
+        "zoom": 1.1
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "Discover Your Oasis",
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 35,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": true,
+          "outline": false,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 25,
+          "position": ["center", 0.8]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "type": "image",
+      "image_path": "scenes_crestlive/scene1.png",
+      "duration": 4,
+      "transition": { "type": "fade", "duration": 1.0 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "zoom": 1.1, 
+        "direction": "out" 
+      }
+    }
+  ]
+}

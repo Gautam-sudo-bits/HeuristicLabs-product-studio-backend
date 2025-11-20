@@ -1,115 +1,275 @@
 """
-Google Cloud Storage utility - FIXED for Veo output paths
+Google Cloud Storage utilities for video generation pipeline
+Handles upload, download, and organization of files in GCS
 """
+
 import os
 import time
-import uuid
-from pathlib import Path
+from datetime import datetime
 from google.cloud import storage
-from config import GCS_BUCKET_NAME, GCS_OUTPUT_PREFIX, TESTING_MODE
+from pathlib import Path
+import config
+
+# Initialize GCS client
+storage_client = storage.Client(project=config.GOOGLE_CLOUD_PROJECT)
 
 
-class GCSManager:
-    """Manages GCS operations with proper file paths for Veo"""
+def get_project_folder_name(project_id=None):
+    """
+    Generate a unique project folder name
     
-    def __init__(self, bucket_name=None):
-        self.storage_client = storage.Client()
-        self.bucket_name = bucket_name or GCS_BUCKET_NAME
-        self.bucket = self.storage_client.bucket(self.bucket_name)
-        
-        # Generate unique folder for this run
-        timestamp = int(time.time())
-        unique_id = uuid.uuid4().hex[:8]
-        self.request_id = f"{timestamp}_{unique_id}"
-        self.request_folder = f"{GCS_OUTPUT_PREFIX}/{self.request_id}"
-        
-        # Subfolders
-        self.input_folder = f"{self.request_folder}/input_images"
-        self.segments_folder = f"{self.request_folder}/segments"
-        
-        print(f"\n{'=' * 70}")
-        print(f"📁 GCS FOLDER: {self.request_folder}")
-        print(f"{'=' * 70}\n")
+    Args:
+        project_id: Optional custom project ID, otherwise uses timestamp
     
-    def upload_image(self, local_path):
-        """Upload image to input_images folder"""
-        filename = Path(local_path).name
-        blob_name = f"{self.input_folder}/{filename}"
-        blob = self.bucket.blob(blob_name)
+    Returns:
+        str: Folder name like "project_20250102_143022" or custom project_id
+    """
+    if project_id:
+        return f"project_{project_id}"
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return f"project_{timestamp}"
+
+
+def get_gcs_paths(project_id=None):
+    """
+    Get organized GCS paths for a project
+    
+    Args:
+        project_id: Optional custom project ID
+    
+    Returns:
+        dict: Dictionary with paths for segments, final, and inputs
+    """
+    project_folder = get_project_folder_name(project_id)
+    base_path = f"{config.GCS_OUTPUT_PREFIX}/projects/{project_folder}"
+    
+    return {
+        "base": base_path,
+        "segments": f"{base_path}/{config.GCS_SEGMENTS_FOLDER}",
+        "final": f"{base_path}/{config.GCS_FINAL_FOLDER}",
+        "inputs": f"{base_path}/{config.GCS_INPUTS_FOLDER}",
+        "project_folder": project_folder
+    }
+
+
+def upload_to_gcs(local_file_path, gcs_path, content_type=None):
+    """
+    Upload a file to Google Cloud Storage
+    
+    Args:
+        local_file_path: Path to local file
+        gcs_path: Destination path in GCS (without gs:// prefix)
+        content_type: Optional MIME type
+    
+    Returns:
+        str: Full GCS URI (gs://bucket/path)
+    """
+    try:
+        bucket = storage_client.bucket(config.GCS_BUCKET_NAME)
+        blob = bucket.blob(gcs_path)
         
-        print(f"📤 Uploading {filename}...")
-        blob.upload_from_filename(local_path)
+        # Auto-detect content type if not provided
+        if not content_type:
+            if local_file_path.endswith('.mp4'):
+                content_type = 'video/mp4'
+            elif local_file_path.endswith(('.jpg', '.jpeg')):
+                content_type = 'image/jpeg'
+            elif local_file_path.endswith('.png'):
+                content_type = 'image/png'
         
-        gcs_uri = f"gs://{self.bucket_name}/{blob_name}"
+        blob.upload_from_filename(local_file_path, content_type=content_type)
+        
+        gcs_uri = f"gs://{config.GCS_BUCKET_NAME}/{gcs_path}"
+        print(f"✅ Uploaded: {local_file_path} -> {gcs_uri}")
+        
         return gcs_uri
+        
+    except Exception as e:
+        print(f"❌ Upload failed: {e}")
+        raise
+
+
+def download_from_gcs(gcs_uri, local_file_path):
+    """
+    Download a file from Google Cloud Storage
     
-    def get_segment_output_uri(self, segment_number, start_time, end_time):
-        """
-        CRITICAL FIX: Return full file path with .mp4 extension
-        This prevents Veo from creating nested folders
-        """
-        # Include .mp4 extension to specify it's a file, not a folder
-        filename = f"segment_{segment_number:02d}_{start_time:02d}-{end_time:02d}s.mp4"
-        blob_path = f"{self.segments_folder}/{filename}"
-        
-        # Return full path including .mp4
-        return f"gs://{self.bucket_name}/{blob_path}"
+    Args:
+        gcs_uri: Full GCS URI (gs://bucket/path) or just path
+        local_file_path: Destination path for downloaded file
     
-    def upload_final_video(self, local_path):
-        """Upload final video to GCS and return public-accessible info"""
-        blob = self.bucket.blob(f"{self.request_folder}/final_merged_video.mp4")
+    Returns:
+        str: Path to downloaded file
+    """
+    try:
+        # Extract bucket and path from URI
+        if gcs_uri.startswith("gs://"):
+            gcs_uri = gcs_uri[5:]  # Remove gs://
         
-        print(f"📤 Uploading final video...")
-        blob.upload_from_filename(local_path)
-        
-        # Make blob publicly readable (if your bucket allows)
-        # Uncomment if you want direct public URLs:
-        # blob.make_public()
-        
-        gcs_uri = f"gs://{self.bucket_name}/{blob.name}"
-        
-        # Generate a signed URL for temporary access (24 hours)
-        # This works without making bucket public
-        from datetime import timedelta
-        signed_url = blob.generate_signed_url(
-            version="v4",
-            expiration=timedelta(hours=24),
-            method="GET"
-        )
-        
-        print(f"✅ Final video uploaded")
-        print(f"   GCS URI: {gcs_uri}")
-        print(f"   Signed URL generated (24h expiry)")
-        
-        return {
-            "gcs_uri": gcs_uri,
-            "public_url": signed_url,  # Use signed URL instead of GCS URI
-            "blob_name": blob.name
-        }
-        
-    def download_video(self, gcs_uri, local_filename):
-        """Download video from GCS"""
-        parts = gcs_uri.replace("gs://", "").split("/", 1)
+        parts = gcs_uri.split("/", 1)
         bucket_name = parts[0]
-        blob_name = parts[1] if len(parts) > 1 else ""
+        blob_path = parts[1] if len(parts) > 1 else ""
         
-        bucket = self.storage_client.bucket(bucket_name)
-        blob = bucket.blob(blob_name)
+        bucket = storage_client.bucket(bucket_name)
+        blob = bucket.blob(blob_path)
         
-        display_name = Path(blob_name).name
-        print(f"📥 Downloading {display_name}...")
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(local_file_path), exist_ok=True)
         
-        blob.download_to_filename(local_filename)
-        return local_filename
+        blob.download_to_filename(local_file_path)
+        
+        print(f"✅ Downloaded: gs://{bucket_name}/{blob_path} -> {local_file_path}")
+        
+        return local_file_path
+        
+    except Exception as e:
+        print(f"❌ Download failed: {e}")
+        raise
+
+
+def upload_reference_images(image_paths, project_id=None):
+    """
+    Upload reference images to GCS inputs folder
     
-    def list_segment_videos(self):
-        """List all MP4 files in segments folder"""
-        prefix = f"{self.segments_folder}/"
-        blobs = self.bucket.list_blobs(prefix=prefix)
+    Args:
+        image_paths: List of local image file paths
+        project_id: Optional custom project ID
+    
+    Returns:
+        list: List of GCS URIs for uploaded images
+    """
+    gcs_paths = get_gcs_paths(project_id)
+    uploaded_uris = []
+    
+    print(f"\n📤 Uploading {len(image_paths)} reference image(s)...")
+    
+    for idx, image_path in enumerate(image_paths, 1):
+        if not os.path.exists(image_path):
+            print(f"⚠️ Image not found: {image_path}")
+            continue
         
-        video_uris = []
-        for blob in blobs:
-            if blob.name.endswith('.mp4'):
-                video_uris.append(f"gs://{self.bucket_name}/{blob.name}")
+        filename = os.path.basename(image_path)
+        gcs_path = f"{gcs_paths['inputs']}/reference_{idx}_{filename}"
         
-        return sorted(video_uris)
+        gcs_uri = upload_to_gcs(image_path, gcs_path)
+        uploaded_uris.append(gcs_uri)
+    
+    print(f"✅ Uploaded {len(uploaded_uris)} reference image(s)")
+    
+    return uploaded_uris
+
+
+def download_segment_videos(segment_gcs_uris, local_folder=None):
+    """
+    Download all segment videos from GCS to local temp folder
+    
+    Args:
+        segment_gcs_uris: List of GCS URIs for video segments
+        local_folder: Optional local folder path, defaults to config.TEMP_VIDEO_FOLDER
+    
+    Returns:
+        list: List of local file paths for downloaded segments
+    """
+    if not local_folder:
+        local_folder = config.TEMP_VIDEO_FOLDER
+    
+    os.makedirs(local_folder, exist_ok=True)
+    
+    local_paths = []
+    
+    print(f"\n📥 Downloading {len(segment_gcs_uris)} video segment(s)...")
+    
+    for idx, gcs_uri in enumerate(segment_gcs_uris, 1):
+        local_path = os.path.join(local_folder, f"segment_{idx}.mp4")
+        download_from_gcs(gcs_uri, local_path)
+        local_paths.append(local_path)
+    
+    print(f"✅ Downloaded {len(local_paths)} segment(s) to {local_folder}")
+    
+    return local_paths
+
+
+def upload_final_video(local_video_path, project_id=None, filename="final_video.mp4"):
+    """
+    Upload final merged video to GCS
+    
+    Args:
+        local_video_path: Path to local merged video
+        project_id: Optional custom project ID
+        filename: Name for the final video file
+    
+    Returns:
+        str: GCS URI of uploaded final video
+    """
+    gcs_paths = get_gcs_paths(project_id)
+    gcs_path = f"{gcs_paths['final']}/{filename}"
+    
+    print(f"\n📤 Uploading final video...")
+    gcs_uri = upload_to_gcs(local_video_path, gcs_path, content_type='video/mp4')
+    
+    print(f"✅ Final video uploaded: {gcs_uri}")
+    
+    return gcs_uri
+
+
+def cleanup_temp_files(local_folder=None):
+    """
+    Clean up temporary video files
+    
+    Args:
+        local_folder: Folder to clean, defaults to config.TEMP_VIDEO_FOLDER
+    """
+    if not local_folder:
+        local_folder = config.TEMP_VIDEO_FOLDER
+    
+    if not os.path.exists(local_folder):
+        return
+    
+    print(f"\n🧹 Cleaning up temporary files in {local_folder}...")
+    
+    deleted_count = 0
+    for file in os.listdir(local_folder):
+        file_path = os.path.join(local_folder, file)
+        try:
+            if os.path.isfile(file_path):
+                os.unlink(file_path)
+                deleted_count += 1
+        except Exception as e:
+            print(f"⚠️ Could not delete {file_path}: {e}")
+    
+    print(f"✅ Cleaned up {deleted_count} temporary file(s)")
+
+
+def list_gcs_files(gcs_folder_path):
+    """
+    List all files in a GCS folder
+    
+    Args:
+        gcs_folder_path: GCS folder path (without gs:// prefix)
+    
+    Returns:
+        list: List of blob names
+    """
+    try:
+        bucket = storage_client.bucket(config.GCS_BUCKET_NAME)
+        blobs = bucket.list_blobs(prefix=gcs_folder_path)
+        
+        files = [blob.name for blob in blobs if not blob.name.endswith('/')]
+        
+        return files
+        
+    except Exception as e:
+        print(f"❌ Error listing files: {e}")
+        return []
+
+
+if __name__ == "__main__":
+    # Test GCS utilities
+    print("Testing GCS utilities...")
+    config.validate_config()
+    
+    # Test path generation
+    paths = get_gcs_paths("test_project")
+    print("\n📁 Generated GCS paths:")
+    for key, path in paths.items():
+        print(f"  {key}: {path}")

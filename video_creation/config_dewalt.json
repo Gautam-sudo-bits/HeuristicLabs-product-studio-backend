@@ -1,0 +1,303 @@
+{
+  "output_path": "output/DEWALT_Combo_Kit_final_version_text_reformed.mp4",
+  "audio_path": "soundtrack/dewalt_background.mp3",
+  "width": 1344,
+  "height": 768,
+  "fps": 30,
+  "intro_fade": 0.3,
+  "outro_fade": 0.5,
+  
+  "scenes": [
+    {
+      "name": "Brand Intro",
+      "image_path": "scenes_dewalt/logo.png",
+      "duration": 2.5,
+      "background_effect": {
+        "type": "static"
+      }
+    },
+    {
+      "name": "The Combo Kit",
+      "image_path": "scenes_dewalt/scene1.png",
+      "duration": 5,
+      "transition": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "background_effect": {
+        "type": "kenBurns",
+        "zoom": 1.08,
+        "direction": "in"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "DCK299P2",
+          "animation": "slide_left",
+          "start_time": 0.3,
+          "font": "Oswald-Bold",
+          "font_size": 48,
+          "color": "#FFFFFF",
+          "shadow": true,
+          "position": ["center", 0.2]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {"text": "HAMMERDRILL &\nIMPACT DRIVER", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_right",
+          "start_time": 0.6,
+          "font": "Oswald-Bold",
+          "font_size": 52,
+          "shadow": true,
+          "position": ["center", 0.45]
+        },
+        {
+          "type": "text",
+          "text": "20V MAX XR COMBO KIT",
+          "animation": "slide_left",
+          "start_time": 1.0,
+          "font": "Oswald-Bold",
+          "font_size": 38,
+          "color": "#FFFFFF",
+          "shadow": true,
+          "position": ["center", 0.9]
+        }
+      ]
+    },
+    {
+      "name": "The Powerhouse - DCD998",
+      "type": "video",
+      "video_path": "scenes_dewalt/scene2.mp4",
+      "resize_method": "crop",
+      "transition": {
+        "type": "fade",
+        "duration": 0.6
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "DCD996", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Oswald-Bold",
+          "font_size": 50,
+          "shadow": false,
+          "position": [0.25, 0.25]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {"text": "3-SPEED", "color": "#FFC72C"},
+            {"text": "HAMMERDRILL", "color": "#FFC72C"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.8,
+          "font": "Oswald-Bold",
+          "font_size": 42,
+          "shadow": true,
+          "position": [0.25, 0.5]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {"text": "0-2,250 RPM", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_left",
+          "start_time": 1.2,
+          "font": "Oswald-Bold",
+          "font_size": 54,
+          "shadow": false,
+          "position": [0.25, 0.8]
+        }
+      ]
+    },
+    {
+      "name": "DCD998 - speed set",
+      "image_path": "scenes_dewalt/scene3.png",
+      "duration": 5,
+      "transition": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "background_effect": {
+        "type": "kenBurns",
+        "zoom": 1.1,
+        "direction": "out"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "DCD998", "color": "#FFFFFF"},
+            {"text": "3-SPEED CONTROL", "color": "#FFC72C"},
+            {"text": "HAMMERDRILL", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.6,
+          "font": "Oswald-Bold",
+          "font_size": 48,
+          "line_spacing": 1.1,
+          "shadow": true,
+          "position": [0.25, 0.8]
+        }
+      ]
+    },
+    {
+      "name": "DCD998 - Pro-Grade Build",
+      "image_path": "scenes_dewalt/scene4.png",
+      "duration": 5,
+      "transition": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "background_effect": {
+        "type": "kenBurns",
+        "zoom": 1.1,
+        "direction": "out"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "HEAVY-DUTY", "color": "#FFFFFF"},
+            {"text": "NITRO-CARBURIZED", "color": "#FFC72C"},
+            {"text": "METAL CHUCK", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.6,
+          "font": "Oswald-Bold",
+          "font_size": 48,
+          "line_spacing": 1.1,
+          "shadow": true,
+          "position": [0.25, 0.8]
+        }
+      ]
+    },
+    {
+      "name": "Strong Grip Feature",
+      "type": "video",
+      "video_path": "scenes_dewalt/scene5.5.mp4",
+      "resize_method": "crop",
+      "transition": {
+        "type": "fade",
+        "duration": 0.6
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "STRONG GRIP", "color": "#FFC72C"},
+            {"text": "EASY TO HANDLE", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Oswald-Bold",
+          "font_size": 44,
+          "shadow": true,
+          "position": [0.28, 0.5]
+        }
+      ]
+    },
+    {
+      "name": "The Finisher - DCF887",
+      "image_path": "scenes_dewalt/scene5.png",
+      "duration": 5,
+      "transition": {
+        "type": "fade",
+        "duration": 0.6
+      },
+      "background_effect": {
+        "type": "kenBurns",
+        "zoom": 1.1,
+        "direction": "in",
+        "pan": "right"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "1,825 IN-LB", "color": "#FFFFFF"},
+            {"text": "MAX TORQUE", "color": "#FFC72C"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Oswald-Bold",
+          "font_size": 52,
+          "shadow": true,
+          "position": [0.25, 0.35]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {"text": "COMPACT", "color": "#FFFFFF"},
+            {"text": "5.3\" DESIGN", "color": "#FFC72C"}
+          ],
+          "animation": "slide_left",
+          "start_time": 1.2,
+          "font": "Oswald-Bold",
+          "font_size": 52,
+          "shadow": true,
+          "position": [0.25, 0.65]
+        }
+      ]
+    },
+    {
+      "name": "The XR Duo",
+      "image_path": "scenes_dewalt/scene6.png",
+      "duration": 5,
+      "transition": {
+        "type": "fade",
+        "duration": 0.7
+      },
+      "background_effect": {
+        "type": "kenBurns",
+        "zoom": 1.08,
+        "direction": "in"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "XR BRUSHLESS", "color": "#FFC72C"},
+            {"text": "POWER", "color": "#FFC72C"}
+          ],
+          "animation": "slide_left",
+          "start_time": 0.5,
+          "font": "Oswald-Bold",
+          "font_size": 58,
+          "shadow": true,
+          "position": [0.3, 0.4]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {"text": "MAXIMUM PERFORMANCE", "color": "#FFFFFF"},
+            {"text": "& RUNTIME", "color": "#FFFFFF"}
+          ],
+          "animation": "slide_left",
+          "start_time": 1.1,
+          "font": "Oswald-Bold",
+          "font_size": 38,
+          "shadow": true,
+          "position": [0.3, 0.7]
+        }
+      ]
+    },
+    {
+      "name": "Brand Outro & Tagline",
+      "image_path": "scenes_dewalt/scene7.png",
+      "duration": 3,
+      "transition": {
+        "type": "fade",
+        "duration": 0.8
+      },
+      "background_effect": {
+        "type": "static"
+      }
+    }
+  ]
+}

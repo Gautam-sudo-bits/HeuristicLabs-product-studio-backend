@@ -1,0 +1,139 @@
+{
+  "output_path": "output/Crestlive_Demo_text_test.mp4",
+  "audio_path": "soundtrack/serene-horizons.mp3",
+  "width": 1184,
+  "height": 864,
+  "fps": 30,
+  "intro_fade": 0.8,
+  "outro_fade": 1.5,
+  "reading_speed": 1.8,
+  
+  "scenes": [
+    {
+      "name": "Intro",
+      "image_path": "scenes_crestlive/scene1.png",
+      "duration": 3.5,
+      "background_effect": { 
+        "type": "kenBurns", 
+        "zoom": 1.05, 
+        "direction": "in" 
+      }
+    },
+    {
+      "name": "Hook",
+      "image_path": "scenes_crestlive/scene2.png",
+      "duration": 0,
+      "transition": { "type": "fade", "duration": 1.2 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "zoom": 1.05, 
+        "direction": "in" 
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "Your Personal\nOasis Awaits",
+          "animation": "grow",
+          "start_time": 0.8,
+          "font": "Impact",
+          "font_size": 32,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 4,
+          "background": "rounded",
+          "bg_opacity": 0.6,
+          "bg_padding": 30,
+          "position": ["center", 0.5]
+        }
+      ]
+    },
+    {
+      "name": "Durability",
+      "image_path": "scenes_crestlive/scene3.png",
+      "duration": 0,
+      "transition": { "type": "fade", "duration": 1.0 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "direction": "right",
+        "zoom": 1.08,
+        "pan": "right"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "All-Weather Steel Frame",
+          "animation": "slide_bottom",
+          "start_time": 0.7,
+          "font": "Arial Black",
+          "font_size": 28,
+          "color": "#FFFFFF",
+          "bold": true,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 3,
+          "background": "banner",
+          "bg_opacity": 0.7,
+          "position": ["center", 0.8]
+        }
+      ]
+    },
+    {
+      "name": "Comfort",
+      "image_path": "scenes_crestlive/scene4.png",
+      "duration": 0,
+      "transition": { "type": "fade", "duration": 1.2 },
+      "background_effect": { 
+        "type": "kenBurns", 
+        "zoom": 1.1, 
+        "direction": "in" 
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "UV-Resistant\nQuick-Dry Fabric",
+          "animation": "fade_in",
+          "start_time": 0.8,
+          "font": "Verdana",
+          "font_size": 26,
+          "color": "#FFFFFF",
+          "bold": true,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 3,
+          "background": "rounded",
+          "bg_opacity": 0.65,
+          "bg_padding": 25,
+          "position": ["center", 0.75]
+        }
+      ]
+    },
+    {
+      "name": "CTA",
+      "image_path": "scenes_crestlive/scene7.png",
+      "duration": 5.0,
+      "transition": { "type": "fade", "duration": 1.5 },
+      "background_effect": { "type": "static" },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "Discover Your Oasis",
+          "animation": "pop_in",
+          "start_time": 1.0,
+          "font": "Impact",
+          "font_size": 38,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 5,
+          "background": "rounded",
+          "bg_opacity": 0.75,
+          "bg_padding": 40,
+          "position": "center"
+        }
+      ]
+    }
+  ]
+}

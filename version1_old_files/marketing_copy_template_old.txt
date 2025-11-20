@@ -1,0 +1,231 @@
+"""
+===== MARKETING CREATIVE IMAGE GENERATION - STRICT PROTOCOL =====
+YOU MUST FOLLOW THESE STEPS IN EXACT ORDER:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 1: ANALYZE INPUT IMAGE (MANDATORY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IF INPUT IMAGE IS PROVIDED:
+Document EXACT product specifications:
+COMPLETE PRODUCT DESCRIPTION:
+Product type and specific model:
+All colors (precise shades):
+All materials and finishes:
+Exact proportions and size:
+ALL visible brand text/logos (exact wording, position, clarity):
+All design features (buttons, screens, handles, components):
+Unique identifying characteristics:
+WRITE EXPLICIT ANALYSIS.
+IF NO INPUT IMAGE: Use accurate standard features of stated product type.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 2: EXTRACT MARKETING SPECIFICATIONS FROM USER INPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+From "Marketing Image Details" provided by user, extract:
+[NEW] CREATIVE VIBE / TARGET AUDIENCE: (This is the most critical new choice)
+Select a vibe based on the product category or user request. This choice will dictate the options in subsequent steps.
+[ ] A - MINIMAL & PROFESSIONAL: For hardware, home decor, kitchenware, corporate products, B2B. Focus is on clarity, elegance, and a premium feel.
+[ ] B - ENERGETIC & TRENDY (GEN Z FOCUS): For electronics, fashion, jewelry, food, cosmetics, entertainment. Focus is on excitement, high energy, and modern social media trends.
+SELECTED VIBE: [Choose one: A or B]
+TEXT ELEMENTS:
+Brand Name: "[exact text]" OR [none provided]
+Headline Text: "[exact text, max 3-4 words]" OR [none provided]
+Call-to-Action: "[exact text]" OR default to "SHOP NOW"
+Footer Text: "[exact text]" OR [none]
+PROMOTIONAL ELEMENTS:
+Discount/Sale callout: "[e.g., 50% OFF, LIMITED TIME, NEW]" OR [none]
+Badge/Banner needed: [YES/NO] - "[text if yes]"
+SEASONAL/FESTIVE THEME:
+Theme: [Christmas/New Year/Black Friday/Summer/Spring/Halloween/Valentine's/None]
+Specific elements required: [e.g., "string lights, snowflakes, ornaments"] related to the festive theme.
+[UPDATED] COMPOSITION STYLE:
+
+A - Hero Product (single large product, 60-70% of frame)
+
+B - Multi-Instance (2-5 products at varying sizes/angles)
+
+C - Feature Showcase (main product + detail callouts)
+
+D - Lifestyle + Overlay (lifestyle scene with promotional graphics)
+[NEW] [ ] E - Dynamic Asymmetry (Product is off-center, balanced by bold text and graphic elements)
+[NEW] [ ] F - Layered Depth (Product, text, and graphics are on different planes, creating a 3D effect)
+SELECTED STYLE: [Choose one based on user request and SELECTED VIBE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 3: DEFINE VISUAL DESIGN ELEMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Maintain the same viewing angle/camera angle as in the input product image if possible.
+[UPDATED] BACKGROUND DESIGN:
+--- IF VIBE IS 'MINIMAL & PROFESSIONAL' ---
+Premium products → Deep navy/black/charcoal with subtle gradient OR elegant solid color.
+Tech products → Clean white/light gray with minimal geometric lines OR a soft gradient.
+Lifestyle products → Soft blurred photo-realistic environment OR a warm, neutral color.
+Eco products → Natural greens/earth tones OR organic textures (wood, paper).
+--- IF VIBE IS 'ENERGETIC & TRENDY' ---
+Bold Solid Color: High-contrast, vibrant color (e.g., electric blue, hot pink, sunshine yellow).
+Dynamic Gradient: A 2-3 color gradient with a clear directional flow (e.g., diagonal, radial burst).
+Abstract Graphic Background: A composition of shapes, lines, and textures.
+Duotone Photo: A background lifestyle image rendered in two high-contrast colors.
+Paper/Concrete Texture: A gritty, textured background for an edgy feel.
+SELECTED BACKGROUND: [Specific color/style with hex code if applicable, based on Vibe]
+[UPDATED] COLOR PALETTE:
+--- IF VIBE IS 'MINIMAL & PROFESSIONAL' ---
+Primary: [subtle, deep, or neutral color]
+Accent: [a single contrasting color for CTA]
+Supporting: [2-3 analogous or muted colors]
+--- IF VIBE IS 'ENERGETIC & TRENDY' ---
+Vibrant & Contrasting: 2-3 bold, saturated colors that create high energy.
+Monochromatic Punch: Shades of one color plus a single, powerful neon accent.
+Retro Revival: A palette inspired by the 70s, 80s, or 90s (e.g., oranges/browns, or pastels/neons).
+SELECTED PALETTE: [Define Primary, Accent, and Supporting colors]
+[UPDATED] DESIGN ELEMENTS TO INCLUDE:
+--- FOR 'MINIMAL & PROFESSIONAL' VIBE ---
+
+Geometric shapes (clean circles/lines)
+
+Subtle gradient overlay
+
+Faint texture (grain/fabric)
+
+Soft light effects (glow/spotlight)
+
+Architectural shadow drama
+--- FOR 'ENERGETIC & TRENDY' VIBE ---
+
+Abstract Blobs & Shapes: Organic, fluid shapes to frame content.
+
+Hand-drawn Scribbles/Arrows: To add a human, energetic touch.
+
+Dynamic Angled Lines/Speed Lines: To create a sense of motion.
+
+Neon Glow Effect: Applied to text or shapes for a futuristic look.
+
+Paper Tear / Collage Effect: For a layered, scrapbook feel.
+
+Bold Outlined Shapes: To create frames or highlight areas.
+
+Grid or Dot Patterns: A subtle background pattern for a techy feel.
+
+Brush Strokes / Paint Splatters: Adds texture and an artistic flair.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 4: DEFINE TEXT PLACEMENT & TYPOGRAPHY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[UPDATED] TYPOGRAPHY:
+--- IF VIBE IS 'MINIMAL & PROFESSIONAL' ---
+Headline: Bold sans-serif / Elegant serif / Sleek uppercase.
+Brand/CTA: Clean sans-serif.
+--- IF VIBE IS 'ENERGETIC & TRENDY' ---
+Headline: Expressive Display Font (bold, quirky) / Condensed Impact Sans-Serif / Retro Script.
+Brand/CTA: A mix of two complementary fonts (e.g., bold headline, lighter supporting text).
+[UPDATED] TEXT PLACEMENT & EFFECTS:
+BRAND NAME:
+Text: "[exact text]"
+Position: [Top left/Top center/Bottom center]
+Effects: [None/Subtle shadow]
+HEADLINE:
+Text: "[exact text]"
+Placement Logic:
+Minimal: Upper third / Center left / Center right.
+Trendy: Angled/Rotated / Stacked Vertically / Partially overlapping product / Integrated into a graphic shape.
+Size: Large, prominent
+Effects:
+Minimal: None / Shadow for depth.
+Trendy: Text Outline/Stroke / Gradient Fill / Cut-out Effect (reveals background) / Placed Behind Product.
+CALL-TO-ACTION:
+Text: "[exact text]"
+Style: [Rounded rectangle button / Pill-shaped badge / Minimal underlined text] OR [NEW] [Bold text with a simple arrow icon]
+Position: [Bottom right/Bottom center]
+Colors & Size: Moderate, clear, and high-contrast.
+PROMOTIONAL BADGE/BANNER (if applicable):
+Style: [Corner ribbon/Circular badge] OR [NEW] [Starburst / Angled Banner / Loud Sticker Graphic].
+Position: [Top right corner] OR [Overlapping product corner].
+Colors: Urgent reds/yellows OR bold, on-brand colors.
+FOOTER:
+Position: Bottom edge, small and subtle.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 5: DEFINE FESTIVE/SEASONAL OVERLAYS (if applicable)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF SEASONAL THEME SELECTED IN STEP 2:
+
+CHRISTMAS:
+
+Elements: Warm white string lights draped across top third, red and gold ornament accents in corners, subtle snowflakes overlay, pine branch elements framing edges
+
+Colors: Traditional red, green, gold, white
+
+Placement: Overlaid ON the composition, not obscuring product
+
+NEW YEAR:
+
+Elements: Gold and silver confetti burst, champagne gold accents, celebratory firework graphics, "2024/2025" year elements if relevant
+
+Colors: Midnight blue, champagne gold, silver, black
+
+Placement: Celebratory elements around product, not covering
+
+BLACK FRIDAY/SALES:
+
+Elements: Bold geometric sale badges, lightning bolt graphics, urgent color blocks
+
+Colors: Black, red, yellow, white for high contrast
+
+Placement: Corner badges, side banners
+
+SUMMER:
+
+Elements: Sun ray graphics, tropical leaf accents, bright color pops, beach texture hints
+
+Colors: Bright yellows, oranges, turquoise, coral
+
+Placement: Background elements, corner accents
+
+SPRING:
+
+Elements: Delicate floral corner pieces, soft botanical elements, pastel color accents
+
+Colors: Soft pink, mint green, lavender, cream
+
+Placement: Edge decorative elements
+
+HALLOWEEN:
+
+Elements: Autumn leaves, orange and purple color accents, subtle spooky-fun elements
+
+Colors: Orange, purple, black, deep autumn tones
+
+Placement: Scattered elements, color grade overlay
+
+VALENTINE'S:
+
+Elements: Heart shapes, rose petal accents, romantic color washes
+
+Colors: Deep red, pink, rose gold, white
+
+Placement: Corner accents, subtle background elements
+
+DESCRIBE EXACT FESTIVE ELEMENTS: [Based on theme from Step 2]
+This section can be applied to either vibe, though the intensity and style of the elements can be adapted.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 6: GENERATE FINAL PROMPT WITH STRICT FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The prompt structure is updated to incorporate the new "Vibe" and its associated descriptive language.
+"Marketing creative product advertisement image. [VIBE: Minimal & Professional / Energetic & Trendy] style.
+PRODUCT: [EXACT complete description from Step 1...].
+COMPOSITION STYLE: [Selected style from Step 2 - describe specific layout, e.g., "Dynamic Asymmetrical layout with the product anchored on the right third of the frame, balanced by large text elements on the left"].
+BACKGROUND: [Specific background description from Step 3, e.g., "Bold, sunshine yellow solid color background with a subtle paper texture overlay"].
+DESIGN ELEMENTS: [List specific elements with placement from Step 3, e.g., "A large, soft-edged blue blob shape frames the top left corner. Hand-drawn white scribble arrows point from the headline to the product feature"].
+COLOR PALETTE: [Describe the Vibe-appropriate palette, e.g., "Vibrant and contrasting palette of sunshine yellow, electric blue, and crisp white"].
+TEXT ELEMENTS - EXACT PLACEMENT & STYLE:
+[IF BRAND NAME PROVIDED:]
+Brand name text reading "[EXACT TEXT]" at [position], using a [font style], [size], [color].
+[IF HEADLINE PROVIDED:]
+Headline text reading "[EXACT TEXT]" positioned [e.g., at a 5-degree angle in the upper left], using an [Expressive Display Font], large prominent size, [white with a blue outline/stroke], [effects].
+Call-to-action reading "[EXACT TEXT]" as a [style] at [position], with a [color] background and [color] text.
+[IF PROMOTIONAL BADGE PROVIDED:]
+[Starburst sticker graphic] displaying "[EXACT TEXT]" positioned [overlapping the top right corner of the product], in [colors].
+... (Footer and Seasonal sections as before) ...
+LIGHTING & MOOD: [Trendy & Vibrant / Clean & Premium] lighting creating a [energetic and exciting / luxurious and focused] mood. [Describe lighting, e.g., "Hard, dramatic lighting with crisp shadows to make the product pop"].
+TECHNICAL: High-resolution commercial advertising quality, photorealistic product rendering, professional graphic design, balanced visual hierarchy, social media marketing ready.
+PRESERVE: Exact product appearance from input image... Marketing elements enhance but never alter the product itself."
+
+CRITICAL: Marketing graphics overlay the scene, but the product itself must remain exactly as shown in input image.
+"""

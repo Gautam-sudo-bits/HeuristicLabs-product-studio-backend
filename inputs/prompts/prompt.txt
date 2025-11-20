@@ -1,0 +1,20 @@
+Primary Subject & State (CRITICAL INSTRUCTION): The hero of the video is a single yellow and black DeWalt 20V cordless power tool, positioned in the foreground. This specific foreground power tool MUST remain absolutely stationary, static, unmoving, and powered off for the entire duration of the video. It is a non-operational product display. Its product design, color, and branding must be perfectly accurate. It is resting upright on its battery base.
+
+Scene & Setting: The stationary DeWalt tool rests on a rustic, textured wooden workbench. Fine sawdust and small wood shavings are scattered on the workbench surface and on the base of the tool. The setting is an active but warm and inviting wood workshop.
+
+Background Elements (Dynamic Motion): In the heavily blurred, soft-focus background (extreme bokeh), a person wearing a blue denim shirt is seen working. This person in the background is actively using a different power tool on some wood, creating a sense of a working environment. Their actions should be the source of dynamic movement in the scene, not the foreground product.
+
+Atmospherics & Lighting: The air has fine particles of sawdust slowly floating and drifting through the scene, catching the light. The lighting is warm and golden, reminiscent of late afternoon sun entering a workshop. There are distinct, soft, circular bokeh light sources visible in the far background.
+
+Camera & Cinematography:
+
+Camera Motion: The camera executes a slow, smooth, and steady horizontal tracking shot, moving from left to right. The camera itself moves; the hero product does not.
+Focus: Employ an extremely shallow depth of field. Only the foreground DeWalt power tool and the workbench surface immediately around it are in razor-sharp focus. Everything else, including the person in the background, is heavily blurred.
+Shot Type: Low-angle close-up on the product.
+Summary of Inalterable Rules for the AI:
+
+The foreground DeWalt tool is the main subject and MUST NOT MOVE OR OPERATE.
+Motion should only come from the blurred background person and floating sawdust.
+The camera path is a simple, slow, horizontal slide from left to right.
+Maintain extreme shallow depth of field with the product in sharp focus.
+The platform is a wooden workbench.

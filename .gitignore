@@ -15,5 +15,9 @@ dump/
 
 .checkpoints/
 *.mp4
-
+*.mp3
 /test_images
+/temp_videos
+/merged_outputs
+/outputs
+Roboto/

@@ -1,0 +1,286 @@
+VIDEO_CREATION/
+├── src/
+│   ├── core/
+│   │   ├── config_loader.py      # Validates & loads config
+│   │   ├── text_renderer.py      # PIL-based text styling
+│   │   ├── scene_builder.py      # Builds individual scenes
+│   │   └── video_composer.py     # Composes final video
+│   ├── effects/
+│   │   ├── motion.py             # Smooth motion effects
+│   │   ├── transitions.py        # Scene transitions
+│   │   └── text_animations.py    # Text animation presets
+│   └── utils/
+│       ├── easing.py             # Easing functions
+│       ├── timing.py             # Duration calculations
+│       └── helpers.py            # Utility functions
+├── assets/
+│   └── fonts/                    # Place custom fonts here
+├── scenes/                       # Your scene images
+├── soundtrack/                   # Audio files
+├── output/                       # Generated videos
+├── config.json                   # Simplified config
+└── main.py                       # Entry point
+
+
+working:
+main.py
+   ↓
+video_composer.py (orchestrates everything)
+   ↓
+scene_builder.py (builds each scene)
+   ├── text_renderer.py (renders text with PIL)
+   ├── motion.py (applies smooth motion)
+   ├── text_animations.py (animates text)
+   └── transitions.py (transitions between scenes)
+
+
+# Create video from your existing config
+python main.py create config_advanced.json
+
+# Create video with custom output
+python main.py create config_advanced.json -o "output/my_product_video.mp4"
+
+# Validate config without creating video
+python main.py validate config_advanced.json
+
+# Create a sample config to start with
+python main.py sample
+
+# Open video after creation
+python main.py create config_advanced.json --open
+
+# Debug mode for troubleshooting
+python main.py create config_advanced.json --debug
+
+
+// Your current (will work via auto-mapping)
+"animation": "AnimateTextFadeInWordByWord"
+"animation": "AnimateTextFromLeft"
+"animation": "AnimateTextGrowFromCenter"
+
+// Recommended new names (cleaner, more options)
+"animation": "word_by_word"
+"animation": "slide_left"
+"animation": "scale_in"
+
+// Additional animations now available:
+"animation": "fade_in"       // Simple fade
+"animation": "slide_left"    // Slide from left
+"animation": "slide_right"   // Slide from right  
+"animation": "slide_bottom"  // Slide from bottom
+"animation": "scale_in"      // Grow from center
+"animation": "typewriter"    // Reveal left to right
+"animation": "word_by_word"  // Progressive reveal
+"type": "text",
+          "text": "Premium Quality",
+          "animation": "slide_bounce",    // Smooth slide with bounce
+          "animation": "scale_elastic",   // Scale with overshoot
+          "animation": "blur_in",         // Blur to focus
+          "animation": "glitch",          // Tech/digital style
+          "animation": "word_cascade",    // Smooth word-by-word
+          "animation": "typewriter",      // With cursor!
+
+updated text_animations_v2 available options:
+{
+  "overlays": [
+    {
+      "type": "text",
+      "animation": "fade_in",        // ✅ Simple fade in
+      "animation": "slide_left",     // ✅ Slide from left
+      "animation": "slide_right",    // ✅ Slide from right  
+      "animation": "slide_top",      // ✅ Slide from top
+      "animation": "slide_bottom",   // ✅ Slide from bottom
+      "animation": "scale_in",       // ✅ Zoom/grow from center
+      "animation": "zoom_in",        // ✅ Alias for scale_in
+      "animation": "grow",           // ✅ Alias for scale_in
+      "animation": "pop_in",         // ✅ Bounce/pop effect
+      "animation": "bounce"          // ✅ Alias for pop_in
+    }
+  ]
+}
+{
+  "scenes": [
+    {
+      "background_effect": { 
+        "type": "static"              // ✅ No motion
+      }
+    },
+    {
+      "background_effect": { 
+        "type": "kenBurns",           // ✅ Ken Burns effect (CASE SENSITIVE!)
+        "zoom": 1.15,                 // Zoom amount (1.0 = no zoom, 1.2 = 20% zoom)
+        "direction": "in"             // 'in', 'out', 'in-out'
+      }
+    },
+    {
+      "background_effect": { 
+        "type": "kenBurns",
+        "zoom": 1.1,
+        "direction": "in",
+        "pan": "right"                // ✅ Add panning: 'left', 'right', 'up', 'down'
+      }
+    },
+    {
+      "background_effect": { 
+        "type": "parallax",           // ✅ Subtle parallax motion
+        "depth": 0.05                 // Movement depth (0.0-0.1)
+      }
+    },
+    {
+      "background_effect": { 
+        "type": "pulse",              // ✅ Zoom pulse (breathing effect)
+        "intensity": 0.03,            // Pulse intensity
+        "pulses": 1                   // Number of pulses
+      }
+    }
+  ]
+}
+
+Version 2 upgrades:
+Example 1: Multi-Color Lines (New Format)
+JSON
+
+{
+  "scenes": [
+    {
+      "name": "Multi-Color Demo",
+      "image_path": "scenes/scene1.png",
+      "duration": 6,
+      "overlays": [
+        {
+          "type": "text",
+          "lines": [
+            {"text": "Premium Quality", "color": "#FFFFFF"},
+            {"text": "Unbeatable Price", "color": "#FFD700"},
+            {"text": "Limited Time", "color": "#FF6B6B"}
+          ],
+          "animation": "fade_in",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 30,
+          "bold": false,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 4,
+          "position": "center"
+        }
+      ]
+    }
+  ]
+}
+Example 2: Multi-Color Lines (Hybrid Format)
+JSON
+
+{
+  "overlays": [
+    {
+      "type": "text",
+      "text": "Premium Quality\nUnbeatable Price\nLimited Time",
+      "color": "#FFFFFF",
+      "line_colors": ["#FFFFFF", "#FFD700", "#FF6B6B"],
+      "animation": "grow",
+      "font": "Arial Black",
+      "font_size": 28,
+      "position": ["center", 0.5]
+    }
+  ]
+}
+Example 3: Multiple Separate Text Overlays
+JSON
+
+{
+  "scenes": [
+    {
+      "name": "Multiple Overlays Demo",
+      "image_path": "scenes/scene2.png",
+      "duration": 7,
+      "background_effect": {
+        "type": "kenBurns",
+        "zoom": 1.1,
+        "direction": "in"
+      },
+      "overlays": [
+        {
+          "type": "text",
+          "text": "TOP RIGHT",
+          "animation": "slide_right",
+          "start_time": 0.5,
+          "font": "Impact",
+          "font_size": 25,
+          "color": "#FFFFFF",
+          "bold": false,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 3,
+          "position": [0.85, 0.15]
+        },
+        {
+          "type": "text",
+          "text": "BOTTOM LEFT",
+          "animation": "slide_left",
+          "start_time": 1.0,
+          "font": "Impact",
+          "font_size": 25,
+          "color": "#FFD700",
+          "bold": false,
+          "shadow": true,
+          "outline": true,
+          "outline_width": 3,
+          "position": [0.15, 0.85]
+        },
+        {
+          "type": "text",
+          "lines": [
+            {"text": "CENTER", "color": "#FFFFFF"},
+            {"text": "MULTI-COLOR", "color": "#00FF00"}
+          ],
+          "animation": "pop_in",
+          "start_time": 1.5,
+          "font": "Arial Black",
+          "font_size": 35,
+          "shadow": true,
+          "position": "center"
+        }
+      ]
+    }
+  ]
+}
+
+version 3 video+image mixer
+{
+  "type": "video",
+  "video_path": "path/to/video.mp4",
+  "duration": 5,
+  "video_start": 0,
+  "video_end": 10,
+  "video_speed": 1.0,
+  "resize_method": "crop",
+  "background_effect": {
+    "type": "zoom",
+    "zoom": 1.05,
+    "direction": "in"
+  }
+}
+
+Video-Specific Options:
+video_start: Start time in source video (seconds)
+video_end: End time in source video (optional)
+video_speed: Playback speed (1.0 = normal, 2.0 = 2x, 0.5 = slow motion)
+resize_method: How to fit video ("crop", "fit", "stretch")
+Text Overlays (Same for Both):
+JSON
+
+{
+  "type": "text",
+  "text": "Simple text",
+  "lines": [
+    {"text": "Multi", "color": "#FFFFFF"},
+    {"text": "Color", "color": "#FFD700"}
+  ],
+  "animation": "slide_left",
+  "position": ["center", 0.8]
+}
+🚀 Usage
+Run Mixed Video:4
+
+python -u main_mixer.py config_mixed.json
